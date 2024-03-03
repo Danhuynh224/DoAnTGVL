@@ -23,5 +23,12 @@ namespace DoAnTGVL
         {
             InitializeComponent();
         }
+        public void click_Dat(object sender, RoutedEventArgs e)
+        {
+
+        }
+        public void click_Huy(object sender, RoutedEventArgs e) { 
+            this.Close();
+        }
     }
 }

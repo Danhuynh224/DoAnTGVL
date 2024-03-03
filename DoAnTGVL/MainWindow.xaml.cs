@@ -31,6 +31,10 @@ namespace DoAnTGVL
         }
         public void click_DangNhap(object sender, RoutedEventArgs e)
         {
+            this.Hide();
+            DatTho datTho = new DatTho();
+            datTho.ShowDialog();
+            this.Show();
 
         }
         private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
