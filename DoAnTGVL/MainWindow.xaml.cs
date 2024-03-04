@@ -32,8 +32,8 @@ namespace DoAnTGVL
         public void click_DangNhap(object sender, RoutedEventArgs e)
         {
             this.Hide();
-            DatTho datTho = new DatTho();
-            datTho.ShowDialog();
+            FUser user = new FUser();
+            user.ShowDialog();
             this.Show();
 
         }

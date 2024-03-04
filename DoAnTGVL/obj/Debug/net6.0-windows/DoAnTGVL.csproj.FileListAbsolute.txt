@@ -59,3 +59,5 @@ D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\MainWindow.g.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DatTho.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DatTho.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\FUser.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\FUser.baml
