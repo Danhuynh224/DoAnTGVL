@@ -1,0 +1,76 @@
+﻿<Window x:Class="DoAnTGVL.ThoMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoAnTGVL"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="ThoMain" Height="800" Width="1500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="gridMainmenu"  Width="200"></ColumnDefinition>
+            <ColumnDefinition x:Name="gridMainWin"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="#CCCCCC" BorderThickness="1" Background="#FFFFFF" CornerRadius="5" >
+            <Border.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="10" Opacity="0.7" Color="Black"/>
+            </Border.Effect>
+            <StackPanel  Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Stretch" Background="#FEE8D6">
+                <Grid Background="Navy" Height="50" VerticalAlignment="Top" Margin="0,30,0,0">
+                    <Border Background="#D61734"
+                Height="25"
+                CornerRadius="3,0,0,3"
+                Width="6"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Right" />
+                    <TextBlock Text="Tên Thợ"
+                Foreground="#FFFFFF"
+                FontFamily="Fonts/#Orbitron Medium"
+                FontSize="15"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center" />
+                </Grid>
+                <Menu  Background="Transparent" Margin="0,40,0,0">
+                    <Menu.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <VirtualizingStackPanel Orientation="Vertical"></VirtualizingStackPanel>
+                        </ItemsPanelTemplate>
+                    </Menu.ItemsPanel>
+                    <MenuItem Header="Trang Chủ" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="Home" Foreground="#DDFC1B0A"  />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Tìm Việc" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="Magnify" Foreground="#DD9405A1"  />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Sửa CV" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="AutoFix" Foreground="#DD16CE13"  />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Việc Làm" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="Post" Foreground="#DDF6CE0B"  />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Đánh Giá" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="ThumbsUp" Foreground="#DD0D4CEE"  />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="mnuLogout" Header="Đăng xuất" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Margin="0,300" Click="mnuLogout_Click">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="Logout" Foreground="#DDFF0A0A" Grid.IsSharedSizeScope="True"  />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </Menu>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

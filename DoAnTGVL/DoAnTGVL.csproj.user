@@ -10,6 +10,9 @@
     <Compile Update="DatTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ThoMain.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ThueTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,6 +25,9 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="DatTho.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ThoMain.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThueTho.xaml">

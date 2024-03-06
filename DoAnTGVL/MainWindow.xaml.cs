@@ -38,6 +38,11 @@ namespace DoAnTGVL
                 window = new UserMain();
                 window.ShowDialog();
             }
+            else if(txbTenDangNhap.Text == "Tho")
+            {
+                window = new ThoMain();
+                window.ShowDialog();
+            }
             this.Show();
 
         }
