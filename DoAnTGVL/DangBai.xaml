@@ -47,7 +47,7 @@
                                 <ColumnDefinition></ColumnDefinition>
                             </Grid.ColumnDefinitions>
                             <Grid Grid.Column="0" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
-                                <materialDesign:PackIcon Kind="AccountBox" Height="25" Width="25"/>
+                                <materialDesign:PackIcon Kind="FormatTitle" Height="25" Width="25"/>
                                 <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Nhập tiêu đề"/>
                             </Grid>
                             <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
@@ -80,11 +80,17 @@
                                          FontSize="15"
                                         materialDesign:HintAssist.Hint="Khu vực"
                                         Height="30" Padding="5" Width="220">        
-                                    <ComboBoxItem Content="Gia Sư" />
-                                    <ComboBoxItem Content="Sửa Nhà" />
-                                    <ComboBoxItem Content="Bảo Trì" />
-                                    <ComboBoxItem Content="Điện Tử" />
-                                    <ComboBoxItem Content="Điện Nước" />
+                                    <ComboBoxItem Content="Thủ Đức" />
+                                    <ComboBoxItem Content="Quận 1" />
+                                    <ComboBoxItem Content="Quận 2" />
+                                    <ComboBoxItem Content="Quận 4" />
+                                    <ComboBoxItem Content="Quận 5" />
+                                    <ComboBoxItem Content="Quận 6" />
+                                    <ComboBoxItem Content="Quận 7" />
+                                    <ComboBoxItem Content="Quận 8" />
+                                    <ComboBoxItem Content="Quận 9" />
+                                    <ComboBoxItem Content="Bình Thạnh" />
+                                    <ComboBoxItem Content="Tân Bình" />
                                 </ComboBox>
                             </Grid>
                         </Grid>
