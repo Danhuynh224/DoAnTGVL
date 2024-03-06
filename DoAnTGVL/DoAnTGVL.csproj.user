@@ -10,7 +10,10 @@
     <Compile Update="DatTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="FUser.xaml.cs">
+    <Compile Update="ThueTho.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserMain.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -18,10 +21,13 @@
     <Page Update="DatTho.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="FUser.xaml">
+    <Page Update="ThueTho.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserMain.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

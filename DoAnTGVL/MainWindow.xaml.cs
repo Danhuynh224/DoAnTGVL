@@ -32,8 +32,12 @@ namespace DoAnTGVL
         public void click_DangNhap(object sender, RoutedEventArgs e)
         {
             this.Hide();
-            FUser user = new FUser();
-            user.ShowDialog();
+            Window window;
+            if (txbTenDangNhap.Text == "User")
+            {
+                window = new UserMain();
+                window.ShowDialog();
+            }
             this.Show();
 
         }
