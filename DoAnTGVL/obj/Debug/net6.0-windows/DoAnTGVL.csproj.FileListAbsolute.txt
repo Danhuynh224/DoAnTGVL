@@ -65,7 +65,6 @@ C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\Us
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.baml
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.baml
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.g.cs
@@ -78,3 +77,9 @@ D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.baml
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.baml
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.g.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDangBai.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDangBai.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.baml

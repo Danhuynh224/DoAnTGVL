@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:DoAnTGVL"
         mc:Ignorable="d"
         x:Name="hoaDon"
-        xmlns:uc="clr-namespace:GUI.UserControls"
+        
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         Title="Hóa đơn" Height="600" Width="535.5"
         WindowStyle="None" FontFamily="Roboto" WindowStartupLocation="CenterScreen">
@@ -25,7 +25,7 @@
                         <Image Source="../Res/logoKhachSan.png" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 0"/>
                         <TextBlock Text="Hóa Đơn" VerticalAlignment="Center" FontSize="40" FontWeight="Bold" Margin="60 10 0 0" Foreground="#FFFBE188" HorizontalAlignment="Center"/>
                         <Button x:Name="btnInHoaDon" Padding="0" Width="40" Height="40" Background="Transparent" BorderThickness="0" Margin="0 0 10 0"
-                        ToolTip="In hóa đơn" Click="click_InHoaDon" HorizontalAlignment="Right" >
+                        ToolTip="In hóa đơn"  HorizontalAlignment="Right" >
                             <materialDesign:PackIcon Kind="Printer" Width="30" Height="30" Foreground="#FF797979"/>
                         </Button>
                     </Grid>

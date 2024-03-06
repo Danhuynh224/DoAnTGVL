@@ -143,6 +143,10 @@
             <!--nửa phải để hiện thị phòng-->
             <Grid Grid.Column="1">
                 <Grid Width="auto" Height="auto" Background="#F2F1F1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="57*"/>
+                        <ColumnDefinition Width="1043*"/>
+                    </Grid.ColumnDefinitions>
                     <Grid.Clip>
                         <RectangleGeometry  Rect="0,3,1100,800" RadiusX="10" RadiusY="10" >
                         </RectangleGeometry>
