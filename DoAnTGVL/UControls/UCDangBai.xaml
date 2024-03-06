@@ -89,58 +89,37 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
-                <!--Làm phần nhập lĩnh vực--> 
-                <Grid Grid.Row="0" HorizontalAlignment="Left">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition ></ColumnDefinition>
-                        <ColumnDefinition Width="150" ></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <Grid Grid.Column="0" VerticalAlignment="Center">
-                        <materialDesign:PackIcon Kind="Worker"  />
+                <!--Làm phần nhập lĩnh vực-->
+                    <Grid Grid.Row="0" HorizontalAlignment="Left">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition ></ColumnDefinition>
+                            <ColumnDefinition Width="150" ></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" VerticalAlignment="Center">
+                            <materialDesign:PackIcon Kind="Worker"  />
+                        </Grid>
+                        <Grid Grid.Column="1"  VerticalAlignment="Center">
+                            <ComboBox Text=""  FontSize="15" Width="150" materialDesign:HintAssist.Hint="Lĩnh Vực">
+                                <ComboBoxItem Content="Điện Nước">
+
+                                </ComboBoxItem>
+                                <ComboBoxItem Content="Điện Tử">
+
+                                </ComboBoxItem>
+                                <ComboBoxItem Content="Bảo Trì">
+
+                                </ComboBoxItem>
+                                <ComboBoxItem  Content="Sửa Nhà">
+
+                                </ComboBoxItem>
+                                <ComboBoxItem Content="gia Sư">
+
+                                </ComboBoxItem>
+                                
+                            </ComboBox>
+                        </Grid>
                     </Grid>
-                    <Grid Grid.Column="1"  VerticalAlignment="Center">
-                        <ComboBox   FontSize="15" Width="150" materialDesign:HintAssist.Hint="Lĩnh Vực">
-                            <ComboBoxItem Content="Điện nước">
-                                <ComboBoxItem.Template>
-                                    <ControlTemplate TargetType="ComboBox">
-                                        <ComboBox Name="innerComboBox" Width="120" VerticalAlignment="Top" HorizontalAlignment="Left">
-                                            <ComboBoxItem Content="Sửa Đèn Quạt"/>
-                                            <ComboBoxItem Content="Sửa Đường Điện"/>
-                                            <ComboBoxItem Content="Sửa Bồn Nước"/>
-                                            <ComboBoxItem Content="Sửa Máy Nước Nóng"/>
-                                            <ComboBoxItem Content="Sửa Ống Cống"/>
-                                            <ComboBoxItem Content="Lắp Điện Nước"/>
-                                            
-                                        </ComboBox>
-                                    </ControlTemplate>
-                                </ComboBoxItem.Template>
-                            </ComboBoxItem>
-                            <MenuItem Header="Điện nước">
-                                <MenuItem Header="Sửa Đèn Quạt" Cursor="Hand"></MenuItem>
-                                <MenuItem Header="Sửa Đường Điện" Cursor="Hand"></MenuItem>
-                                <MenuItem Header="Sửa Bồn Nước" Cursor="Hand"></MenuItem>
-                                <MenuItem Header="Sửa Máy Nước Nóng" Cursor="Hand"></MenuItem>
-                                <MenuItem Header="Sửa Ống Cống" Cursor="Hand"></MenuItem>
-                                <MenuItem Header="Lắp điện nước" Cursor="Hand"></MenuItem>
-                            </MenuItem>
-                            <ComboBoxItem Content="Điện Tủ">
-
-                            </ComboBoxItem>
-                            <ComboBoxItem Content="Bảo Trì">
-
-                            </ComboBoxItem>
-                            <ComboBoxItem  Content="Sửa Nhà">
-
-                            </ComboBoxItem>
-                            <ComboBoxItem Content="Gia Su">
-
-                            </ComboBoxItem>
-
-                        </ComboBox>
-
-                    </Grid>
-                </Grid>
-                <!--Làm phần nhập Khu vực--> 
+                    <!--Làm phần nhập Khu vực--> 
                 <Grid Grid.Row="1" HorizontalAlignment="Left">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition ></ColumnDefinition>
@@ -164,7 +143,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
 
                             </ComboBoxItem>
                             <ComboBoxItem Content="Bình Thạnh">
-
+                            
                             </ComboBoxItem>
                             <ComboBoxItem Content="Thủ Đức">
 

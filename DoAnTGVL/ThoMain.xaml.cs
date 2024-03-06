@@ -1,6 +1,8 @@
-﻿using System;
+﻿using DoAnTGVL.UControls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -26,6 +28,13 @@ namespace DoAnTGVL
         public void mnuLogout_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+        public void mnuSuaCV_Click(object sender, RoutedEventArgs e)
+        {
+            
+            UCSuaCV uCSuaCV =new UCSuaCV();
+            Grid.SetColumn(uCSuaCV, 1);
+            gridMain.Children.Add(uCSuaCV);
         }
     }
 }
