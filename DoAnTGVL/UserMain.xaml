@@ -57,7 +57,7 @@
                             <materialDesign:PackIcon Kind="Receipt" Foreground="#DD16CE13"  />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Đăng bài" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True"  Click="mnuDangBai_Click">
+                    <MenuItem Header="Theo dõi bài đăng" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="mnuDangBai_Click">
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="Post" Foreground="#DDF6CE0B"  />
                         </MenuItem.Icon>

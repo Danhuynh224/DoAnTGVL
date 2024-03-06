@@ -15,13 +15,18 @@ using System.Windows.Shapes;
 namespace DoAnTGVL
 {
     /// <summary>
-    /// Interaction logic for FUser.xaml
+    /// Interaction logic for DangBai.xaml
     /// </summary>
-    public partial class ThueTho : Window
+    public partial class DangBai : Window
     {
-        public ThueTho()
+        public DangBai()
         {
             InitializeComponent();
+        }
+
+        private void click_Huy(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

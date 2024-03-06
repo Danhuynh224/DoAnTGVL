@@ -24,5 +24,11 @@ namespace DoAnTGVL.UControls
         {
             InitializeComponent();
         }
+
+        private void click_DangBai(object sender, RoutedEventArgs e)
+        {
+            Window dangbai = new DangBai();
+            dangbai.ShowDialog();
+        }
     }
 }
