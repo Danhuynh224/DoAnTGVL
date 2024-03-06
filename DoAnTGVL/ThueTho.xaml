@@ -14,8 +14,7 @@
         TextOptions.TextRenderingMode="Auto"
         FontFamily="{DynamicResource MaterialDesignFont}"
         Background="White"
-        Title="FUser" Height="700" Width="1300"
-        WindowStartupLocation="CenterScreen">
+        Title="FUser" Height="700" Width="1300">
     <Grid  >
         <!--Phân grid ngang ra làm 2 phần-->
         <Grid.RowDefinitions>

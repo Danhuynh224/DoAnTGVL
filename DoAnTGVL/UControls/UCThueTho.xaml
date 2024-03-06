@@ -111,8 +111,7 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <!--nửa trái dành cho việc làm các checkbox-->
-            <Grid Background="#F2F1F1"  x:Name="grdCheckBox"
-         >
+            <Grid Background="#F2F1F1"  x:Name="grdCheckBox" >
                 <Grid.Clip>
                     <RectangleGeometry Rect="3,3,200,800" RadiusX="10" RadiusY="10"/>
                 </Grid.Clip>
@@ -143,17 +142,16 @@
             </Grid>
             <!--nửa phải để hiện thị phòng-->
             <Grid Grid.Column="1">
-                <Grid Width="auto" Height="auto" Background="#F2F1F1"  >
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="43*"/>
-                        <ColumnDefinition Width="7*"/>
-                    </Grid.ColumnDefinitions>
-
+                <Grid Width="auto" Height="auto" Background="#F2F1F1">
                     <Grid.Clip>
                         <RectangleGeometry  Rect="0,3,1100,800" RadiusX="10" RadiusY="10" >
                         </RectangleGeometry>
                     </Grid.Clip>
-                    <ListView ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto"  x:Name="lsv" Grid.ColumnSpan="2" Margin="0,0,0,10"   >
+                    <ListView VerticalContentAlignment="Top"  
+                                ScrollViewer.VerticalScrollBarVisibility="Visible"
+                                ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                                ScrollViewer.CanContentScroll="False"  
+                                x:Name="lsv" Grid.ColumnSpan="2" Margin="0,0,0,10"   >
                         <ListView.View>
                             <GridView >
                                 <GridView.ColumnHeaderContainerStyle>
@@ -184,7 +182,6 @@
                                 <Setter Property="HorizontalScrollBarVisibility" Value="Auto" />
                             </Style>
                         </ListView.Resources>
-
                     </ListView>
                 </Grid>
             </Grid>

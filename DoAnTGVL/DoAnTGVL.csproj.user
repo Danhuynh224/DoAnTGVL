@@ -10,6 +10,9 @@
     <Compile Update="DatTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PhieuThueTho.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ThoMain.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,9 +25,15 @@
     <Compile Update="UserMain.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="XuatHoaDon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="DatTho.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PhieuThueTho.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThoMain.xaml">
@@ -40,6 +49,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="XuatHoaDon.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
