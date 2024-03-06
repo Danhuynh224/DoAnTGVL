@@ -4,15 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        xmlns:local="clr-namespace:DoAnTGVL"
+        xmlns:local="clr-namespace:DoAnTGVL.UControls"
+        xmlns:UCThueTho="clr-namespace:DoAnTGVL"
         mc:Ignorable="d"
-        Title="UserMain" Height="800" Width="1200"
+        Title="UserMain" Height="800" Width="1500"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None">
-    <Grid>
+    <Grid x:Name="gridMain">
         <Grid.ColumnDefinitions>
             <ColumnDefinition x:Name="gridMainmenu"  Width="200"></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition x:Name="gridMainWin"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Border BorderBrush="#CCCCCC" BorderThickness="1" Background="#FFFFFF" CornerRadius="5" >
             <Border.Effect>
@@ -44,7 +45,7 @@
                             <materialDesign:PackIcon Kind="Home" Foreground="#DDFC1B0A"  />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Thuê Thợ" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
+                    <MenuItem Header="Thuê Thợ" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="mnuThueTho_Click">
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="Magnify" Foreground="#DD9405A1"  />
                         </MenuItem.Icon>
@@ -72,5 +73,9 @@
                 </Menu>
             </StackPanel>
         </Border>
+        <!--<local:UCThueTho Grid.Column="1">
+            
+        </local:UCThueTho>-->
+        
     </Grid>
 </Window>

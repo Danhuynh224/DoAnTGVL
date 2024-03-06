@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DoAnTGVL.UControls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,6 +27,12 @@ namespace DoAnTGVL
         public void mnuLogout_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+        public void mnuThueTho_Click(object sender, RoutedEventArgs e)
+        {
+            UCThueTho uCThueTho = new UCThueTho();
+            Grid.SetColumn(uCThueTho, 1);
+            gridMain.Children.Add(uCThueTho);
         }
     }
 }
