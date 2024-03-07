@@ -42,12 +42,12 @@
                             <VirtualizingStackPanel Orientation="Vertical"></VirtualizingStackPanel>
                         </ItemsPanelTemplate>
                     </Menu.ItemsPanel>
-                    <MenuItem Header="Trang Chủ" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
+                    <MenuItem Header="Trang Chủ" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="TrangChuUser_Click">
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="Home" Foreground="#DDFC1B0A"  />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Thuê Thợ" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="mnuThueTho_Click">
+                    <MenuItem Header="Thuê Thợ" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuThueTho_Click">
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="Magnify" Foreground="#DD9405A1"  />
                         </MenuItem.Icon>
@@ -57,7 +57,7 @@
                             <materialDesign:PackIcon Kind="Receipt" Foreground="#DD16CE13"  />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Theo dõi bài đăng" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="mnuDangBai_Click">
+                    <MenuItem Header="Theo dõi bài đăng" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuTheoDoiBaiDang_Click">
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="Post" Foreground="#DDF6CE0B"  />
                         </MenuItem.Icon>
@@ -67,17 +67,13 @@
                             <materialDesign:PackIcon Kind="ThumbsUp" Foreground="#DD0D4CEE"  />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem x:Name="mnuLogout" Header="Đăng xuất" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Margin="0,300" Click="mnuLogout_Click">
+                    <MenuItem x:Name="mnuLogout" Header="Đăng xuất" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Margin="0,300" Click="MnuLogout_Click">
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="Logout" Foreground="#DDFF0A0A" Grid.IsSharedSizeScope="True"  />
                         </MenuItem.Icon>
                     </MenuItem>
                 </Menu>
             </StackPanel>
-        </Border>
-        <!--<local:UCThueTho Grid.Column="1">
-            
-        </local:UCThueTho>-->
-        
+        </Border> 
     </Grid>
 </Window>

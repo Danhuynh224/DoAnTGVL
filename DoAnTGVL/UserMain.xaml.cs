@@ -24,18 +24,29 @@ namespace DoAnTGVL
         {
             InitializeComponent();
         }
-        public void mnuLogout_Click(object sender, RoutedEventArgs e)
+        public void MnuLogout_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
-        public void mnuThueTho_Click(object sender, RoutedEventArgs e)
+        public void MnuThueTho_Click(object sender, RoutedEventArgs e)
         {
-            UCThueTho uCThueTho = new UCThueTho();
+            UCThueTho uCThueTho = new();
             Grid.SetColumn(uCThueTho, 1);
             gridMain.Children.Add(uCThueTho);
         }
-        public void mnuDangBai_Click(object sender, RoutedEventArgs e)
+
+        private void MnuTheoDoiBaiDang_Click(object sender, RoutedEventArgs e)
         {
+            UCTheoDoiBaiDang ucTheoDoi = new();
+            Grid.SetColumn(ucTheoDoi, 1);
+            gridMain.Children.Add(ucTheoDoi);
+        }
+
+        private void TrangChuUser_Click(object sender, RoutedEventArgs e)
+        {
+            UCTrangChu uCTrangChu = new();
+            Grid.SetColumn(uCTrangChu, 1);
+            gridMain.Children.Add(uCTrangChu);
         }
     }
 }
