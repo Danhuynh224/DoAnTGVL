@@ -36,7 +36,13 @@ namespace DoAnTGVL
         }
         public void mnuDangBai_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+            //UCDangBai uCDangBai = new UCDangBai();
+            //Grid.SetColumn(uCDangBai, 1);
+            //gridMain.Children.Add(uCDangBai);
+>>>>>>> 11f6a59c4ad024d8c3c52d9e64b168947b11e684
         }
     }
 }

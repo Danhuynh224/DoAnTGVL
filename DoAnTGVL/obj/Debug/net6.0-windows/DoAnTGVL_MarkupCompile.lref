@@ -1,5 +1,6 @@
 ﻿
 FD:\WinForm\testDA\DoAnTGVL\App.xaml;;
+<<<<<<< HEAD
 FD:\WinForm\testDA\DoAnTGVL\DangBai.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\MainWindow.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\PhieuThueTho.xaml;;
@@ -8,4 +9,14 @@ FD:\WinForm\testDA\DoAnTGVL\UControls\UCSuaCV.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\UControls\UCThueTho.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\UserMain.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\XuatHoaDon.xaml;;
+=======
+FD:\WinForm\testDA\DoAnTGVL\MainWindow.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\PhieuThueTho.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\ThoMain.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UControls\UCDangBai.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UControls\UCThueTho.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UserMain.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\XuatHoaDon.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\DangBai.xaml;;
+>>>>>>> 11f6a59c4ad024d8c3c52d9e64b168947b11e684
 

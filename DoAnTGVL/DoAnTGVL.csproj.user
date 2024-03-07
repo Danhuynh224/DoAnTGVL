@@ -16,7 +16,11 @@
     <Compile Update="ThoMain.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="UControls\UCSuaCV.xaml.cs">
+=======
+    <Compile Update="UControls\UCDangBai.xaml.cs">
+>>>>>>> 11f6a59c4ad024d8c3c52d9e64b168947b11e684
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UControls\UCThueTho.xaml.cs">

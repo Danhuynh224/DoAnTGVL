@@ -41,3 +41,38 @@ D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\refint\DoAnTGVL.dll
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.pdb
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.genruntimeconfig.cache
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ref\DoAnTGVL.dll
+<<<<<<< HEAD
+=======
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DatTho.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DatTho.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThueTho.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThueTho.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDangBai.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDangBai.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDangBai.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDangBai.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DangBai.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DangBai.baml
+>>>>>>> 11f6a59c4ad024d8c3c52d9e64b168947b11e684

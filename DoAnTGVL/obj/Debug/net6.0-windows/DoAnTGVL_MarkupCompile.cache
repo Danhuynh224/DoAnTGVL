@@ -10,11 +10,19 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\WinForm\testDA\DoAnTGVL\App.xaml
+<<<<<<< HEAD
 8253959290
 1-267432619
 101210887180
 197-1130902578
 DangBai.xaml;MainWindow.xaml;PhieuThueTho.xaml;ThoMain.xaml;UControls\UCSuaCV.xaml;UControls\UCThueTho.xaml;UserMain.xaml;XuatHoaDon.xaml;
+=======
+8-1323704023
+1-267432619
+10-1112428692
+197-1130902578
+DangBai.xaml;MainWindow.xaml;PhieuThueTho.xaml;ThoMain.xaml;UControls\UCDangBai.xaml;UControls\UCThueTho.xaml;UserMain.xaml;XuatHoaDon.xaml;
+>>>>>>> 11f6a59c4ad024d8c3c52d9e64b168947b11e684
 
 False
 
