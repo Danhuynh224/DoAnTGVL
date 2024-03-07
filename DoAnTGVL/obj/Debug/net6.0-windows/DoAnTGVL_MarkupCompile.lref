@@ -4,6 +4,7 @@ FD:\WinForm\testDA\DoAnTGVL\DangBai.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\MainWindow.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\PhieuThueTho.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\ThoMain.xaml;;
+<<<<<<< HEAD
 FD:\WinForm\testDA\DoAnTGVL\UControls\UCCViecTho.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\UControls\UCSuaCV.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\UControls\UCTheoDoiBaiDang.xaml;;
@@ -12,4 +13,12 @@ FD:\WinForm\testDA\DoAnTGVL\UControls\UCTimViec.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\UControls\UCTrangChu.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\UserMain.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\XuatHoaDon.xaml;;
+=======
+FD:\WinForm\testDA\DoAnTGVL\UControls\UCSuaCV.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UControls\UCThueTho.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UserMain.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\XuatHoaDon.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UControls\UCTheoDoiBaiDang.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UControls\UCTrangChu.xaml;;
+>>>>>>> d0b05820317cb9f5a3305fc193ad7214512aa7a1
 
