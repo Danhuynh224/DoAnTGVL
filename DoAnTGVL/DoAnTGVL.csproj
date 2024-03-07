@@ -9,11 +9,15 @@
 
   <ItemGroup>
     <None Remove="image\5519785.jpg" />
+    <None Remove="image\undraw_Job_hunt_re_q203.png" />
     <None Remove="image\user.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="image\5519785.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\undraw_Job_hunt_re_q203.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="image\user.png">

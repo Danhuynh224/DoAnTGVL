@@ -11,12 +11,15 @@
         Title="UserMain" Height="800" Width="1500"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None">
-        
-    <Grid x:Name="gridMain">
+
+    <Grid x:Name="gridMain" >
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition x:Name="gridMainmenu"  Width="200"></ColumnDefinition>
             <ColumnDefinition x:Name="gridMainWin"></ColumnDefinition>
         </Grid.ColumnDefinitions>
+
+        
         <Border BorderBrush="#CCCCCC" BorderThickness="1" Background="#FFFFFF" CornerRadius="5" >
             <Border.Effect>
                 <DropShadowEffect ShadowDepth="0" BlurRadius="10" Opacity="0.7" Color="Black"/>
@@ -36,7 +39,7 @@
                         VerticalAlignment="Center"
                         HorizontalAlignment="Center" />
                 </Grid>
-                <Menu  Background="Transparent" Margin="0,40,0,0">
+                <Menu  Background="Transparent" Margin="0,20,0,0">
                     <Menu.ItemsPanel>
                         <ItemsPanelTemplate>
                             <VirtualizingStackPanel Orientation="Vertical"></VirtualizingStackPanel>
@@ -62,7 +65,7 @@
                             <materialDesign:PackIcon Kind="Receipt" Foreground="#DD16CE13"  />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Theo dõi bài đăng" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuTheoDoiBaiDang_Click">
+                    <MenuItem Header="Theo dõi bài đăng" FontFamily="Arial" FontWeight="Bold" Width="300" FontSize="13" ForceCursor="True" Click="MnuTheoDoiBaiDang_Click">
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="Post" Foreground="#DDF6CE0B"  />
                         </MenuItem.Icon>
@@ -72,13 +75,18 @@
                             <materialDesign:PackIcon Kind="ThumbsUp" Foreground="#DD0D4CEE"  />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem x:Name="mnuLogout" Header="Đăng xuất" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Margin="0,300" Click="MnuLogout_Click">
+                    <MenuItem x:Name="mnuLogout" Header="Đăng xuất" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Margin="0,30" Click="MnuLogout_Click">
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="Logout" Foreground="#DDFF0A0A" Grid.IsSharedSizeScope="True"  />
                         </MenuItem.Icon>
                     </MenuItem>
                 </Menu>
             </StackPanel>
-        </Border> 
+        </Border>
+        <Grid.Background>
+            <ImageBrush ImageSource="/image/undraw_Job_hunt_re_q203.png" Stretch="Uniform"></ImageBrush>
+        </Grid.Background>
+        
+        
     </Grid>
 </Window>

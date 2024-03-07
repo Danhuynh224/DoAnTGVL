@@ -8,24 +8,24 @@
              d:DesignHeight="700" d:DesignWidth="1300">
     <Grid Background="#FFFF" x:Name="GridContent">
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0" ShowGridLines="True">
-            <Border BorderBrush="DarkGray">
+            <Border >
 
 
                 <StackPanel Orientation="Horizontal">
-                    <Button Content="Đã hoàn thành"  FontSize="18" Width="200" Height="50" Background="#FF518242" Click="DaHoanThanh_Click">
+                    <Button Content="Đã hoàn thành" Margin="0 10" FontSize="18" Width="200" Height="50" Background="#FF8BC07B" Click="DaHoanThanh_Click" ClickMode="Press">
 
                     </Button>
 
-                    <Button Content="Đang thực hiện" FontSize="18" Width="200" Height="50" Click="DangThucHien_Click">
+                    <Button Content="Đang thực hiện" Margin="0 10" FontSize="18" Width="200" Height="50" Click="DangThucHien_Click" Background="#FF9466E5" ClickMode="Press">
 
                     </Button>
 
-                    <Button Content="Chưa thực hiện" Background="#D87739" FontSize="18" Width="200" Height="50" Click="ChuaThucHien_Click">
+                    <Button Content="Chưa thực hiện" Margin="0 10" Background="#FFE89865" FontSize="18" Width="200" Height="50" Click="ChuaThucHien_Click" ClickMode="Press">
 
                     </Button>
 
@@ -33,7 +33,7 @@
             </Border>  
         </Grid>
         <Grid Grid.Row="1">
-            <local:UCUserDaHoanThanh>  </local:UCUserDaHoanThanh>
+            
         </Grid>
     </Grid>
 </UserControl>

@@ -36,7 +36,7 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center" />
                 </Grid>
-                <Menu  Background="Transparent" Margin="0,40,0,0">
+                <Menu  Background="Transparent" Margin="0,20,0,0">
                     <Menu.ItemsPanel>
                         <ItemsPanelTemplate>
                             <VirtualizingStackPanel Orientation="Vertical"></VirtualizingStackPanel>
@@ -75,5 +75,8 @@
                 </Menu>
             </StackPanel>
         </Border>
+        <Grid.Background>
+            <ImageBrush ImageSource="/image/undraw_Job_hunt_re_q203.png" Stretch="Uniform"></ImageBrush>
+        </Grid.Background>
     </Grid>
 </Window>

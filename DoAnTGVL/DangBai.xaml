@@ -152,14 +152,14 @@
                     </StackPanel>
 
                 </Grid>
-                <Button Width="89" Height="40" Background="#478C10" Content="Đăng"
+                <Button Width="89" Height="40" Background="#478C10" Content="Đăng" FontSize="16"
                     HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,441,0,0">
                     <Button.Clip>
                         <RectangleGeometry Rect="0,0,89,36" RadiusX="10" RadiusY="10"/>
-                    </Button.Clip>
+                    </Button.Clip> 
                 </Button>
                 <Button Width="89" Height="36" Background="#9D9999" Content="Hủy" Click="click_Huy"
-                    HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 80 12">
+                    HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,46,12">
                     <Button.Clip>
                         <RectangleGeometry Rect="0,0,89,36" RadiusX="10" RadiusY="10"/>
                     </Button.Clip>
