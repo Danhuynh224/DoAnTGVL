@@ -22,6 +22,9 @@
     <Compile Update="UControls\UCCViecTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UControls\UCDanhGia.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UControls\UCSuaCV.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -37,13 +40,14 @@
     <Compile Update="UControls\UCTimViec.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+
     <Compile Update="UControls\UCUserChuaThucHien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UControls\UCUserDaHoanThanh.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UControls\UCUserDangThucHien.xaml.cs">
+    <Compile Update="UControls\UCViewDG.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserMain.xaml.cs">
@@ -72,6 +76,9 @@
     <Page Update="UControls\UCCViecTho.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UControls\UCDanhGia.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UControls\UCSuaCV.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -87,13 +94,16 @@
     <Page Update="UControls\UCTimViec.xaml">
       <SubType>Designer</SubType>
     </Page>
+
     <Page Update="UControls\UCUserChuaThucHien.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UControls\UCUserDaHoanThanh.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UControls\UCUserDangThucHien.xaml">
+
+    <Page Update="UControls\UCViewDG.xaml">
+
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserMain.xaml">
