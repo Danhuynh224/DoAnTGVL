@@ -22,10 +22,17 @@
     <Compile Update="UControls\UCSuaCV.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UControls\UCTheoDoiBaiDang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UControls\UCThueTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="UControls\UCTimViec.xaml.cs">
+=======
+    <Compile Update="UControls\UCTrangChu.xaml.cs">
+>>>>>>> d0b0582 (Add TrangChu and ListTheoDoi)
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserMain.xaml.cs">
@@ -54,10 +61,17 @@
     <Page Update="UControls\UCSuaCV.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UControls\UCTheoDoiBaiDang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UControls\UCThueTho.xaml">
       <SubType>Designer</SubType>
     </Page>
+<<<<<<< HEAD
     <Page Update="UControls\UCTimViec.xaml">
+=======
+    <Page Update="UControls\UCTrangChu.xaml">
+>>>>>>> d0b0582 (Add TrangChu and ListTheoDoi)
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserMain.xaml">

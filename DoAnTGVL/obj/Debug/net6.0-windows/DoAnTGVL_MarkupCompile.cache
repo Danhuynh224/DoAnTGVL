@@ -4,17 +4,26 @@
 winexe
 C#
 .cs
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\
 DoAnTGVL
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< HEAD
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\App.xaml
 10-283738722
 1-267432619
 12-1481984535
 197-452669824
 DangBai.xaml;MainWindow.xaml;PhieuThueTho.xaml;ThoMain.xaml;UControls\UCCViecTho.xaml;UControls\UCSuaCV.xaml;UControls\UCThueTho.xaml;UControls\UCTimViec.xaml;UserMain.xaml;XuatHoaDon.xaml;
+=======
+D:\WinForm\testDA\DoAnTGVL\App.xaml
+10880603993
+1-267432619
+12665054357
+197-1130902578
+DangBai.xaml;MainWindow.xaml;PhieuThueTho.xaml;ThoMain.xaml;UControls\UCSuaCV.xaml;UControls\UCTheoDoiBaiDang.xaml;UControls\UCThueTho.xaml;UControls\UCTrangChu.xaml;UserMain.xaml;XuatHoaDon.xaml;
+>>>>>>> d0b0582 (Add TrangChu and ListTheoDoi)
 
 False
 
