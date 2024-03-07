@@ -102,6 +102,14 @@
                              Height="30" 
                              Foreground="Black" Opacity="0.7" />
                 </Button>
+                <Button Height="30" Width="150" Background="#FF8C00FC" Margin="70,0,0,0" Click="click_DangBai"
+                        >
+                    <Button.Clip>
+                        <RectangleGeometry Rect="0,0,150,30" RadiusX="10" RadiusY="10" >
+                        </RectangleGeometry>
+                    </Button.Clip>
+                    <TextBlock Text="Đăng bài" FontSize="15" Foreground="White"></TextBlock>
+                </Button>
             </StackPanel>
         </materialDesign:ColorZone>
         <Grid Grid.Row="1">

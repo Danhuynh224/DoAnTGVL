@@ -1,0 +1,164 @@
+﻿<Window x:Class="DoAnTGVL.DangBai"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoAnTGVL"
+        mc:Ignorable="d"
+        Title="Đăng bài" Height="550" Width="700"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="White"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        WindowStyle="None"
+        AllowsTransparency="True" 
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Clip>
+        <RectangleGeometry Rect="0,0,700,550" RadiusX="10" RadiusY="10">
+        </RectangleGeometry>
+    </Window.Clip>
+
+    <Border BorderThickness="1" BorderBrush="#FF807D7D" CornerRadius="10">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" FontSize="30" FontWeight="Bold" Text="Đăng bài" Margin="0 12 0 0"
+               Foreground="#00A3FF" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Grid Grid.Row="1">
+                <Grid  Width="605" Height="420" Background="#F2F1F1"
+          VerticalAlignment="Top" HorizontalAlignment="Center">
+                    <Grid.Clip>
+                        <RectangleGeometry Rect="0,0,900,420" RadiusX="10" RadiusY="10"/>
+                    </Grid.Clip>
+                    <StackPanel Orientation="Vertical">
+
+                        <Grid Height="50" Margin="0,10,0,0">
+                            <Grid.ColumnDefinitions >
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="AccountBox" Height="25" Width="25"/>
+                                <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Nhập tiêu đề"/>
+                            </Grid>
+                            <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="AccountBox" Height="25" Width="25"/>
+                                <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Họ và tên"/>
+                            </Grid>
+                        </Grid>
+
+                        <Grid Height="50" Margin="0,15,0,0">
+                            <Grid.ColumnDefinitions >
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="Work" Height="24" Width="25" VerticalAlignment="Center"/>
+                                <ComboBox HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                                     FontSize="15"
+                                    materialDesign:HintAssist.Hint="Lĩnh vực"
+                                    Height="30" Padding="5" Width="220">        
+                                    <ComboBoxItem Content="Gia Sư" />
+                                    <ComboBoxItem Content="Sửa Nhà" />
+                                    <ComboBoxItem Content="Bảo Trì" />
+                                    <ComboBoxItem Content="Điện Tử" />
+                                    <ComboBoxItem Content="Điện Nước" />
+                                </ComboBox>
+                            </Grid>
+                            <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="Map" Height="24" Width="25" VerticalAlignment="Center"/>
+                                <ComboBox HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                                         FontSize="15"
+                                        materialDesign:HintAssist.Hint="Khu vực"
+                                        Height="30" Padding="5" Width="220">        
+                                    <ComboBoxItem Content="Gia Sư" />
+                                    <ComboBoxItem Content="Sửa Nhà" />
+                                    <ComboBoxItem Content="Bảo Trì" />
+                                    <ComboBoxItem Content="Điện Tử" />
+                                    <ComboBoxItem Content="Điện Nước" />
+                                </ComboBox>
+                            </Grid>
+                        </Grid>
+
+                        <Grid Height="50" Margin="0,15,0,0">
+                            <Grid Grid.Column="0" Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="More" Height="25" Width="25"/>
+                                <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Mô tả việc chi tiết"/>
+                            </Grid>
+                        </Grid>
+
+                        <Grid Height="50" Margin="0,15,0,0">
+                            <Grid.ColumnDefinitions >
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0" Height="35" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="CalendarToday" Height="25" Width="25" VerticalAlignment="Top"/>
+                                <DatePicker Margin="30 0 0 0" FontSize="14" 
+                                    materialDesign:HintAssist.Hint="Ngày bắt đầu"
+                                    Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />    
+                            </Grid>
+                            <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="Phone" Height="25" Width="25"/>
+                                <TextBox Margin="30 0 0 0" MaxLength="10" FontSize="15" materialDesign:HintAssist.Hint="Nhập SDT"/>
+                            </Grid>
+                        </Grid>
+                        
+                        <Grid Height="50" Margin="0,15,0,0">
+                            <Grid.ColumnDefinitions >
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="Magic" Height="24" Width="25" VerticalAlignment="Center"/>
+                                <ComboBox HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                                     FontSize="15"
+                                    materialDesign:HintAssist.Hint="Kinh nghiệm"
+                                    Height="30" Padding="5" Width="220">
+                                    <ComboBoxItem Content="Ít hơn 1 năm" />
+                                    <ComboBoxItem Content="1 - 2 năm" />
+                                    <ComboBoxItem Content="2 - 3 năm" />
+                                    <ComboBoxItem Content="Trên 3 năm" />
+                                </ComboBox>
+                            </Grid>
+                            <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="People" Height="25" Width="25"/>
+                                <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Số lượng thợ"/>
+                            </Grid>
+                        </Grid>
+
+                        <Grid Height="50" Margin="0,15,0,0">
+                            <Grid Grid.Column="0" Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="Note" Height="25" Width="25"/>
+                                <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Ghi chú"/>
+                            </Grid>
+                        </Grid>
+
+                    </StackPanel>
+
+                </Grid>
+                <Button Width="89" Height="40" Background="#478C10" Content="Đăng"
+                    HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,441,0,0">
+                    <Button.Clip>
+                        <RectangleGeometry Rect="0,0,89,36" RadiusX="10" RadiusY="10"/>
+                    </Button.Clip>
+                </Button>
+                <Button Width="89" Height="36" Background="#9D9999" Content="Hủy" Click="click_Huy"
+                    HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 80 12">
+                    <Button.Clip>
+                        <RectangleGeometry Rect="0,0,89,36" RadiusX="10" RadiusY="10"/>
+                    </Button.Clip>
+                </Button>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

@@ -10,25 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DoAnTGVL.UControls
+namespace DoAnTGVL
 {
     /// <summary>
-    /// Interaction logic for UCThueTho.xaml
+    /// Interaction logic for DangBai.xaml
     /// </summary>
-    public partial class UCThueTho : UserControl
+    public partial class DangBai : Window
     {
-        public UCThueTho()
+        public DangBai()
         {
             InitializeComponent();
         }
 
-        private void click_DangBai(object sender, RoutedEventArgs e)
+        private void click_Huy(object sender, RoutedEventArgs e)
         {
-            Window dangbai = new DangBai();
-            dangbai.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -7,19 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="DatTho.xaml.cs">
+    <Compile Update="DangBai.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PhieuThueTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ThoMain.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="ThueTho.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UControls\UCDangBai.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UControls\UCSuaCV.xaml.cs">
@@ -36,7 +30,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="DatTho.xaml">
+    <Page Update="DangBai.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PhieuThueTho.xaml">
@@ -45,13 +39,7 @@
     <Page Update="ThoMain.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ThueTho.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="MainWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UControls\UCDangBai.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UControls\UCSuaCV.xaml">
