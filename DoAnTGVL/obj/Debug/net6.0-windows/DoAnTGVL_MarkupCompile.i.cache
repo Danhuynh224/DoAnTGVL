@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\App.xaml
-8253959290
+10-283738722
 1-267432619
-121609377797
+14-1083493918
 197-452669824
-DangBai.xaml;MainWindow.xaml;PhieuThueTho.xaml;ThoMain.xaml;UControls\UCSuaCV.xaml;UControls\UCThueTho.xaml;UserMain.xaml;XuatHoaDon.xaml;
+DangBai.xaml;MainWindow.xaml;PhieuThueTho.xaml;ThoMain.xaml;UControls\UCCViecTho.xaml;UControls\UCSuaCV.xaml;UControls\UCThueTho.xaml;UControls\UCTimViec.xaml;UserMain.xaml;XuatHoaDon.xaml;
 
-False
+True
 

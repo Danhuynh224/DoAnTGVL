@@ -18,7 +18,10 @@ namespace DoAnTGVL.UControls
 
     public partial class UCSuaCV : UserControl
     {
-        
-    
+        public UCSuaCV()
+        {
+            InitializeComponent();
+        }
+
     }
 }

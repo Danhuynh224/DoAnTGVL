@@ -19,10 +19,15 @@ namespace DoAnTGVL
     /// <summary>
     /// Interaction logic for ThoMain.xaml
     /// </summary>
+    /// 
+
     public partial class ThoMain : Window
     {
+        private UserControl PreUC;
+        private UserControl CurUC;
         public ThoMain()
         {
+           
             InitializeComponent();
         }
         public void mnuLogout_Click(object sender, RoutedEventArgs e)
@@ -31,10 +36,28 @@ namespace DoAnTGVL
         }
         public void mnuSuaCV_Click(object sender, RoutedEventArgs e)
         {
-            
-            UCSuaCV uCSuaCV =new UCSuaCV();
-            Grid.SetColumn(uCSuaCV, 1);
-            gridMain.Children.Add(uCSuaCV);
+
+            CurUC =new UCSuaCV();
+            gridMain.Children.Remove(PreUC);
+            PreUC = CurUC;
+            Grid.SetColumn(CurUC, 1);      
+            gridMain.Children.Add(CurUC);
+        }
+       public void mnuTimViec_Click(object sender, RoutedEventArgs e)
+        {
+            CurUC = new UCTimViec();
+            gridMain.Children.Remove(PreUC);
+            PreUC = CurUC;
+            Grid.SetColumn(CurUC, 1);
+            gridMain.Children.Add(CurUC);
+        }
+        public void mnuViecLam_Click(object sender, RoutedEventArgs e)
+        {
+            CurUC = new UCCViecTho();
+            gridMain.Children.Remove(PreUC);
+            PreUC = CurUC;
+            Grid.SetColumn(CurUC, 1);
+            gridMain.Children.Add(CurUC);
         }
     }
 }

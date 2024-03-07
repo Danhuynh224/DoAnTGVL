@@ -16,10 +16,16 @@
     <Compile Update="ThoMain.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UControls\UCCViecTho.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UControls\UCSuaCV.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UControls\UCThueTho.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UControls\UCTimViec.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserMain.xaml.cs">
@@ -42,10 +48,16 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UControls\UCCViecTho.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UControls\UCSuaCV.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UControls\UCThueTho.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UControls\UCTimViec.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserMain.xaml">
