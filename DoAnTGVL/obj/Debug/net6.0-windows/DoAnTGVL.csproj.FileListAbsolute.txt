@@ -1,78 +1,42 @@
-D:\WinForm\testDA\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.exe
-D:\WinForm\testDA\DoAnTGVL\bin\Debug\net6.0-windows\image\5519785.jpg
-D:\WinForm\testDA\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.deps.json
-D:\WinForm\testDA\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.runtimeconfig.json
-D:\WinForm\testDA\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.dll
-D:\WinForm\testDA\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.pdb
-D:\WinForm\testDA\DoAnTGVL\bin\Debug\net6.0-windows\MaterialDesignColors.dll
-D:\WinForm\testDA\DoAnTGVL\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
-D:\WinForm\testDA\DoAnTGVL\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.csproj.AssemblyReference.cache
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DangBai.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\MainWindow.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCSuaCV.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\App.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL_Content.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL_MarkupCompile.cache
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL_MarkupCompile.lref
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\App.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DangBai.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\MainWindow.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCSuaCV.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.g.resources
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.GeneratedMSBuildEditorConfig.editorconfig
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.AssemblyInfoInputs.cache
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.AssemblyInfo.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.csproj.CoreCompileInputs.cache
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.sourcelink.json
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.csproj.CopyComplete
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.dll
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\refint\DoAnTGVL.dll
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.pdb
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.genruntimeconfig.cache
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ref\DoAnTGVL.dll
-<<<<<<< HEAD
-=======
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\MainWindow.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\MainWindow.baml
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DatTho.g.cs
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DatTho.baml
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThueTho.g.cs
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThueTho.baml
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.g.cs
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.baml
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.g.cs
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.baml
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.g.cs
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.csproj.AssemblyReference.cache
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DangBai.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.g.cs
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDangBai.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCSuaCV.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL_Content.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL_MarkupCompile.cache
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL_MarkupCompile.lref
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.exe
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\image\5519785.jpg
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.deps.json
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.runtimeconfig.json
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.pdb
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\App.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DangBai.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.baml
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDangBai.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCSuaCV.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\UserMain.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDangBai.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDangBai.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\XuatHoaDon.baml
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DangBai.g.cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DangBai.baml
->>>>>>> 11f6a59c4ad024d8c3c52d9e64b168947b11e684
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.g.resources
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.AssemblyInfoInputs.cache
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.AssemblyInfo.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.csproj.CoreCompileInputs.cache
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.csproj.CopyComplete
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\refint\DoAnTGVL.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.pdb
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.genruntimeconfig.cache
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\ref\DoAnTGVL.dll
