@@ -32,12 +32,11 @@
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="0">
-                
+
                 <Grid Width="200" Height="auto">
                     <Grid.Background>
                         <ImageBrush ImageSource="/image/user.png" Stretch="Uniform"/>
                     </Grid.Background>
-                    <Image Source="D:\WinForm\testDA\DoAnTGVL\image\user.png" Margin="30,0,-30,0"/>
                 </Grid>
             </Grid>
 
@@ -49,64 +48,70 @@
                 </Grid.ColumnDefinitions>
 
                 <StackPanel Grid.Column="0" Width="350">
-                    <GroupBox Header="Họ và tên"  FontSize="20" Margin="0 50 0 0"
-                              Style="{DynamicResource MaterialDesignGroupBox}">
+                    <GroupBox Header="Họ và tên"  FontSize="20" Margin="0 100 0 0"
+                              Style="{DynamicResource d}" BorderBrush="Black">
 
                         <TextBlock FontSize="25" Text="Nguyễn Văn A" Margin="5 5 0 5"></TextBlock>
                     </GroupBox>
 
 
-                    <GroupBox Header="Giới tính" FontSize="20" Margin="0 25 0 0"
-          Style="{DynamicResource MaterialDesignGroupBox}">
+                    <GroupBox Header="Giới tính" FontSize="20" Margin="0 25 0 0" BorderBrush="Black"
+          Style="{DynamicResource d}">
 
                         <TextBlock FontSize="25" Text="Nam" Margin="5 5 0 5"></TextBlock>
                     </GroupBox>
 
 
-                    <GroupBox Header="Ngày sinh" FontSize="20" Margin="0 25 0 0"
-          Style="{DynamicResource MaterialDesignGroupBox}">
+                    <GroupBox Header="Ngày sinh" FontSize="20" Margin="0 25 0 0" BorderBrush="Black"
+          Style="{DynamicResource d}">
 
                         <TextBlock FontSize="25" Text="Nguyễn Văn A" Margin="5 5 0 5"></TextBlock>
                     </GroupBox>
 
-                    <GroupBox Header="Số lần thuê" FontSize="20" Margin="0 25 0 0"
-Style="{DynamicResource MaterialDesignGroupBox}">
+                    <GroupBox Header="Số lần thuê" FontSize="20" Margin="0 25 0 0" BorderBrush="Black"
+Style="{DynamicResource d}">
 
                         <TextBlock FontSize="25" Text="Nông dân" Margin="5 5 0 5"></TextBlock>
                     </GroupBox>
 
                 </StackPanel>
 
-                <StackPanel Grid.Column="1" Width="350" Margin="0 0 20 0">
-                    <GroupBox Header="CCCD" FontSize="20" Margin="0 50 0 0"
-                    Style="{DynamicResource MaterialDesignGroupBox}">
+                <StackPanel Grid.Column="1" Width="350" Margin="0 0 50 0">
+                    <GroupBox Header="CCCD" FontSize="20" Margin="0 100 0 0" BorderBrush="Black"
+                    Style="{DynamicResource d}">
 
                         <TextBlock FontSize="25" Text="0234798712934" Margin="5 5 0 5"></TextBlock>
                     </GroupBox>
 
 
-                    <GroupBox Header="Địa chỉ" FontSize="20" Margin="0 25 0 0"
-Style="{DynamicResource MaterialDesignGroupBox}">
+                    <GroupBox Header="Địa chỉ" FontSize="20" Margin="0 25 0 0" BorderBrush="Black"
+Style="{DynamicResource d}">
 
                         <TextBlock FontSize="25" Text="HCM" Margin="5 5 0 5"></TextBlock>
                     </GroupBox>
 
 
-                    <GroupBox Header="SĐT" FontSize="20" Margin="0 25 0 0"
-Style="{DynamicResource MaterialDesignGroupBox}">
+                    <GroupBox Header="SĐT" FontSize="20" Margin="0 25 0 0" BorderBrush="Black"
+Style="{DynamicResource d}">
 
                         <TextBlock FontSize="25" Text="0987675743" Margin="5 5 0 5"></TextBlock>
                     </GroupBox>
 
-                    <GroupBox Header="Email" FontSize="20" Margin="0 25 0 0"
-Style="{DynamicResource MaterialDesignGroupBox}">
+                    <GroupBox Header="Email" FontSize="20" Margin="0 25 0 0" BorderBrush="Black"
+Style="{DynamicResource d}">
 
                         <TextBlock FontSize="25" Text="kádf@gmail.com" Margin="5 5 0 5"></TextBlock>
                     </GroupBox>
                 </StackPanel>
 
 
+
+                <Button Content="Chỉnh sửa" FontSize="30" Width="200" Height="70" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="385,0,0,29">
+
+                </Button>
+
             </Grid>
+
         </Grid>
 
     </Grid>

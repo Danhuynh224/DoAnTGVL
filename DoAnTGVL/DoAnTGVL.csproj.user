@@ -10,6 +10,9 @@
     <Compile Update="DangBai.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="DanhGiaTho.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="PhieuThueTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,9 +31,19 @@
     <Compile Update="UControls\UCThueTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UControls\UCTienDo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UControls\UCTimViec.xaml.cs">
-
-    
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UControls\UCUserChuaThucHien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UControls\UCUserDaHoanThanh.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UControls\UCUserDangThucHien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserMain.xaml.cs">
@@ -42,6 +55,9 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="DangBai.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DanhGiaTho.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PhieuThueTho.xaml">
@@ -65,7 +81,19 @@
     <Page Update="UControls\UCThueTho.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UControls\UCTienDo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UControls\UCTimViec.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UControls\UCUserChuaThucHien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UControls\UCUserDaHoanThanh.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UControls\UCUserDangThucHien.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserMain.xaml">

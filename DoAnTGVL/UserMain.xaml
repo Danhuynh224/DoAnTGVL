@@ -44,12 +44,17 @@
                     </Menu.ItemsPanel>
                     <MenuItem Header="Trang Chủ" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="TrangChuUser_Click">
                         <MenuItem.Icon>
-                            <materialDesign:PackIcon Kind="Home" Foreground="#DDFC1B0A"  />
+                            <materialDesign:PackIcon Kind="Home" Foreground="#DDFC1B0A" />
                         </MenuItem.Icon>
                     </MenuItem>
                     <MenuItem Header="Thuê Thợ" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuThueTho_Click">
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="Magnify" Foreground="#DD9405A1"  />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Tiến độ" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuTienDo_Click">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="ProgressAlert" Foreground="#DD9405A1"  />
                         </MenuItem.Icon>
                     </MenuItem>
                     <MenuItem Header="Hóa Đơn" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >

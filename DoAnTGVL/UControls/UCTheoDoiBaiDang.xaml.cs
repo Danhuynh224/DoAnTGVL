@@ -24,5 +24,11 @@ namespace DoAnTGVL.UControls
         {
             InitializeComponent();
         }
+
+        private void ThemBaiDang_Click(object sender, RoutedEventArgs e)
+        {
+            DangBai db = new();
+            db.ShowDialog();
+        }
     }
 }

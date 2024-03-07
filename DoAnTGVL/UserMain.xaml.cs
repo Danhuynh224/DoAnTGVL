@@ -56,5 +56,14 @@ namespace DoAnTGVL
             PreUC = CurUC;
             gridMain.Children.Add(CurUC);
         }
+
+        private void MnuTienDo_Click(object sender, RoutedEventArgs e)
+        {
+            CurUC = new UCTienDo();
+            gridMain.Children.Remove(PreUC);
+            Grid.SetColumn(CurUC, 1);
+            PreUC = CurUC;
+            gridMain.Children.Add(CurUC);
+        }
     }
 }

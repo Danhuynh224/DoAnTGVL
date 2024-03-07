@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\
 DoAnTGVL
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\App.xaml
-12342905981
+D:\WinForm\testDA\DoAnTGVL\App.xaml
+171431851106
 2-2084201926
-14-2027817358
-197-452669824
-DangBai.xaml;MainWindow.xaml;PhieuThueTho.xaml;ThoMain.xaml;UControls\UCCViecTho.xaml;UControls\UCSuaCV.xaml;UControls\UCTheoDoiBaiDang.xaml;UControls\UCThueTho.xaml;UControls\UCTimViec.xaml;UControls\UCTrangChu.xaml;UserMain.xaml;XuatHoaDon.xaml;
+19-1852946469
+197-1130902578
+DangBai.xaml;DanhGiaTho.xaml;MainWindow.xaml;PhieuThueTho.xaml;ThoMain.xaml;UControls\UCCViecTho.xaml;UControls\UCSuaCV.xaml;UControls\UCTheoDoiBaiDang.xaml;UControls\UCThueTho.xaml;UControls\UCTienDo.xaml;UControls\UCTimViec.xaml;UControls\UCTrangChu.xaml;UControls\UCUserChuaThucHien.xaml;UControls\UCUserDaHoanThanh.xaml;UControls\UCUserDangThucHien.xaml;UserMain.xaml;XuatHoaDon.xaml;
 
 False
 
