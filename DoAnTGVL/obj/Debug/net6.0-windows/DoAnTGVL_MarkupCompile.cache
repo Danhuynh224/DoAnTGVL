@@ -4,25 +4,17 @@
 winexe
 C#
 .cs
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\
 DoAnTGVL
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\WinForm\testDA\DoAnTGVL\App.xaml
-<<<<<<< HEAD
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\App.xaml
 12342905981
-1-267432619
+2-2084201926
 14-2027817358
-197-1130902578
+197-452669824
 DangBai.xaml;MainWindow.xaml;PhieuThueTho.xaml;ThoMain.xaml;UControls\UCCViecTho.xaml;UControls\UCSuaCV.xaml;UControls\UCTheoDoiBaiDang.xaml;UControls\UCThueTho.xaml;UControls\UCTimViec.xaml;UControls\UCTrangChu.xaml;UserMain.xaml;XuatHoaDon.xaml;
-=======
-10880603993
-1-267432619
-12665054357
-197-1130902578
-DangBai.xaml;MainWindow.xaml;PhieuThueTho.xaml;ThoMain.xaml;UControls\UCSuaCV.xaml;UControls\UCTheoDoiBaiDang.xaml;UControls\UCThueTho.xaml;UControls\UCTrangChu.xaml;UserMain.xaml;XuatHoaDon.xaml;
->>>>>>> d0b05820317cb9f5a3305fc193ad7214512aa7a1
 
 False
 

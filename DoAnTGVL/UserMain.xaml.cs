@@ -20,6 +20,8 @@ namespace DoAnTGVL
     /// </summary>
     public partial class UserMain : Window
     {
+        private UserControl PreUC;
+        private UserControl CurUC;
         public UserMain()
         {
             InitializeComponent();
@@ -30,23 +32,29 @@ namespace DoAnTGVL
         }
         public void MnuThueTho_Click(object sender, RoutedEventArgs e)
         {
-            UCThueTho uCThueTho = new();
-            Grid.SetColumn(uCThueTho, 1);
-            gridMain.Children.Add(uCThueTho);
+            CurUC = new UCThueTho();
+            gridMain.Children.Remove(PreUC);
+            Grid.SetColumn(CurUC, 1);
+            PreUC = CurUC;
+            gridMain.Children.Add(CurUC);
         }
 
         private void MnuTheoDoiBaiDang_Click(object sender, RoutedEventArgs e)
         {
-            UCTheoDoiBaiDang ucTheoDoi = new();
-            Grid.SetColumn(ucTheoDoi, 1);
-            gridMain.Children.Add(ucTheoDoi);
+            CurUC = new UCTheoDoiBaiDang();
+            gridMain.Children.Remove(PreUC);
+            Grid.SetColumn(CurUC, 1);
+            PreUC = CurUC;
+            gridMain.Children.Add(CurUC);
         }
 
         private void TrangChuUser_Click(object sender, RoutedEventArgs e)
         {
-            UCTrangChu uCTrangChu = new();
-            Grid.SetColumn(uCTrangChu, 1);
-            gridMain.Children.Add(uCTrangChu);
+            CurUC = new UCTrangChu();
+            gridMain.Children.Remove(PreUC);
+            Grid.SetColumn(CurUC, 1);
+            PreUC = CurUC;
+            gridMain.Children.Add(CurUC);
         }
     }
 }

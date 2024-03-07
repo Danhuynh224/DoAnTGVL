@@ -9,5 +9,6 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/5519785.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/user.png")]
 
 

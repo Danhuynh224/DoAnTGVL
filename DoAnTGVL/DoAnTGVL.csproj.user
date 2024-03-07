@@ -28,11 +28,9 @@
     <Compile Update="UControls\UCThueTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-<<<<<<< HEAD
     <Compile Update="UControls\UCTimViec.xaml.cs">
-=======
-    <Compile Update="UControls\UCTrangChu.xaml.cs">
->>>>>>> d0b05820317cb9f5a3305fc193ad7214512aa7a1
+
+    
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserMain.xaml.cs">
@@ -67,11 +65,7 @@
     <Page Update="UControls\UCThueTho.xaml">
       <SubType>Designer</SubType>
     </Page>
-<<<<<<< HEAD
     <Page Update="UControls\UCTimViec.xaml">
-=======
-    <Page Update="UControls\UCTrangChu.xaml">
->>>>>>> d0b05820317cb9f5a3305fc193ad7214512aa7a1
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserMain.xaml">

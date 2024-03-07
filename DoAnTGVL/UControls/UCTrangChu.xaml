@@ -32,7 +32,11 @@
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="0">
+                
                 <Grid Width="200" Height="auto">
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/image/user.png" Stretch="Uniform"/>
+                    </Grid.Background>
                     <Image Source="D:\WinForm\testDA\DoAnTGVL\image\user.png" Margin="30,0,-30,0"/>
                 </Grid>
             </Grid>
