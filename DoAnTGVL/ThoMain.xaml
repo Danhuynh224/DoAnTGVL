@@ -21,6 +21,7 @@
                 <DropShadowEffect ShadowDepth="0" BlurRadius="10" Opacity="0.7" Color="Black"/>
             </Border.Effect>
             <StackPanel  Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Stretch" Background="#FEE8D6">
+                
                 <Grid Background="Navy" Height="50" VerticalAlignment="Top" Margin="0,30,0,0">
                     <Border Background="#D61734"
                 Height="25"
@@ -61,7 +62,7 @@
                             <materialDesign:PackIcon Kind="Post" Foreground="#DDF6CE0B"  />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Đánh Giá" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
+                    <MenuItem Header="Đánh Giá" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="mnuViewwDG_Click" >
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="ThumbsUp" Foreground="#DD0D4CEE"  />
                         </MenuItem.Icon>

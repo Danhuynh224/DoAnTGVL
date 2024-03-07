@@ -59,5 +59,13 @@ namespace DoAnTGVL
             Grid.SetColumn(CurUC, 1);
             gridMain.Children.Add(CurUC);
         }
+        public void mnuViewwDG_Click(object sender, RoutedEventArgs e)
+        {
+            CurUC = new UCViewDG();
+            gridMain.Children.Remove(PreUC);
+            PreUC = CurUC;
+            Grid.SetColumn(CurUC, 1);
+            gridMain.Children.Add(CurUC);
+        }
     }
 }
