@@ -1,27 +1,15 @@
 ﻿
-<<<<<<< HEAD
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\App.xaml;;
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\DangBai.xaml;;
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\MainWindow.xaml;;
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\PhieuThueTho.xaml;;
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\ThoMain.xaml;;
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\UControls\UCSuaCV.xaml;;
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\UControls\UCThueTho.xaml;;
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\UControls\UCTimViec.xaml;;
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\UserMain.xaml;;
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\XuatHoaDon.xaml;;
-FC:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\UControls\UCCViecTho.xaml;;
-=======
 FD:\WinForm\testDA\DoAnTGVL\App.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\DangBai.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\MainWindow.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\PhieuThueTho.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\ThoMain.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UControls\UCCViecTho.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\UControls\UCSuaCV.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UControls\UCTheoDoiBaiDang.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\UControls\UCThueTho.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UControls\UCTimViec.xaml;;
+FD:\WinForm\testDA\DoAnTGVL\UControls\UCTrangChu.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\UserMain.xaml;;
 FD:\WinForm\testDA\DoAnTGVL\XuatHoaDon.xaml;;
-FD:\WinForm\testDA\DoAnTGVL\UControls\UCTheoDoiBaiDang.xaml;;
-FD:\WinForm\testDA\DoAnTGVL\UControls\UCTrangChu.xaml;;
->>>>>>> d0b0582 (Add TrangChu and ListTheoDoi)
 
