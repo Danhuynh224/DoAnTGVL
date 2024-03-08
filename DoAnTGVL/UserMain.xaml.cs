@@ -71,7 +71,6 @@ namespace DoAnTGVL
         {
             ButtonCloseMenu.Visibility = Visibility.Visible;
             ButtonOpenMenu.Visibility = Visibility.Collapsed;
-            gridMainWin.Width = 1300;
 
         }
 
@@ -79,7 +78,6 @@ namespace DoAnTGVL
         {
             ButtonCloseMenu.Visibility = Visibility.Collapsed;
             ButtonOpenMenu.Visibility = Visibility.Visible;
-            gridMainWin.Width = 1450;
 
         }
     }
