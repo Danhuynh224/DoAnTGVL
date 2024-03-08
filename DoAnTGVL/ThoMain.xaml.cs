@@ -81,7 +81,6 @@ namespace DoAnTGVL
             ButtonCloseMenu.Visibility = Visibility.Collapsed;
             ButtonOpenMenu.Visibility = Visibility.Visible;
             gridMainWin.Width = 1450;
-
         }
         public void MnuThueTho_Click(object sender, RoutedEventArgs e)
 
