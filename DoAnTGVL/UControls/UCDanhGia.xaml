@@ -6,7 +6,7 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              xmlns:local="clr-namespace:DoAnTGVL.UControls"
              mc:Ignorable="d" 
-             d:DesignHeight="250" d:DesignWidth="500">
+             d:DesignHeight="300" d:DesignWidth="500">
     <Grid>
         <Border  Grid.Row="1" BorderBrush="#F2F1F1" BorderThickness="1" Background="#F2F1F1" CornerRadius="5">
             <Border.Effect>
