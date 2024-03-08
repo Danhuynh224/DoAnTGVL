@@ -24,6 +24,7 @@ namespace DoAnTGVL
         private UserControl CurUC;
         public UserMain()
         {
+            PreUC = null;
             InitializeComponent();
         }
         public void MnuLogout_Click(object sender, RoutedEventArgs e)
@@ -31,39 +32,55 @@ namespace DoAnTGVL
             Close();
         }
         public void MnuThueTho_Click(object sender, RoutedEventArgs e)
+            
         {
             CurUC = new UCThueTho();
-            gridMain.Children.Remove(PreUC);
-            Grid.SetColumn(CurUC, 1);
+            gridMainWin.Children.Remove(PreUC);
+
             PreUC = CurUC;
-            gridMain.Children.Add(CurUC);
+            gridMainWin.Children.Add(CurUC);
         }
 
         private void MnuTheoDoiBaiDang_Click(object sender, RoutedEventArgs e)
         {
             CurUC = new UCTheoDoiBaiDang();
-            gridMain.Children.Remove(PreUC);
-            Grid.SetColumn(CurUC, 1);
+            gridMainWin.Children.Remove(PreUC);
+
             PreUC = CurUC;
-            gridMain.Children.Add(CurUC);
+            gridMainWin.Children.Add(CurUC);
         }
 
         private void TrangChuUser_Click(object sender, RoutedEventArgs e)
         {
             CurUC = new UCTrangChu();
-            gridMain.Children.Remove(PreUC);
-            Grid.SetColumn(CurUC, 1);
+            gridMainWin.Children.Remove(PreUC);
+            
             PreUC = CurUC;
-            gridMain.Children.Add(CurUC);
+            gridMainWin.Children.Add(CurUC);
         }
 
         private void MnuTienDo_Click(object sender, RoutedEventArgs e)
         {
             CurUC = new UCTienDo();
-            gridMain.Children.Remove(PreUC);
-            Grid.SetColumn(CurUC, 1);
+            gridMainWin.Children.Remove(PreUC);
+            
             PreUC = CurUC;
-            gridMain.Children.Add(CurUC);
+            gridMainWin.Children.Add(CurUC);
+        }
+        private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
+        {
+            ButtonCloseMenu.Visibility = Visibility.Visible;
+            ButtonOpenMenu.Visibility = Visibility.Collapsed;
+            gridMainWin.Width = 1300;
+
+        }
+
+        private void ButtonCloseMenu_Click(object sender, RoutedEventArgs e)
+        {
+            ButtonCloseMenu.Visibility = Visibility.Collapsed;
+            ButtonOpenMenu.Visibility = Visibility.Visible;
+            gridMainWin.Width = 1450;
+
         }
     }
 }

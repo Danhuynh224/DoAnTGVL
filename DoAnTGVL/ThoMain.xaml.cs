@@ -34,38 +34,91 @@ namespace DoAnTGVL
         {
             Close();
         }
+        public void MnuLogout_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
         public void mnuSuaCV_Click(object sender, RoutedEventArgs e)
         {
 
-            CurUC =new UCSuaCV();
-            gridMain.Children.Remove(PreUC);
-            PreUC = CurUC;
-            Grid.SetColumn(CurUC, 1);      
-            gridMain.Children.Add(CurUC);
-        }
-       public void mnuTimViec_Click(object sender, RoutedEventArgs e)
-        {
-            CurUC = new UCTimViec();
-            gridMain.Children.Remove(PreUC);
+            CurUC = new UCSuaCV();
+            gridMainWin.Children.Remove(PreUC);
             PreUC = CurUC;
             Grid.SetColumn(CurUC, 1);
-            gridMain.Children.Add(CurUC);
+            gridMainWin.Children.Add(CurUC);
+        }
+        public void mnuTimViec_Click(object sender, RoutedEventArgs e)
+        {
+            CurUC = new UCTimViec();
+            gridMainWin.Children.Remove(PreUC);
+            PreUC = CurUC;
+            gridMainWin.Children.Add(CurUC);
         }
         public void mnuViecLam_Click(object sender, RoutedEventArgs e)
         {
             CurUC = new UCCViecTho();
-            gridMain.Children.Remove(PreUC);
+            gridMainWin.Children.Remove(PreUC);
             PreUC = CurUC;
-            Grid.SetColumn(CurUC, 1);
-            gridMain.Children.Add(CurUC);
+            gridMainWin.Children.Add(CurUC);
         }
         public void mnuViewwDG_Click(object sender, RoutedEventArgs e)
         {
             CurUC = new UCViewDG();
-            gridMain.Children.Remove(PreUC);
+            gridMainWin.Children.Remove(PreUC);
             PreUC = CurUC;
-            Grid.SetColumn(CurUC, 1);
-            gridMain.Children.Add(CurUC);
+            gridMainWin.Children.Add(CurUC);
         }
+        private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
+        {
+            ButtonCloseMenu.Visibility = Visibility.Visible;
+            ButtonOpenMenu.Visibility = Visibility.Collapsed;
+            gridMainWin.Width = 1100;
+
+        }
+
+        private void ButtonCloseMenu_Click(object sender, RoutedEventArgs e)
+        {
+            ButtonCloseMenu.Visibility = Visibility.Collapsed;
+            ButtonOpenMenu.Visibility = Visibility.Visible;
+            gridMainWin.Width = 1250;
+
+        }
+        public void MnuThueTho_Click(object sender, RoutedEventArgs e)
+
+        {
+            CurUC = new UCThueTho();
+            gridMainWin.Children.Remove(PreUC);
+
+            PreUC = CurUC;
+            gridMainWin.Children.Add(CurUC);
+        }
+
+        private void MnuTheoDoiBaiDang_Click(object sender, RoutedEventArgs e)
+        {
+            CurUC = new UCTheoDoiBaiDang();
+            gridMainWin.Children.Remove(PreUC);
+
+            PreUC = CurUC;
+            gridMainWin.Children.Add(CurUC);
+        }
+
+        private void TrangChuUser_Click(object sender, RoutedEventArgs e)
+        {
+            CurUC = new UCTrangChu();
+            gridMainWin.Children.Remove(PreUC);
+
+            PreUC = CurUC;
+            gridMainWin.Children.Add(CurUC);
+        }
+
+        private void MnuTienDo_Click(object sender, RoutedEventArgs e)
+        {
+            CurUC = new UCTienDo();
+            gridMainWin.Children.Remove(PreUC);
+
+            PreUC = CurUC;
+            gridMainWin.Children.Add(CurUC);
+        }
+       
     }
 }

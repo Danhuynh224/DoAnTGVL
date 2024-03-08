@@ -7,7 +7,7 @@
              xmlns:local="clr-namespace:DoAnTGVL.UControls"
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="1300">
-    <Grid>
+    <Grid Height="auto" Width="auto">
         <Grid.RowDefinitions>
             <RowDefinition Height="45"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
@@ -102,7 +102,7 @@
                              Height="30" 
                              Foreground="Black" Opacity="0.7" />
                 </Button>
-                <Button Height="30" Width="150" Background="#FF8C00FC" Margin="70,0,0,0" Click="click_DangBai"
+                <Button Height="30" Width="150" Background="#FF8C00FC" Margin="20,0,0,0" Click="click_DangBai"
                         >
                     <Button.Clip>
                         <RectangleGeometry Rect="0,0,150,30" RadiusX="10" RadiusY="10" >
@@ -159,11 +159,12 @@
                         <RectangleGeometry  Rect="0,3,1100,800" RadiusX="10" RadiusY="10" >
                         </RectangleGeometry>
                     </Grid.Clip>
-                    <ListView VerticalContentAlignment="Top"  
+                    <ListView VerticalContentAlignment="Center"
                                 ScrollViewer.VerticalScrollBarVisibility="Visible"
                                 ScrollViewer.HorizontalScrollBarVisibility="Visible"
                                 ScrollViewer.CanContentScroll="False"  
-                                x:Name="lsv" Grid.ColumnSpan="2" Margin="0,0,0,10"   >
+                                HorizontalAlignment="Center"
+                                x:Name="lsv" Grid.ColumnSpan="3" Margin="10,0,0,0"   >
                         <ListView.View>
                             <GridView >
                                 <GridView.ColumnHeaderContainerStyle>
