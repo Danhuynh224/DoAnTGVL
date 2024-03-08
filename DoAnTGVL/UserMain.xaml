@@ -31,7 +31,7 @@
         <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
             <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
         </EventTrigger>
-       <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
             <BeginStoryboard Storyboard="{StaticResource CloseMenu}"/>
         </EventTrigger>
     </Window.Triggers>
@@ -43,7 +43,7 @@
                 <ImageBrush ImageSource="/image/undraw_Job_hunt_re_q203.png" Stretch="Uniform"></ImageBrush>
             </Grid.Background>
 
-        </Grid> 
+        </Grid>
         <Grid x:Name="gridMainmenu" Width="50" HorizontalAlignment="Left">
             <Border BorderBrush="#CCCCCC" BorderThickness="1" Background="#FFFFFF" CornerRadius="5" HorizontalAlignment="Left" >
                 <Border.Effect>
@@ -59,23 +59,10 @@
                         </TransformGroup>
                     </Grid.RenderTransform>
                     <StackPanel  Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Stretch" Background="#CCFFFF">
-                        <Grid Background="Navy" Height="50" VerticalAlignment="Top" Margin="0,30,0,0">
-                            <Border Background="#D61734"
-                                Height="25"
-                                CornerRadius="3,0,0,3"
-                                Width="6"
-                                VerticalAlignment="Center"
-                                HorizontalAlignment="Right" />
-                            <TextBlock Text="Name User"
-                                Foreground="#FFFFFF"
-                                FontFamily="Fonts/#Orbitron Medium"
-                                FontSize="15"
-                                VerticalAlignment="Center"
-                                HorizontalAlignment="Center" />
-                        </Grid>
+
                         <StackPanel>
-                            <Button x:Name="ButtonOpenMenu" Height="50" Width="50" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF31577E" Click="ButtonOpenMenu_Click">
-                                <materialDesign:PackIcon Kind="Menu" Width="25" Height="25"/>
+                            <Button x:Name="ButtonOpenMenu" Height="50" Width="50" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Top" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF31577E" Click="ButtonOpenMenu_Click">
+                                <materialDesign:PackIcon Kind="Menu" Width="30" Height="30"/>
                             </Button>
                             <Button x:Name="ButtonCloseMenu" Visibility="Collapsed" Height="50" Width="50" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF31577E" Click="ButtonCloseMenu_Click">
                                 <materialDesign:PackIcon Kind="ArrowLeft" Width="25" Height="25"/>
@@ -87,53 +74,53 @@
                                     </ItemsPanelTemplate>
                                 </Menu.ItemsPanel>
 
-                                <MenuItem Header="Trang Chủ"  Width="200" HorizontalAlignment="Stretch" FontFamily="Arial"  FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="TrangChuUser_Click">
+                                <MenuItem Header="Trang Chủ"  Width="200" FontFamily="Arial"  FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="TrangChuUser_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Kind="Home" Foreground="#DDFC1B0A" />
+                                        <materialDesign:PackIcon Kind="Home" Width="26" Height="26" Foreground="#DDFC1B0A" Margin="-6,-4,0,0" />
                                     </MenuItem.Icon>
                                 </MenuItem>
-                                <MenuItem Header="Thuê Thợ" Width="200"   FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuThueTho_Click">
+                                <MenuItem Header="Thuê Thợ" Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuThueTho_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Kind="Magnify" Foreground="#DD9405A1"  />
+                                        <materialDesign:PackIcon Width="28" Height="28" Kind="Magnify" Foreground="#DD9405A1" Margin="-7,-8,0,0"  />
                                     </MenuItem.Icon>
                                 </MenuItem>
                                 <MenuItem Header="Tiến độ"  Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuTienDo_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Kind="ProgressAlert" Foreground="#DD9405A1"  />
+                                        <materialDesign:PackIcon Width="26" Height="25" Kind="ProgressAlert" Foreground="#DD9405A1" Margin="-7,-6,0,0"  />
                                     </MenuItem.Icon>
                                 </MenuItem>
                                 <MenuItem Header="Hóa Đơn"  Width="200"   FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Kind="Receipt" Foreground="#DD16CE13"  />
+                                        <materialDesign:PackIcon Width="26" Height="24" Kind="Receipt" Foreground="#DD16CE13" Margin="-6,0,0,0" VerticalAlignment="Center"  />
                                     </MenuItem.Icon>
                                 </MenuItem>
                                 <MenuItem Header="Theo dõi bài đăng"  Width="300"   FontFamily="Arial"  FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuTheoDoiBaiDang_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Kind="Post" Foreground="#DDF6CE0B"  />
+                                        <materialDesign:PackIcon Kind="Post" Width="26" Height="24" Foreground="#DDF6CE0B" Margin="-6,0,0,0" VerticalAlignment="Center"  />
                                     </MenuItem.Icon>
                                 </MenuItem>
                                 <MenuItem Header="Đánh Giá"  Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Kind="ThumbsUp" Foreground="#DD0D4CEE"  />
+                                        <materialDesign:PackIcon Width="26" Height="26" Kind="ThumbsUp" Foreground="#DD0D4CEE" Margin="-6,-7,0,0"  />
                                     </MenuItem.Icon>
                                 </MenuItem>
-                                <MenuItem x:Name="mnuLogout"  Width="200"   Header="Đăng xuất" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Margin="0,30" Click="MnuLogout_Click">
+                                <MenuItem x:Name="mnuLogout"  Width="200"   Header="Đăng xuất" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Margin="0,300" Click="MnuLogout_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Kind="Logout" Foreground="#DDFF0A0A" Grid.IsSharedSizeScope="True"  />
+                                        <materialDesign:PackIcon Width="26" Height="24" Kind="Logout" Foreground="#DDFF0A0A" Grid.IsSharedSizeScope="True" Margin="0,-5,0,0" HorizontalAlignment="Center"  />
                                     </MenuItem.Icon>
                                 </MenuItem>
                             </Menu>
                         </StackPanel>
                     </StackPanel>
-                    
+
                 </Grid>
-            
+
             </Border>
         </Grid>
 
 
-        
-        
+
+
 
 
     </Grid>
