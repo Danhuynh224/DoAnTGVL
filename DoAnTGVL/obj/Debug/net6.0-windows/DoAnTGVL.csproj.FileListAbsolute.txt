@@ -84,6 +84,7 @@ D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.g.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.g.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCCViecTho.g.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDanhGia.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDanhSachTho.g.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCSuaCV.g.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCTheoDoiBaiDang.g.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.g.cs
@@ -110,6 +111,7 @@ D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\PhieuThueTho.baml
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ThoMain.baml
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCCViecTho.baml
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDanhGia.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDanhSachTho.baml
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCSuaCV.baml
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCTheoDoiBaiDang.baml
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCThueTho.baml

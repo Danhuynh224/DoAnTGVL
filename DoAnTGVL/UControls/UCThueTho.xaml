@@ -151,51 +151,19 @@
             <!--nửa phải để hiện thị phòng-->
             <Grid Grid.Column="1">
                 <Grid Width="auto" Height="auto" Background="#F2F1F1">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="57*"/>
-                        <ColumnDefinition Width="1043*"/>
-                    </Grid.ColumnDefinitions>
+
                     <Grid.Clip>
                         <RectangleGeometry  Rect="0,3,1100,800" RadiusX="10" RadiusY="10" >
                         </RectangleGeometry>
                     </Grid.Clip>
-                    <ListView VerticalContentAlignment="Center"
-                                ScrollViewer.VerticalScrollBarVisibility="Visible"
-                                ScrollViewer.HorizontalScrollBarVisibility="Visible"
-                                ScrollViewer.CanContentScroll="False"  
-                                HorizontalAlignment="Center"
-                                x:Name="lsv" Grid.ColumnSpan="3" Margin="10,0,0,0"   >
-                        <ListView.View>
-                            <GridView >
-                                <GridView.ColumnHeaderContainerStyle>
-                                    <Style TargetType="{x:Type GridViewColumnHeader}">
-                                        <Setter Property="Background" Value="LightBlue" />
-                                        <Setter Property="Foreground" Value="Black" />
-                                        <Setter Property="FontWeight" Value="Bold" />
-                                    </Style>
-                                </GridView.ColumnHeaderContainerStyle>
 
-                                <GridViewColumn Width="200" Header="Lĩnh Vực"/>
+                    <WrapPanel>
+                        <!--<local:UCDanhSachTho>
+                            
+                        </local:UCDanhSachTho>-->
+                    </WrapPanel>
+                    
 
-                                <GridViewColumn Width="200" Header="Khu Vực"/>
-
-                                <GridViewColumn Width="250" Header="Tên Thợ"/>
-
-                                <GridViewColumn Width="140" Header="Kinh nghiệm"/>
-
-                                <GridViewColumn Width="140" Header="Giá tiền"/>
-
-                                <GridViewColumn Width="150" Header="Đánh giá"/>
-                            </GridView>
-
-                        </ListView.View>
-                        <ListView.Resources>
-                            <Style TargetType="ScrollViewer">
-                                <Setter Property="VerticalScrollBarVisibility" Value="Auto" />
-                                <Setter Property="HorizontalScrollBarVisibility" Value="Auto" />
-                            </Style>
-                        </ListView.Resources>
-                    </ListView>
                 </Grid>
             </Grid>
         </Grid>

@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="DoAnTGVL.UControls.UCDanhSachTho"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DoAnTGVL.UControls"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             
+             d:DesignHeight="450" d:DesignWidth="280">
+    <Border CornerRadius="24" BorderThickness="2" BorderBrush="#D5E0D5">
+        <Grid Background="#FFF">
+            <Grid Margin="20">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="130"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Ellipse Grid.Row="0" Width="110" Margin="0 0 0 0">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="/image/man.png" Stretch="Uniform"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+
+                <Grid Grid.Row="1">
+                    <StackPanel Orientation="Vertical">
+
+                        <TextBlock Text="Nguyen Van A" Width="auto" Height="auto" Foreground="#001E00" FontSize="25" FontWeight="Black" HorizontalAlignment="Center" Margin="0 20 0 0" FontFamily="Yu Gothic UI Semibold">
+
+                        </TextBlock>
+
+                        <TextBlock Text="Thợ điện lạnh" Width="auto" Height="auto" FontSize="22" FontWeight="Bold" HorizontalAlignment="Center" FontFamily="Yu Gothic UI Light">
+                        </TextBlock>
+
+                    </StackPanel>
+
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <StackPanel>
+                        <WrapPanel>
+                            <materialDesign:PackIcon Margin="70 1 5 3" Kind="Star"  Height="25" Width="25" Foreground="#14A800"/>
+                            <TextBlock Text="5.0/5" FontSize="20" Foreground="#5E6D55" ></TextBlock>
+                        </WrapPanel>
+
+                        <TextBlock Text="1 năm kinh nghiệm" FontSize="18" Foreground="#5E6D55" HorizontalAlignment="Center">
+                            
+                        </TextBlock>
+
+
+                        <TextBlock Text="Sửa máy lạnh" Foreground="#5E6D55" Margin="0 6 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
+                                    
+                        </TextBlock>
+
+                        <TextBlock Text="Sửa tủ lạnh" Foreground="#5E6D55" Margin="0 0 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
+
+                        </TextBlock>
+
+                    </StackPanel>
+                    
+                    
+                </Grid>
+
+                <Grid Grid.Row="3">
+                    <Button Content="Xem chi tiết" FontSize="18" Margin="0 5 0 0" Height="40" Width="150"> </Button>
+                </Grid>
+
+            </Grid>
+        </Grid>
+    </Border>
+
+
+</UserControl>

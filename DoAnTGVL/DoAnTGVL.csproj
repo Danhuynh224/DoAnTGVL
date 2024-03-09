@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <None Remove="image\5519785.jpg" />
+    <None Remove="image\man.png" />
     <None Remove="image\undraw_Job_hunt_re_q203.png" />
     <None Remove="image\user.png" />
   </ItemGroup>
@@ -20,6 +21,9 @@
     <Content Include="image\undraw_Job_hunt_re_q203.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="image\man.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="image\user.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
