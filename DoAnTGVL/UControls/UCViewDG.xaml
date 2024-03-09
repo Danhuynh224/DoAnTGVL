@@ -68,8 +68,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                             <Grid>
       
                                 <!-- Nội dung khác của bạn ở đây -->
-
-                                <WrapPanel HorizontalAlignment="Stretch"
+                                <WrapPanel 
                                     VerticalAlignment="Top" Grid.ColumnSpan="2" >
                                     <!-- Nội dung của StackPanel -->
                                     <local:UCDanhGia Margin="10,10,10,10" HorizontalAlignment="Left" />
