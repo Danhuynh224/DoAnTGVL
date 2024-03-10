@@ -15,14 +15,38 @@ using System.Windows.Shapes;
 
 namespace DoAnTGVL.UControls
 {
+    
     /// <summary>
     /// Interaction logic for UCThueTho.xaml
     /// </summary>
     public partial class UCThueTho : UserControl
     {
+        int uc = 0;
         public UCThueTho()
         {
+
             InitializeComponent();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+
+
+
+
+
         }
 
         private void click_DangBai(object sender, RoutedEventArgs e)
@@ -30,5 +54,18 @@ namespace DoAnTGVL.UControls
             Window dangbai = new DangBai();
             dangbai.ShowDialog();
         }
+        private void AddUserControl()
+        {
+            uc++;
+           
+            UCDanhSachTho userControl = new UCDanhSachTho();
+            userControl.Width =280;
+            userControl.Height = 450;
+            
+            // Thêm UserControl vào WrapPanel
+            WpanelDanhS.Children.Add(userControl);
+        }
+
+
     }
 }

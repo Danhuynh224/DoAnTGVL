@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DoAnTGVL.UControls"
+            
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="1300">
     <Grid Height="auto" Width="auto">
@@ -119,9 +120,9 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <!--nửa trái dành cho việc làm các checkbox-->
-            <Grid Background="#F2F1F1"  x:Name="grdCheckBox" >
+            <Grid Background="#FFE9CDE9"  x:Name="grdCheckBox" >
                 <Grid.Clip>
-                    <RectangleGeometry Rect="3,3,200,800" RadiusX="10" RadiusY="10"/>
+                    <RectangleGeometry Rect="0,0,200,800" RadiusX="10" RadiusY="10"/>
                 </Grid.Clip>
 
                 <!--Loại phòng-->
@@ -149,22 +150,16 @@
 
             </Grid>
             <!--nửa phải để hiện thị phòng-->
-            <Grid Grid.Column="1">
-                <Grid Width="auto" Height="auto" Background="#F2F1F1">
+            <Grid Grid.Column="1"  x:Name="gridPage" >
+                <ScrollViewer VerticalScrollBarVisibility="Auto" >
+                    <Grid Width="auto" Background="#F2F1F1" >
 
-                    <Grid.Clip>
-                        <RectangleGeometry  Rect="0,3,1100,800" RadiusX="10" RadiusY="10" >
-                        </RectangleGeometry>
-                    </Grid.Clip>
+                        
+                        <WrapPanel x:Name="WpanelDanhS" HorizontalAlignment="Center" VerticalAlignment="Center"   />
 
-                    <WrapPanel>
-                        <!--<local:UCDanhSachTho>
-                            
-                        </local:UCDanhSachTho>-->
-                    </WrapPanel>
-                    
 
-                </Grid>
+                    </Grid>
+                </ScrollViewer>
             </Grid>
         </Grid>
     </Grid>

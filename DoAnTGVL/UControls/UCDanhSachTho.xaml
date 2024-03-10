@@ -7,9 +7,9 @@
              mc:Ignorable="d" 
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              
-             d:DesignHeight="450" d:DesignWidth="280">
+             d:DesignHeight="450" d:DesignWidth="275">
     <Border CornerRadius="24" BorderThickness="2" BorderBrush="#D5E0D5">
-        <Grid Background="#FFF">
+        <Grid Background="#FFF" Margin="0,0,-2,0">
             <Grid Margin="20">
 
                 <Grid.RowDefinitions>
@@ -21,8 +21,10 @@
 
                 <Ellipse Grid.Row="0" Width="110" Margin="0 0 0 0">
                     <Ellipse.Fill>
-                        <ImageBrush ImageSource="/image/man.png" Stretch="Uniform"></ImageBrush>
+                        <ImageBrush ImageSource="/image/man.jpg"/>
                     </Ellipse.Fill>
+
+
                 </Ellipse>
 
                 <Grid Grid.Row="1">
