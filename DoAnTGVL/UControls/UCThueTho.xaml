@@ -152,7 +152,7 @@
             <!--nửa phải để hiện thị phòng-->
             <Grid Grid.Column="1"  x:Name="gridPage" >
                 <ScrollViewer VerticalScrollBarVisibility="Auto" >
-                    <Grid Width="auto" Background="#F2F1F1" >
+                    <Grid Width="auto" Background="White" >
 
                         
                         <WrapPanel x:Name="WpanelDanhS" HorizontalAlignment="Center" VerticalAlignment="Center"   />

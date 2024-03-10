@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DoAnTGVL.UControls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,20 @@ namespace DoAnTGVL
         public ChiTietTho()
         {
             InitializeComponent();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl(); AddUserControl();
+        }
+        private void AddUserControl()
+        {
+
+            UCDanhGia userControl = new UCDanhGia();
+            userControl.Width = 500;
+            userControl.Height = 200;
+
+            // Thêm UserControl vào WrapPanel
+           WpanelDanhGia.Children.Add(userControl);
         }
     }
 }

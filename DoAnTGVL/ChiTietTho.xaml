@@ -6,15 +6,16 @@
         xmlns:local="clr-namespace:DoAnTGVL"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="ChiTietTho" Height="450" Width="800"
+         Height="600" Width="1100"
         WindowStartupLocation="CenterScreen"
-WindowStyle="None">
+>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="225"></RowDefinition>
+            <RowDefinition Height="30 "></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
+        <Grid Grid.Row="0" >
 
             <Ellipse Grid.Row="0" Width="134" HorizontalAlignment="Left" Margin="32,8,0,79">
                 <Ellipse.Fill>
@@ -33,8 +34,8 @@ WindowStyle="None">
                 </TextBlock>
 
             </StackPanel>
-            <StackPanel>
-                <WrapPanel Margin="274,31,274,0">
+            <StackPanel Margin="99,0,0,0">
+                <WrapPanel Margin="274,32,274,0">
                     <TextBlock Text="Đánh giá : " Foreground="#5E6D55" Margin="0 0 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
 
                     </TextBlock>
@@ -42,15 +43,23 @@ WindowStyle="None">
                     <TextBlock Text="5.0/5" FontSize="20" Foreground="#5E6D55" ></TextBlock>
                     <materialDesign:PackIcon Kind="Star"  Height="25" Width="25" Foreground="#14A800" HorizontalAlignment="Center" Margin="0 0 0 0"/>
                 </WrapPanel>
-                <WrapPanel Margin="274,31,274,0">
+                <WrapPanel Margin="274,20,274,0">
                     <TextBlock Text="Hoàn thành: " Foreground="#5E6D55" Margin="0 0 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
 
                     </TextBlock>
 
                     <TextBlock Text="100%" FontSize="20" Foreground="#5E6D55" ></TextBlock>
                 </WrapPanel>
+                <WrapPanel Margin="274,20,274,0">
+                    <TextBlock Text="Khu vực: " Foreground="#5E6D55" Margin="0 0 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
+
+                    </TextBlock>
+
+                    <TextBlock Text="Quận 4" FontSize="20" Foreground="#5E6D55" ></TextBlock>
+                </WrapPanel>
+
             </StackPanel>
-            <StackPanel  HorizontalAlignment="Right" Margin="0,31,10,0">
+            <StackPanel  HorizontalAlignment="Right" Margin="0,23,71,-18">
 
                 <WrapPanel >
                     <TextBlock Text="Kinh nghiệm : " Foreground="#5E6D55" Margin="0 0 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
@@ -69,9 +78,31 @@ WindowStyle="None">
                 <TextBlock Text="Sửa máy lạnh" Foreground="#5E6D55" Margin="0 0 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
 
                 </TextBlock>
+                <Button Height="50" Width="150" Background="#FF8C00FC" Margin="0,20,0,0" 
+         >
+                    <Button.Clip>
+                        <RectangleGeometry Rect="0,0,150,50" RadiusX="10" RadiusY="10" >
+                        </RectangleGeometry>
+                    </Button.Clip>
+                    <TextBlock Text="Xác nhận thuê" FontSize="15" Foreground="White"></TextBlock>
+                </Button>
 
             </StackPanel>
 
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock Text="Đánh giá : " Foreground="#5E6D55" Margin="0 0 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30"  />
+        </Grid>
+        <Grid Grid.Row="2">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" >
+                <Grid Width="auto" >
+
+
+                    <WrapPanel x:Name="WpanelDanhGia" HorizontalAlignment="Center" VerticalAlignment="Center"   />
+
+
+                </Grid>
+            </ScrollViewer>
         </Grid>
         
 

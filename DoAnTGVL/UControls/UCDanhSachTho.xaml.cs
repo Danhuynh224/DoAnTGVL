@@ -24,5 +24,11 @@ namespace DoAnTGVL.UControls
         {
             InitializeComponent();
         }
+        public void btnXemChiTiet_Click(object sender, RoutedEventArgs e)
+        {
+            ChiTietTho chiTietTho = new ChiTietTho();
+            chiTietTho.Show();
+
+        }
     }
 }
