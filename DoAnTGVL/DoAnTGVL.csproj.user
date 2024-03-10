@@ -16,9 +16,6 @@
     <Compile Update="DanhGiaTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="PhieuThueTho.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="ThoMain.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -73,9 +70,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DanhGiaTho.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="PhieuThueTho.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThoMain.xaml">

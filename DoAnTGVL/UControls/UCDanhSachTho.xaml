@@ -13,24 +13,29 @@
             <Grid Margin="20">
 
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
                     <RowDefinition Height="120"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="130"></RowDefinition>
+                    <RowDefinition Height="80"></RowDefinition>
+                    <RowDefinition Height="120"></RowDefinition>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
 
-                <Ellipse Grid.Row="0" Width="110" Margin="0 0 0 0">
+                <Grid Grid.Row="0">
+                    <TextBlock Text="Quận 1" Foreground="#5E6D55" FontSize="20" FontWeight="DemiBold" HorizontalAlignment="Right" Height="auto">
+                        
+                    </TextBlock>
+                </Grid>
+                
+                <Ellipse Grid.Row="1" Width="110" Margin="0 0 0 0">
                     <Ellipse.Fill>
                         <ImageBrush ImageSource="/image/man.jpg"/>
                     </Ellipse.Fill>
-
-
                 </Ellipse>
 
-                <Grid Grid.Row="1">
+                <Grid Grid.Row="2">
                     <StackPanel Orientation="Vertical">
 
-                        <TextBlock Text="Nguyen Van A" Width="auto" Height="auto" Foreground="#001E00" FontSize="25" FontWeight="Black" HorizontalAlignment="Center" Margin="0 20 0 0" FontFamily="Yu Gothic UI Semibold">
+                        <TextBlock Text="Nguyen Van A" Width="auto" Height="auto" Foreground="#001E00" FontSize="25" FontWeight="Black" HorizontalAlignment="Center" Margin="0 5 0 0" FontFamily="Yu Gothic UI Semibold">
 
                         </TextBlock>
 
@@ -41,7 +46,7 @@
 
                 </Grid>
 
-                <Grid Grid.Row="2">
+                <Grid Grid.Row="3">
                     <StackPanel>
                         <WrapPanel>
                             <materialDesign:PackIcon Margin="70 1 5 3" Kind="Star"  Height="25" Width="25" Foreground="#14A800"/>
@@ -57,7 +62,7 @@
                                     
                         </TextBlock>
 
-                        <TextBlock Text="Sửa tủ lạnh" Foreground="#5E6D55" Margin="0 0 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
+                        <TextBlock Text="Sửa tủ lạnh" Foreground="#5E6D55" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
 
                         </TextBlock>
 
@@ -66,7 +71,7 @@
                     
                 </Grid>
 
-                <Grid Grid.Row="3">
+                <Grid Grid.Row="4">
                     <Button Content="Xem chi tiết" FontSize="18" Margin="0 5 0 0" Height="40" Width="150" Click="btnXemChiTiet_Click"> </Button>
                 </Grid>
 
