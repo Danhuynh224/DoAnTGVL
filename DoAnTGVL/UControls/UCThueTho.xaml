@@ -120,7 +120,7 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <!--nửa trái dành cho việc làm các checkbox-->
-            <Grid Background="#FFE9CDE9"  x:Name="grdCheckBox" >
+            <Grid Background="#FFC8F3F1"  x:Name="grdCheckBox" >
                 <Grid.Clip>
                     <RectangleGeometry Rect="0,0,200,800" RadiusX="10" RadiusY="10"/>
                 </Grid.Clip>
