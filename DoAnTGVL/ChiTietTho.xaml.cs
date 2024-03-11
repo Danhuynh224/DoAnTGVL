@@ -38,5 +38,11 @@ namespace DoAnTGVL
             // Thêm UserControl vào WrapPanel
            WpanelDanhGia.Children.Add(userControl);
         }
+
+        private void Thue_Click(object sender, RoutedEventArgs e)
+        {
+            Window xacnhan = new XacNhanThueTho();
+            xacnhan.ShowDialog();
+        }
     }
 }

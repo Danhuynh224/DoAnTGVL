@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:DoAnTGVL"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-         Height="600" Width="1100"
+        Height="600" Width="1100"
         WindowStartupLocation="CenterScreen"
 >
     <Grid>
@@ -78,13 +78,12 @@
                 <TextBlock Text="Sửa máy lạnh" Foreground="#5E6D55" Margin="0 0 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
 
                 </TextBlock>
-                <Button Height="50" Width="150" Background="#FF8C00FC" Margin="0,20,0,0" 
-         >
+                <Button Height="50" Width="150" Background="#FF8C00FC" Margin="0,20,0,0" Click="Thue_Click">
                     <Button.Clip>
                         <RectangleGeometry Rect="0,0,150,50" RadiusX="10" RadiusY="10" >
                         </RectangleGeometry>
                     </Button.Clip>
-                    <TextBlock Text="Xác nhận thuê" FontSize="15" Foreground="White"></TextBlock>
+                    <TextBlock Text="Thuê" FontSize="15" Foreground="White" ></TextBlock>
                 </Button>
 
             </StackPanel>
