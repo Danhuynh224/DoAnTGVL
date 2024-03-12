@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "q4ZavlRXCvoM+aAqXmVSuEfUn/XtfxjOGbKyQqqSSzj95k2ySBWXyS9h8hsOzat19c4RWGG2/L1OWEsFVDq65w==",
+  "dgSpecHash": "iu/N/Q8huu1ErsJIovsdqiiYBfHxYV5SyLM8VDkM8LfG5NwxXmwXwyVXReWE7dCkr6MrMUMo15Tu3iXZuQpP3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL 3500\\Desktop\\Winform\\DoAnTGVL\\DoAnTGVL\\DoAnTGVL.csproj",
+  "projectFilePath": "D:\\WinForm\\testDA\\DoAnTGVL\\DoAnTGVL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DELL 3500\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
-    "C:\\Users\\DELL 3500\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
-    "C:\\Users\\DELL 3500\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    "C:\\Users\\ADMIN\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
   ],
   "logs": []
 }

@@ -127,7 +127,6 @@ D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.AssemblyInfoInputs.
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.AssemblyInfo.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.csproj.CoreCompileInputs.cache
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.sourcelink.json
-D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.csproj.CopyComplete
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.dll
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\refint\DoAnTGVL.dll
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.pdb
@@ -143,3 +142,6 @@ D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\XacNhanThueTho.g.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\XacNhanThueTho.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\XacNhanThueTho.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows\XacNhanThueTho.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDanhSachCongViec.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\UControls\UCDanhSachCongViec.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.csproj.Up2Date
