@@ -120,42 +120,42 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <!--nửa trái dành cho việc làm các checkbox-->
-            <Grid Background="#FFC8F3F1"  x:Name="grdCheckBox" >
+            <Grid Background="White"  x:Name="grdCheckBox" >
                 <Grid.Clip>
                     <RectangleGeometry Rect="0,0,200,800" RadiusX="10" RadiusY="10"/>
                 </Grid.Clip>
 
                 <!--Loại phòng-->
-                <TextBlock Text="Khu vực" Foreground="#00A3FF" FontSize="20"
+                <TextBlock Text="Khu vực" Foreground="#FF8C00FC" FontSize="20"
                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29 20 0 0"/>
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Left" x:Name="spKhuVuc"
                 VerticalAlignment="Top" Margin="35 50 0 0">
-                    <RadioButton x:Name="rdKVQuan1" Height="24" Content="Quận 1" FontSize="15" Margin="3" ></RadioButton>
-                    <RadioButton x:Name="rdKVQuan2" Height="24" Content="Quận 2" FontSize="15" Margin="3"></RadioButton>
+                    <RadioButton x:Name="rdKVQuan1" Height="24" Content="Quận 1" FontSize="15" Margin="3"  ></RadioButton>
+                    <RadioButton x:Name="rdKVQuan2" Height="24" Content="Quận 2" FontSize="15" Margin="3" ></RadioButton>
                     <RadioButton x:Name="rdKVThuDuc" Height="24" Content="Thủ Đức" FontSize="15" Margin="3"></RadioButton>
                     <RadioButton x:Name="rdKVBinhThanh" Height="24" Content="Bình Thạnh" FontSize="15" Margin="3"></RadioButton>
-                    <RadioButton x:Name="rdTatCaKV" Height="24" Content="Tất cả" FontSize="15" Margin="3"></RadioButton>
+                    <RadioButton x:Name="rdTatCaKV" Height="24" Content="Tất cả" FontSize="15" Margin="3" ></RadioButton>
                 </StackPanel>
                 <!--Dọn dẹp-->
-                <TextBlock Text="Kinh Nghiệm" Foreground="#00A3FF" FontSize="20"
+                <TextBlock Text="Kinh Nghiệm" Foreground="#FF8C00FC" FontSize="20"
                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29 220 0 0"/>
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Left" x:Name="spKinhNghiem"
                 VerticalAlignment="Top" Margin="35 250 0 0">
                     <RadioButton x:Name="rdItHon1Nam" Height="24" Content="Ít hơn 1 năm" FontSize="15" Margin="3" />
-                    <RadioButton x:Name="rd1Den2Namp" Height="24" Content="1 - 2 năm" FontSize="15" Margin="3"></RadioButton>
+                    <RadioButton x:Name="rd1Den2Namp" Height="24" Content="1 - 2 năm" FontSize="15" Margin="3" ></RadioButton>
                     <RadioButton x:Name="rd2Den3nam" Height="24" Content="2 - 3 năm" FontSize="15" Margin="3"></RadioButton>
-                    <RadioButton x:Name="rdTren3Nam" Height="24" Content="Trên 3 năm" FontSize="15" Margin="3"></RadioButton>
+                    <RadioButton x:Name="rdTren3Nam" Height="24" Content="Trên 3 năm" FontSize="15" Margin="3" ></RadioButton>
                 </StackPanel>
 
 
             </Grid>
             <!--nửa phải để hiện thị phòng-->
-            <Grid Grid.Column="1"  x:Name="gridPage" >
+            <Grid Grid.Column="1"  x:Name="gridPage" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
                 <ScrollViewer VerticalScrollBarVisibility="Auto" >
                     <Grid Width="auto" Background="White" >
 
-                        
-                        <WrapPanel x:Name="WpanelDanhS" HorizontalAlignment="Center" VerticalAlignment="Center"   />
+                      
+                        <WrapPanel x:Name="WpanelDanhS" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.ColumnSpan="1"   />
 
 
                     </Grid>

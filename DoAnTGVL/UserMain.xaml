@@ -17,16 +17,16 @@
         <Storyboard x:Key="OpenMenu">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="gridMainmenu">
                 <EasingDoubleKeyFrame KeyTime="0" Value="50"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="200"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="200"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="CloseMenu">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="gridMainmenu">
                 <EasingDoubleKeyFrame KeyTime="0" Value="200"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="50"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="50"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Key="OpenMain">
+        <!--<Storyboard x:Key="OpenMain">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="gridMainWin">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1300"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1450"/>
@@ -37,21 +37,21 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="1450"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1300"/>
             </DoubleAnimationUsingKeyFrames>
-        </Storyboard>
+        </Storyboard>-->
     </Window.Resources>
     <Window.Triggers>
         <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
             <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
         </EventTrigger>
-        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
+        <!--<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
             <BeginStoryboard Storyboard="{StaticResource CloseMain}"/>
-        </EventTrigger>
+        </EventTrigger>-->
         <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
             <BeginStoryboard Storyboard="{StaticResource CloseMenu}"/>
         </EventTrigger>
-        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
+        <!--<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
             <BeginStoryboard Storyboard="{StaticResource OpenMain}"/>
-        </EventTrigger>
+        </EventTrigger>-->
     </Window.Triggers>
     <Grid x:Name="gridMain" >
         <Grid.ColumnDefinitions>
@@ -76,7 +76,7 @@
                             <TranslateTransform/>
                         </TransformGroup>
                     </Grid.RenderTransform>
-                    <StackPanel  Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Stretch" Background="#CCFFFF">
+                    <StackPanel  Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Stretch" Background="#FFFFFF">
 
                         <StackPanel>
                             <Button x:Name="ButtonOpenMenu" Height="50" Width="50" Margin="0" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF31577E" Click="ButtonOpenMenu_Click">
@@ -94,37 +94,100 @@
 
                                 <MenuItem Header="Trang Chủ"  Width="200" FontFamily="Arial"  FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="TrangChuUser_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Kind="Home" Width="26" Height="26" Foreground="#DDFC1B0A" Margin="-6,-4,0,0" />
+                                        <materialDesign:PackIcon Kind="Home" Width="26" Height="26" Margin="-6,-4,0,0" >
+                                            <materialDesign:PackIcon.Foreground>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="Black"/>
+                                                    <GradientStop Color="#FFD371F0" Offset="1"/>
+                                                    <GradientStop Color="#FF512B5C" Offset="0.387"/>
+                                                    <GradientStop Color="#FF4F2A5A" Offset="0.501"/>
+                                                </LinearGradientBrush>
+                                            </materialDesign:PackIcon.Foreground>
+                                        </materialDesign:PackIcon>
                                     </MenuItem.Icon>
                                 </MenuItem>
                                 <MenuItem Header="Thuê Thợ" Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuThueTho_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Width="28" Height="28" Kind="Magnify" Foreground="#DD9405A1" Margin="-7,-8,0,0"  />
+                                        <materialDesign:PackIcon Width="28" Height="28" Kind="Magnify"  Margin="-7,-8,0,0"  >
+                                            <materialDesign:PackIcon.Foreground>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                <GradientStop Color="Black"/>
+                                                <GradientStop Color="#FFD371F0" Offset="1"/>
+                                                <GradientStop Color="#FF512B5C" Offset="0.387"/>
+                                                <GradientStop Color="#FF4F2A5A" Offset="0.501"/>
+                                            </LinearGradientBrush>
+                                            </materialDesign:PackIcon.Foreground>
+                                        </materialDesign:PackIcon>
                                     </MenuItem.Icon>
                                 </MenuItem>
                                 <MenuItem Header="Tiến độ"  Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuTienDo_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Width="26" Height="25" Kind="ProgressAlert" Foreground="#DD9405A1" Margin="-7,-6,0,0"  />
+                                        <materialDesign:PackIcon Width="26" Height="25" Kind="ProgressAlert"  Margin="-7,-6,0,0"  >
+                                            <materialDesign:PackIcon.Foreground>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="Black"/>
+                                                    <GradientStop Color="#FFD371F0" Offset="1"/>
+                                                    <GradientStop Color="#FF512B5C" Offset="0.387"/>
+                                                    <GradientStop Color="#FF4F2A5A" Offset="0.501"/>
+                                                </LinearGradientBrush>
+                                            </materialDesign:PackIcon.Foreground>
+                                        </materialDesign:PackIcon>
                                     </MenuItem.Icon>
                                 </MenuItem>
                                 <MenuItem Header="Hóa Đơn"  Width="200"   FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Width="26" Height="24" Kind="Receipt" Foreground="#DD16CE13" Margin="-6,0,0,0" VerticalAlignment="Center"  />
+                                        <materialDesign:PackIcon Width="26" Height="24" Kind="Receipt"  Margin="-6,0,0,0" VerticalAlignment="Center"  >
+                                            <materialDesign:PackIcon.Foreground>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="Black"/>
+                                                    <GradientStop Color="#FFD371F0" Offset="1"/>
+                                                    <GradientStop Color="#FF512B5C" Offset="0.387"/>
+                                                    <GradientStop Color="#FF4F2A5A" Offset="0.501"/>
+                                                </LinearGradientBrush>
+                                            </materialDesign:PackIcon.Foreground>
+                                        </materialDesign:PackIcon>
                                     </MenuItem.Icon>
                                 </MenuItem>
                                 <MenuItem Header="Theo dõi bài đăng"  Width="300"   FontFamily="Arial"  FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuTheoDoiBaiDang_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Kind="Post" Width="26" Height="24" Foreground="#DDF6CE0B" Margin="-6,0,0,0" VerticalAlignment="Center"  />
+                                        <materialDesign:PackIcon Kind="Post" Width="26" Height="24"  Margin="-6,0,0,0" VerticalAlignment="Center"  >
+                                            <materialDesign:PackIcon.Foreground>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="Black"/>
+                                                    <GradientStop Color="#FFD371F0" Offset="1"/>
+                                                    <GradientStop Color="#FF512B5C" Offset="0.387"/>
+                                                    <GradientStop Color="#FF4F2A5A" Offset="0.501"/>
+                                                </LinearGradientBrush>
+                                            </materialDesign:PackIcon.Foreground>
+                                        </materialDesign:PackIcon>
                                     </MenuItem.Icon>
                                 </MenuItem>
                                 <MenuItem Header="Đánh Giá"  Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" >
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Width="26" Height="26" Kind="ThumbsUp" Foreground="#DD0D4CEE" Margin="-6,-7,0,0"  />
+                                        <materialDesign:PackIcon Width="26" Height="26" Kind="ThumbsUp"  Margin="-6,-7,0,0"  >
+                                            <materialDesign:PackIcon.Foreground>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="Black"/>
+                                                    <GradientStop Color="#FFD371F0" Offset="1"/>
+                                                    <GradientStop Color="#FF512B5C" Offset="0.387"/>
+                                                    <GradientStop Color="#FF4F2A5A" Offset="0.501"/>
+                                                </LinearGradientBrush>
+                                            </materialDesign:PackIcon.Foreground>
+                                        </materialDesign:PackIcon>
                                     </MenuItem.Icon>
                                 </MenuItem>
                                 <MenuItem x:Name="mnuLogout"  Width="200"   Header="Đăng xuất" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Margin="0,300" Click="MnuLogout_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Width="26" Height="24" Kind="Logout" Foreground="#DDFF0A0A" Grid.IsSharedSizeScope="True" Margin="0,-5,0,0" HorizontalAlignment="Center"  />
+                                        <materialDesign:PackIcon Width="26" Height="24" Kind="Logout"  Grid.IsSharedSizeScope="True" Margin="0,-5,0,0" HorizontalAlignment="Center"  >
+                                            <materialDesign:PackIcon.Foreground>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="Black"/>
+                                                    <GradientStop Color="#FFD371F0" Offset="1"/>
+                                                    <GradientStop Color="#FF512B5C" Offset="0.387"/>
+                                                    <GradientStop Color="#FF4F2A5A" Offset="0.501"/>
+                                                </LinearGradientBrush>
+                                            </materialDesign:PackIcon.Foreground>
+                                        </materialDesign:PackIcon>
                                     </MenuItem.Icon>
                                 </MenuItem>
                             </Menu>

@@ -8,8 +8,8 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              
              d:DesignHeight="450" d:DesignWidth="275">
-    <Border CornerRadius="24" BorderThickness="2" BorderBrush="#D5E0D5">
-        <Grid Background="#FFF" Margin="0,0,-2,0">
+    <Border CornerRadius="24" Background="White" BorderThickness="2" BorderBrush="#D5E0D5">
+        <Grid Background="Transparent" Margin="0,0,-2,0">
             <Grid Margin="20">
 
                 <Grid.RowDefinitions>
@@ -72,7 +72,7 @@
                 </Grid>
 
                 <Grid Grid.Row="4">
-                    <Button Content="Xem chi tiết" FontSize="18" Margin="0 5 0 0" Height="40" Width="150" Click="btnXemChiTiet_Click"> </Button>
+                    <Button Content="Xem chi tiết" FontSize="18" Margin="0 5 0 0" Height="40" Width="150" Click="btnXemChiTiet_Click" Background="#FF8C00FC"> </Button>
                 </Grid>
 
             </Grid>

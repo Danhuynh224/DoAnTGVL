@@ -61,7 +61,8 @@ namespace DoAnTGVL.UControls
             UCDanhSachTho userControl = new UCDanhSachTho();
             userControl.Width =280;
             userControl.Height = 450;
-            
+            userControl.Margin = new Thickness(10);
+
             // Thêm UserControl vào WrapPanel
             WpanelDanhS.Children.Add(userControl);
         }
