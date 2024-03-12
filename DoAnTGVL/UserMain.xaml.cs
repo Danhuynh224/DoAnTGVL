@@ -80,5 +80,11 @@ namespace DoAnTGVL
             ButtonOpenMenu.Visibility = Visibility.Visible;
 
         }
+
+        private void gridMainmenu_MouseLeave(object sender, MouseEventArgs e)
+        {
+            ButtonCloseMenu.Visibility = Visibility.Collapsed;
+            ButtonOpenMenu.Visibility = Visibility.Visible;
+        }
     }
 }
