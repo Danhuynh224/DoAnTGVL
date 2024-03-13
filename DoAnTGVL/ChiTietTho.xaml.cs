@@ -41,8 +41,10 @@ namespace DoAnTGVL
 
         private void Thue_Click(object sender, RoutedEventArgs e)
         {
+            this.Hide();
             Window xacnhan = new XacNhanThueTho();
             xacnhan.ShowDialog();
+            this.Show();
         }
     }
 }

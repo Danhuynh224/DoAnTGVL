@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:DoAnTGVL"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Height="600" Width="1100"
+        Height="800" Width="1100"
         WindowStartupLocation="CenterScreen"
 >
     <Grid>
@@ -67,7 +67,7 @@
                     </TextBlock>
 
                     <TextBlock Text="Hơn 1 năm" FontSize="20" Foreground="#5E6D55" ></TextBlock>
-                    
+
                 </WrapPanel>
 
                 <TextBlock Text="Chuyên : " Foreground="#5E6D55" Margin="0 26 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Height="30"  />
@@ -93,7 +93,11 @@
             <TextBlock Text="Đánh giá : " Foreground="#5E6D55" Margin="0 0 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30"  />
         </Grid>
         <Grid Grid.Row="2">
-            <ScrollViewer VerticalScrollBarVisibility="Auto" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="23*"/>
+                <ColumnDefinition Width="527*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.ColumnSpan="2" >
                 <Grid Width="auto" >
 
 
@@ -103,7 +107,7 @@
                 </Grid>
             </ScrollViewer>
         </Grid>
-        
+
 
     </Grid>
 </Window>

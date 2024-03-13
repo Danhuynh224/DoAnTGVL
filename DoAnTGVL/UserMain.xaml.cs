@@ -34,6 +34,7 @@ namespace DoAnTGVL
         public void MnuThueTho_Click(object sender, RoutedEventArgs e)
             
         {
+            gridMainWin.Background = Brushes.White;
             CurUC = new UCThueTho();
             gridMainWin.Children.Remove(PreUC);
 
@@ -43,6 +44,7 @@ namespace DoAnTGVL
 
         private void MnuTheoDoiBaiDang_Click(object sender, RoutedEventArgs e)
         {
+            gridMainWin.Background = Brushes.White;
             CurUC = new UCTheoDoiBaiDang();
             gridMainWin.Children.Remove(PreUC);
 
@@ -52,6 +54,7 @@ namespace DoAnTGVL
 
         private void TrangChuUser_Click(object sender, RoutedEventArgs e)
         {
+            gridMainWin.Background = Brushes.White;
             CurUC = new UCTrangChu();
             gridMainWin.Children.Remove(PreUC);
             
@@ -61,6 +64,7 @@ namespace DoAnTGVL
 
         private void MnuTienDo_Click(object sender, RoutedEventArgs e)
         {
+            gridMainWin.Background = Brushes.White;
             CurUC = new UCTienDo();
             gridMainWin.Children.Remove(PreUC);
             

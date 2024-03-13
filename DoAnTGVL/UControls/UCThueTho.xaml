@@ -7,66 +7,115 @@
              xmlns:local="clr-namespace:DoAnTGVL.UControls"
             
              mc:Ignorable="d" 
-             d:DesignHeight="700" d:DesignWidth="1300">
+             d:DesignHeight="700" d:DesignWidth="1300"
+             Style="{StaticResource Win_Style}">
     <Grid Height="auto" Width="auto">
         <Grid.RowDefinitions>
-            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <materialDesign:ColorZone Grid.Row="0" Height="45"
+        <materialDesign:ColorZone Grid.Row="0" Height="80"
     Mode="PrimaryLight" Background="#FFF4F4F4">
-            <StackPanel Orientation="Horizontal" Height="45" VerticalAlignment="Center" >
+            <StackPanel Orientation="Horizontal"  >
                 <Button Style="{DynamicResource MaterialDesignToolButton}">
-                    <materialDesign:PackIcon Kind="Home" Height="30" Width="30" Margin="10 0 0 0"/>
+                    <materialDesign:PackIcon Kind="Home" Height="30" Width="30" Margin="50 0 0 0"/>
                 </Button>
-                <Menu Margin="160 0 0 0" Cursor="Hand">
-                    <MenuItem Header="Điện nước">
-                        <MenuItem Header="Sửa Đèn Quạt" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Đường Điện" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Bồn Nước" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Máy Nước Nóng" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Ống Cống" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Lắp điện nước" Cursor="Hand"></MenuItem>
-                    </MenuItem>
+                <ComboBox
+                      Width="200" Height="50" Margin="20,0,0,0"
+                      materialDesign:HintAssist.Hint="Lĩnh Vực"
+                      materialDesign:TextFieldAssist.HasClearButton="True"
+                      IsEditable="True"
+                      ItemsSource="{Binding ShortStringList}"
+                      Style="{StaticResource MaterialDesignFilledComboBox}" SelectedItem="{Binding SelectedValidationFilled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    <ComboBoxItem
+                        Content="Điện Tử" />
+                    <ComboBoxItem
+                        Content="Điện Lạnh" />
+                    <ComboBoxItem
+                        Content="Bảo Trì" />
+                    <ComboBoxItem
+                        Content="Gia Sư" />
+                    <ComboBoxItem
+                        Content="Sửa Nhà" />
+                    <ComboBoxItem
+                        Content="Khác" />
+                </ComboBox>
+                
+                <ComboBox
+                Width="200" Height="50" Margin="20,0,0,0"
+                materialDesign:HintAssist.Hint="Khu Vực"
+                materialDesign:TextFieldAssist.HasClearButton="True"
+                IsEditable="True"
+                ItemsSource="{Binding ShortStringList}"
+                Style="{StaticResource MaterialDesignFilledComboBox}">
+                    <ComboBox.SelectedItem>
+                        <Binding
+                        Mode="TwoWay"
+                        Path="SelectedValidationFilled"
+                        UpdateSourceTrigger="PropertyChanged">
 
-                    <MenuItem Header="Điện tử">
-                        <MenuItem Header="Sửa Tivi" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Loa" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Máy Lạnh" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Tủ Lạnh" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Máy Giặt" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Máy Vi Tính" Cursor="Hand"></MenuItem>
-                    </MenuItem>
+                        </Binding>
+                    </ComboBox.SelectedItem>
+                    <ComboBoxItem
+                        Content="Quận 1" />
+                    <ComboBoxItem
+                        Content="Quận 2" />
+                    <ComboBoxItem
+                        Content="Quận 3" />
+                    <ComboBoxItem
+                        Content="Quận 4" />
+                    <ComboBoxItem
+                        Content="Quận 5" />
+                    <ComboBoxItem
+                        Content="Quận 6" />
+                    <ComboBoxItem
+                        Content="Quận 7" />
+                    <ComboBoxItem
+                        Content="Quận 8" />
+                    <ComboBoxItem
+                        Content="Quận 9" />
+                    <ComboBoxItem
+                        Content="Quận 10" />
+                    <ComboBoxItem
+                         Content="Quận 11" />
+                    <ComboBoxItem
+                        Content="Quận 12" />
+                    <ComboBoxItem
+                        Content="Thủ Đức" />
+                    <ComboBoxItem
+                        Content="Bình Thạnh" />
+                    <ComboBoxItem
+                        Content="Gò Vấp" />
 
-                    <MenuItem Header="Bảo trì">
-                        <MenuItem Header="Tủ Lạnh" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Máy Lạnh" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Máy Giặt" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Máy In" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Máy Tính" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Xe Máy" Cursor="Hand"></MenuItem>
-                    </MenuItem>
+                </ComboBox>
+                <ComboBox
+                Width="200" Height="50" Margin="20,0,0,0"
+                materialDesign:HintAssist.Hint="Kinh Nghiệm"
+                materialDesign:TextFieldAssist.HasClearButton="True"
+                IsEditable="True"
+                ItemsSource="{Binding ShortStringList}"
+                Style="{StaticResource MaterialDesignFilledComboBox}">
+                    <ComboBox.SelectedItem>
+                        <Binding
+                        Mode="TwoWay"
+                        Path="SelectedValidationFilled"
+                        UpdateSourceTrigger="PropertyChanged">
 
-                    <MenuItem Header="Gia sư">
-                        <MenuItem Header="Dạy kèm cấp 1" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Dạy kèm cấp 2" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Dạy kèm cấp 3" Cursor="Hand"></MenuItem>
-                    </MenuItem>
-
-                    <MenuItem Header="Sửa nhà">
-                        <MenuItem Header="Chống Thấm" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sơn Nhà" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sơn Cửa" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Nhà Bếp" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa Đồ Gỗ" Cursor="Hand"></MenuItem>
-                        <MenuItem Header="Sửa ToaLet" Cursor="Hand"></MenuItem>
-                    </MenuItem>
-
-                </Menu>
-
+                        </Binding>
+                    </ComboBox.SelectedItem>
+                    <ComboBoxItem
+                        Content="Ít hơn 1 năm" />
+                    <ComboBoxItem
+                        Content="1 - 2 năm" />
+                    <ComboBoxItem
+                        Content="2 - 3 năm" />
+                    <ComboBoxItem
+                        Content="Trên 3 năm" />
+                    
+                </ComboBox>
                 <!--searchbox-->
                 <materialDesign:ColorZone Mode="Standard" Padding="8 0 8 0"
-            CornerRadius="5" Margin="50 5 0 5"
+            CornerRadius="5" VerticalAlignment="Center" Margin="50,0,0,0"
             materialDesign:ShadowAssist.ShadowDepth="Depth1">
                     <Grid>
                         <Grid.RowDefinitions>
@@ -83,7 +132,7 @@
                         </Button>
                         <TextBox Grid.Column="1" x:Name="txbTimKiem"
                     Margin="8,4,0,0"
-                    materialDesign:HintAssist.Hint="Tìm kiếm"
+                    materialDesign:HintAssist.Hint="Tìm kiếm theo tên"
                     materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
                     BorderThickness="0"
                     MinWidth="200" 
@@ -114,48 +163,15 @@
             </StackPanel>
         </materialDesign:ColorZone>
         <Grid Grid.Row="1">
-            <!--chia dọc ra làm 2-->
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="200"></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <!--nửa trái dành cho việc làm các checkbox-->
-            <Grid Background="White"  x:Name="grdCheckBox" >
-                <Grid.Clip>
-                    <RectangleGeometry Rect="0,0,200,800" RadiusX="10" RadiusY="10"/>
-                </Grid.Clip>
-
-                <!--Loại phòng-->
-                <TextBlock Text="Khu vực" Foreground="#FF8C00FC" FontSize="20"
-               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29 20 0 0"/>
-                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" x:Name="spKhuVuc"
-                VerticalAlignment="Top" Margin="35 50 0 0">
-                    <RadioButton x:Name="rdKVQuan1" Height="24" Content="Quận 1" FontSize="15" Margin="3"  ></RadioButton>
-                    <RadioButton x:Name="rdKVQuan2" Height="24" Content="Quận 2" FontSize="15" Margin="3" ></RadioButton>
-                    <RadioButton x:Name="rdKVThuDuc" Height="24" Content="Thủ Đức" FontSize="15" Margin="3"></RadioButton>
-                    <RadioButton x:Name="rdKVBinhThanh" Height="24" Content="Bình Thạnh" FontSize="15" Margin="3"></RadioButton>
-                    <RadioButton x:Name="rdTatCaKV" Height="24" Content="Tất cả" FontSize="15" Margin="3" ></RadioButton>
-                </StackPanel>
-                <!--Dọn dẹp-->
-                <TextBlock Text="Kinh Nghiệm" Foreground="#FF8C00FC" FontSize="20"
-               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29 220 0 0"/>
-                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" x:Name="spKinhNghiem"
-                VerticalAlignment="Top" Margin="35 250 0 0">
-                    <RadioButton x:Name="rdItHon1Nam" Height="24" Content="Ít hơn 1 năm" FontSize="15" Margin="3" />
-                    <RadioButton x:Name="rd1Den2Namp" Height="24" Content="1 - 2 năm" FontSize="15" Margin="3" ></RadioButton>
-                    <RadioButton x:Name="rd2Den3nam" Height="24" Content="2 - 3 năm" FontSize="15" Margin="3"></RadioButton>
-                    <RadioButton x:Name="rdTren3Nam" Height="24" Content="Trên 3 năm" FontSize="15" Margin="3" ></RadioButton>
-                </StackPanel>
-
-
-            </Grid>
+            
             <!--nửa phải để hiện thị phòng-->
-            <Grid Grid.Column="1"  x:Name="gridPage" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+            <Grid   x:Name="gridPage" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
                 <ScrollViewer VerticalScrollBarVisibility="Auto" >
                     <Grid Width="auto" Background="White" >
 
-                      
-                        <WrapPanel x:Name="WpanelDanhS" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.ColumnSpan="1"   />
+
+
+                        <WrapPanel x:Name="WpanelDanhS" HorizontalAlignment="Left" Grid.ColumnSpan="1" Grid.Column="1" Margin="98,0,0,0"   />
 
 
                     </Grid>
