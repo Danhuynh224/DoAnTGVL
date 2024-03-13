@@ -171,7 +171,7 @@
 
 
 
-                        <WrapPanel x:Name="WpanelDanhS" HorizontalAlignment="Left" Grid.ColumnSpan="1" Grid.Column="1" Margin="98,0,0,0"   />
+                        <WrapPanel x:Name="WpanelDanhS" HorizontalAlignment="Center" Grid.ColumnSpan="1" Grid.Column="1" Margin="0,0,0,0"   />
 
 
                     </Grid>

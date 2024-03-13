@@ -56,7 +56,7 @@ namespace DoAnTGVL.UControls
         }
         private void AddUserControl()
         {
-            uc++;
+           
            
             UCDanhSachTho userControl = new UCDanhSachTho();
             userControl.Width =280;

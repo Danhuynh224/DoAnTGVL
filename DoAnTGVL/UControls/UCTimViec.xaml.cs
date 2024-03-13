@@ -23,6 +23,25 @@ namespace DoAnTGVL.UControls
         public UCTimViec()
         {
             InitializeComponent();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+            AddUserControl();
+
+        }
+        private void AddUserControl()
+        {
+
+
+            UCDanhSachCongViec userControl = new UCDanhSachCongViec();
+            userControl.Width =
+                620;
+            userControl.Height = 370;
+            userControl.Margin = new Thickness(10);
+
+            // Thêm UserControl vào WrapPanel
+            WpanelDanhS.Children.Add(userControl);
         }
     }
+
 }

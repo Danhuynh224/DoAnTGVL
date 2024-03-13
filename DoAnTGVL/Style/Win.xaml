@@ -24,7 +24,9 @@
             <EventTrigger RoutedEvent="Loaded">
                 <BeginStoryboard>
                     <Storyboard>
-                        <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                        <DoubleAnimation 
+                            Storyboard.TargetProperty="Opacity"
+                            
                                          Duration="0:0:1"
                                          From="0"
                                          To="1" />
