@@ -27,7 +27,7 @@ namespace DoAnTGVL
         private UserControl CurUC;
         public ThoMain()
         {
-           
+
             InitializeComponent();
         }
         public void mnuLogout_Click(object sender, RoutedEventArgs e)
@@ -42,13 +42,6 @@ namespace DoAnTGVL
         {
 
             CurUC = new UCSuaCV();
-            gridMainWin.Children.Remove(PreUC);
-            PreUC = CurUC;
-            gridMainWin.Children.Add(CurUC);
-        }
-        public void mnuTimViec_Click(object sender, RoutedEventArgs e)
-        {
-            CurUC = new UCTimViec();
             gridMainWin.Children.Remove(PreUC);
             PreUC = CurUC;
             gridMainWin.Children.Add(CurUC);
@@ -84,42 +77,13 @@ namespace DoAnTGVL
             ButtonCloseMenu.Visibility = Visibility.Collapsed;
             ButtonOpenMenu.Visibility = Visibility.Visible;
         }
-        public void MnuThueTho_Click(object sender, RoutedEventArgs e)
 
+        private void MnuTrangChu_Click(object sender, RoutedEventArgs e)
         {
-            CurUC = new UCThueTho();
+            CurUC = new UCTimViec();
             gridMainWin.Children.Remove(PreUC);
-
             PreUC = CurUC;
             gridMainWin.Children.Add(CurUC);
         }
-
-        private void MnuTheoDoiBaiDang_Click(object sender, RoutedEventArgs e)
-        {
-            CurUC = new UCTheoDoiBaiDang();
-            gridMainWin.Children.Remove(PreUC);
-
-            PreUC = CurUC;
-            gridMainWin.Children.Add(CurUC);
-        }
-
-        private void TrangChuUser_Click(object sender, RoutedEventArgs e)
-        {
-            CurUC = new UCTrangChu();
-            gridMainWin.Children.Remove(PreUC);
-
-            PreUC = CurUC;
-            gridMainWin.Children.Add(CurUC);
-        }
-
-        private void MnuTienDo_Click(object sender, RoutedEventArgs e)
-        {
-            CurUC = new UCTienDo();
-            gridMainWin.Children.Remove(PreUC);
-
-            PreUC = CurUC;
-            gridMainWin.Children.Add(CurUC);
-        }
-       
     }
 }

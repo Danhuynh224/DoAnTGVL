@@ -94,24 +94,10 @@
                                     </ItemsPanelTemplate>
                                 </Menu.ItemsPanel>
 
-                                <MenuItem Header="Trang Chủ"  Width="200" FontFamily="Arial"  FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="TrangChuUser_Click">
+                                <MenuItem Header="Trang chủ" Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuTrangChu_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Kind="Home" Width="26" Height="26" Margin="-6,-4,0,0" >
-                                            <materialDesign:PackIcon.Foreground>
-                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                                    <GradientStop Color="Black"/>
-                                                    <GradientStop Color="#FFD371F0" Offset="1"/>
-                                                    <GradientStop Color="#FF512B5C" Offset="0.387"/>
-                                                    <GradientStop Color="#FF4F2A5A" Offset="0.501"/>
-                                                </LinearGradientBrush>
-                                            </materialDesign:PackIcon.Foreground>
-                                        </materialDesign:PackIcon>
-                                    </MenuItem.Icon>
-                                </MenuItem>
-                                <MenuItem Header="Tìm Việc" Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="mnuTimViec_Click">
-                                    <MenuItem.Icon>
-                                        <materialDesign:PackIcon Width="28" Height="28" Kind="Magnify"  Margin="-7,-8,0,0"  >
-                                            <materialDesign:PackIcon.Foreground>
+                                        <materialDesign:PackIcon Width="28" Height="28" Kind="Home"  Margin="-7,-8,0,0"  >
+                                            <materialDesign:PackIcon.Foreground> 
                                                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                                     <GradientStop Color="Black"/>
                                                     <GradientStop Color="#FFD371F0" Offset="1"/>

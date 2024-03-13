@@ -31,16 +31,6 @@ namespace DoAnTGVL
         {
             Close();
         }
-        public void MnuThueTho_Click(object sender, RoutedEventArgs e)
-            
-        {
-            gridMainWin.Background = Brushes.White;
-            CurUC = new UCThueTho();
-            gridMainWin.Children.Remove(PreUC);
-
-            PreUC = CurUC;
-            gridMainWin.Children.Add(CurUC);
-        }
 
         private void MnuTheoDoiBaiDang_Click(object sender, RoutedEventArgs e)
         {
@@ -48,16 +38,6 @@ namespace DoAnTGVL
             CurUC = new UCTheoDoiBaiDang();
             gridMainWin.Children.Remove(PreUC);
 
-            PreUC = CurUC;
-            gridMainWin.Children.Add(CurUC);
-        }
-
-        private void TrangChuUser_Click(object sender, RoutedEventArgs e)
-        {
-            gridMainWin.Background = Brushes.White;
-            CurUC = new UCTrangChu();
-            gridMainWin.Children.Remove(PreUC);
-            
             PreUC = CurUC;
             gridMainWin.Children.Add(CurUC);
         }
@@ -89,6 +69,16 @@ namespace DoAnTGVL
         {
             ButtonCloseMenu.Visibility = Visibility.Collapsed;
             ButtonOpenMenu.Visibility = Visibility.Visible;
+        }
+
+        private void MnTrangChu_Click(object sender, RoutedEventArgs e)
+        {
+            gridMainWin.Background = Brushes.White;
+            CurUC = new UCThueTho();
+            gridMainWin.Children.Remove(PreUC);
+
+            PreUC = CurUC;
+            gridMainWin.Children.Add(CurUC);
         }
     }
 }
