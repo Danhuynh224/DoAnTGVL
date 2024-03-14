@@ -151,3 +151,5 @@ D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\DoAnTGVL.genruntimeconfig.ca
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ref\DoAnTGVL.dll
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ChiTietCongViec.g.cs
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ChiTietCongViec.baml
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ProfileTho.g.cs
+D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\ProfileTho.baml

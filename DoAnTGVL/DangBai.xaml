@@ -37,7 +37,7 @@
                 <Grid  Width="605" Height="420" Background="#F2F1F1"
           VerticalAlignment="Top" HorizontalAlignment="Center">
                     <Grid.Clip>
-                        <RectangleGeometry Rect="0,0,900,420" RadiusX="10" RadiusY="10"/>
+                        <RectangleGeometry Rect="0,0,605,420" RadiusX="10" RadiusY="10"/>
                     </Grid.Clip>
                     <StackPanel Orientation="Vertical">
 

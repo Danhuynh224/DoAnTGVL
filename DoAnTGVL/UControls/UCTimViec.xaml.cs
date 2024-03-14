@@ -42,6 +42,12 @@ namespace DoAnTGVL.UControls
             // Thêm UserControl vào WrapPanel
             WpanelDanhS.Children.Add(userControl);
         }
+
+        private void btnUploadProfile_Click(object sender, RoutedEventArgs e)
+        {
+            Window profile = new ProfileTho();
+            profile.Show();
+        }
     }
 
 }
