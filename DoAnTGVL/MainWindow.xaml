@@ -39,28 +39,36 @@
                 </RectangleGeometry>
             </materialDesign:Card.Clip>
             <Grid>
+                <StackPanel  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="61,96,0,0" Orientation="Horizontal" >
 
+                    <RadioButton x:Name="rdbKhach"
+                        Content="Khách" Margin="0,0,5,0"
+                            Style="{StaticResource MaterialDesignRadioButton}" />
+                    <RadioButton x:Name="rdbTho"
+                        Content="Thợ" 
+                             Style="{StaticResource MaterialDesignRadioButton}" />
+                </StackPanel>
                 <TextBlock Height="40" FontWeight="Bold" FontSize="30" Foreground="#FF8C00FC" 
-                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="44,31,0,0">Đăng Nhập</TextBlock>
-                <materialDesign:PackIcon Kind="Account" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,33,0,0">Đăng Nhập</TextBlock>
+                <materialDesign:PackIcon Kind="Account" 
                                  Height="19" Width="19"
-                                 Margin="20,114,0,0"/>
-                <materialDesign:PackIcon Kind="Lock" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                                 Margin="20,136,0,0"/>
+                <materialDesign:PackIcon Kind="Lock" 
                                  Height="19" Width="19"
-                                 Margin="20,160,0,0"/>
-                <TextBox    Margin="55 107 0 0" Height="26" Width="130" x:Name="txbTenDangNhap"
-                    HorizontalAlignment="Left" VerticalAlignment="Top"
+                                 Margin="20,182,0,0"/>
+                <TextBox    Margin="0,129,0,0" Height="26" Width="130" x:Name="txbTenDangNhap"
+                    HorizontalAlignment="Center" VerticalAlignment="Top"
                     materialDesign:HintAssist.Hint="Tên đăng nhập">
                 </TextBox>
 
                 <PasswordBox  materialDesign:HintAssist.Hint="Mật khẩu"  x:Name="txbMatKhau"
-                      HorizontalAlignment="Left" VerticalAlignment="Top"
-                      Margin="55,154,0,0" Height="26" Width="130"
+                      HorizontalAlignment="Center" VerticalAlignment="Top"
+                      Margin="0,176,0,0" Height="26" Width="130"
                       materialDesign:TextFieldAssist.HasClearButton="True" />
 
                 <TextBlock Foreground="#0056FC"
                    HorizontalAlignment="Left" VerticalAlignment="Top"
-                   Margin="119 200 0 0">
+                   Margin="119,209,0,0">
            <Hyperlink NavigateUri="https://www.facebook.com/profile.php?id=100040573425558" RequestNavigate="Hyperlink_RequestNavigate"  >
                 Quên mật khẩu?
             </Hyperlink>

@@ -32,7 +32,7 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" FontSize="30" FontWeight="Bold" Text="Đăng bài" Margin="0 12 0 0"
-               Foreground="#00A3FF" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+               Foreground="#FF8C00FC" VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <Grid Grid.Row="1">
                 <Grid  Width="605" Height="420" Background="#F2F1F1"
           VerticalAlignment="Top" HorizontalAlignment="Center">

@@ -22,9 +22,6 @@
     <Compile Update="ProfileTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Style\Win.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="ThoMain.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -96,7 +93,10 @@
     <Page Update="ProfileTho.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Style\Win.xaml">
+    <Page Update="Style\UCstyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\WinStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThoMain.xaml">

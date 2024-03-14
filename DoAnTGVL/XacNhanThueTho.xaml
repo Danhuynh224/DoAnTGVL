@@ -12,14 +12,14 @@
             TextElement.FontSize="13"
             TextOptions.TextFormattingMode="Ideal"
             TextOptions.TextRenderingMode="Auto"
-            Background="#FFE6E2E8"
+            Background="#F2F1F1"
             FontFamily="{DynamicResource MaterialDesignFont}"
             WindowStyle="None"
             AllowsTransparency="True" 
             WindowStartupLocation="CenterScreen">
 
 
-    <Border>
+    <Border BorderBrush="Black" BorderThickness="1">
 
         <Grid>
             <Grid.RowDefinitions>
@@ -27,9 +27,9 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" FontSize="30" FontWeight="Bold" Text="Thuê Thợ" 
-           Foreground="#00A3FF" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+           Foreground="#FF8C00FC" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             <Grid Grid.Row="1">
-                <Grid  Width="605" Height="450" Background="#F2F1F1"
+                <Grid  Width="605" Height="450" Background="White"
       VerticalAlignment="Top" HorizontalAlignment="Center">
                     <Grid.Clip>
                         <RectangleGeometry Rect="0,0,605,450" RadiusX="10" RadiusY="10"/>
@@ -44,14 +44,14 @@
                             <Grid Grid.Column="0" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
 
                                 <GroupBox Header="Tiêu đề" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="#F2F1F1" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
+                                    <TextBox Foreground="White" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
                                 </GroupBox>
 
                             </Grid>
                             <Grid Grid.Column="1" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
 
                                 <GroupBox Header="Họ và tên Thợ" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="#F2F1F1" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
+                                    <TextBox Foreground="White" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
                                 </GroupBox>
                             </Grid>
                         </Grid>
@@ -108,7 +108,7 @@
                         <Grid Height="60" Margin="0,15,0,0">
                             <Grid Height="60" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
                                 <GroupBox Header="Mô tả việc chi tiết" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="#F2F1F1" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
+                                    <TextBox Foreground="White" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
                                 </GroupBox>
                             </Grid>
                         </Grid>
@@ -129,7 +129,7 @@
                             <Grid Grid.Column="1" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
 
                                 <GroupBox Header="Số điện thoại" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="#F2F1F1" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
+                                    <TextBox Foreground="White" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
                                 </GroupBox>
                             </Grid>
 
@@ -157,7 +157,7 @@
                             </Grid>
                             <Grid Grid.Column="1" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
                                 <GroupBox Header="Số lượng thợ" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="#F2F1F1" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
+                                    <TextBox Foreground="White" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
                                 </GroupBox>
 
                             </Grid>
@@ -166,7 +166,7 @@
                         <Grid Height="60" Margin="0,15,0,0">
                             <Grid Grid.Column="0" Height="50" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
                                 <GroupBox Header="Ghi chú" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="#F2F1F1" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
+                                    <TextBox Foreground="White" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
                                 </GroupBox>
                             </Grid>
                         </Grid>
