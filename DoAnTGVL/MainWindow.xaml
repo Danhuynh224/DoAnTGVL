@@ -74,23 +74,23 @@
             </Hyperlink>
                 </TextBlock>
 
-                <Button Height="28" Width="107" Background="#FF8C00FC" 
+                <Button Height="32" Width="107" Background="#FF8C00FC" 
                 HorizontalAlignment="Left" VerticalAlignment="Top"
                 Margin="63,240,0,0" Click="click_DangNhap">
                     <Button.Clip>
-                        <RectangleGeometry Rect="0,0,107,28" RadiusX="10" RadiusY="10" >
+                        <RectangleGeometry Rect="0,0,107,32" RadiusX="10" RadiusY="10" >
                         </RectangleGeometry>
                     </Button.Clip>
                     <TextBlock Text="Đăng nhập" FontSize="15" Foreground="White"></TextBlock>
                 </Button>
-                <Button Height="28" Width="107" Background="#FF8C00FC" 
+                <Button Height="32" Width="107" Background="#FF8C00FC" 
                 HorizontalAlignment="Left" VerticalAlignment="Top"
                 Margin="63,280,0,0" Click="click_DangNhap">
                     <Button.Clip>
-                        <RectangleGeometry Rect="0,0,107,28" RadiusX="10" RadiusY="10" >
+                        <RectangleGeometry Rect="0,0,107,32" RadiusX="10" RadiusY="10" >
                         </RectangleGeometry>
                     </Button.Clip>
-                    <TextBlock Text="Đăng Ký" FontSize="15" Foreground="White"></TextBlock>
+                    <TextBlock Text="Đăng ký" FontSize="15" Foreground="White"></TextBlock>
                 </Button>
 
             </Grid>
