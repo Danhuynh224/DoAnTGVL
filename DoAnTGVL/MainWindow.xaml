@@ -39,10 +39,10 @@
                 </RectangleGeometry>
             </materialDesign:Card.Clip>
             <Grid>
-                <StackPanel  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="61,96,0,0" Orientation="Horizontal" >
+                <StackPanel  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,90,0,0" Orientation="Horizontal" >
 
                     <RadioButton x:Name="rdbKhach"
-                        Content="Khách" Margin="0,0,5,0"
+                        Content="Khách" Margin="0,0,20,0"
                             Style="{StaticResource MaterialDesignRadioButton}" />
                     <RadioButton x:Name="rdbTho"
                         Content="Thợ" 

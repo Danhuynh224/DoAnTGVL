@@ -17,7 +17,7 @@
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0">
-                    <TextBlock Text="Chỉnh sửa CV" FontSize="30" Foreground="#00A3FF" FontWeight="Bold"
+                    <TextBlock Text="Chỉnh sửa CV" FontSize="30" Foreground="#FF8C00FC" FontWeight="Bold"
                        HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="txbTitle">
 
                     </TextBlock>

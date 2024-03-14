@@ -21,7 +21,7 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0">
-                <TextBlock Text="Central/South American Experienced Flutter Developer for Comprehe…" TextWrapping="Wrap" Foreground="#001E00" FontSize="20" FontWeight="DemiBold">
+                <TextBlock Text="Nhà phát triển Flutter có kinh nghiệm ở Trung Mỹ / Nam Mỹ để thực hiện..." TextWrapping="Wrap" Foreground="#001E00" FontSize="20" FontWeight="DemiBold">
                     
                 </TextBlock>
             </Grid>
@@ -33,7 +33,7 @@
                 
                 <TextBlock Text="-" Margin="5 0 5 0" Foreground="#9AAA97" FontSize="15"></TextBlock>
 
-                <TextBlock Text="Posted 2 days ago" Foreground="#9AAA97" FontSize="15"></TextBlock>
+                <TextBlock Text="Đăng tải 2 ngày trước" Foreground="#9AAA97" FontSize="15"></TextBlock>
                 
             </WrapPanel>
 
@@ -63,7 +63,7 @@
             </Grid>
 
             <Grid Grid.Row="3">
-                <TextBlock Text="Im looking for a 3d designer that has experience working with adobe substance designer to create a custom texture for paracords We are…"
+                <TextBlock Text="Tôi đang tìm kiếm một nhà thiết kế 3D có kinh nghiệm làm việc với Adobe Substance Designer để tạo một texture tùy chỉnh cho dây Paracord của chúng tôi. Chúng tôi..."
                            FontSize="15" TextWrapping="Wrap" Foreground="#001E00" FontWeight="DemiBold"
                            Margin="0 20 0 0"
                            ></TextBlock>

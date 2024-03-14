@@ -21,7 +21,8 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
-            <TextBlock Text="Central/South American Experienced Flutter Developer for Comprehe…" 
+            <TextBlock Text=
+"Nhà phát triển Flutter có kinh nghiệm ở Trung Mỹ / Nam Mỹ để thực hiện..." 
                        TextWrapping="Wrap" 
                        Foreground="#001E00" FontSize="25" FontWeight="DemiBold">
 
@@ -29,41 +30,45 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <TextBlock Margin="0 20 0 0" Text="Posted 2 days ago" Foreground="#9AAA97" FontSize="15"></TextBlock>
+            <TextBlock Margin="0 20 0 0" Text="Đăng tải 2 ngày trước" Foreground="#9AAA97" FontSize="15"></TextBlock>
         </Grid>
 
         <Grid Grid.Row="2">
-            <TextBlock Text="I am currently in need of road textures in 4K resolution, custom edited to incorporate realistic tire dirt and road markings as per my requirement. It is essential that the textures are seamless and exhibit a high level of detail, ensuring a crisp and sharp appearance with no visible grains or low-quality elements."
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="59*"/>
+                <ColumnDefinition Width="701*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Tôi hiện đang cần các texture đường phố có độ phân giải 4K, được chỉnh sửa tùy chỉnh để tích hợp bụi bẩn từ lốp xe và các đường ghi kẻ đường thực tế theo yêu cầu của tôi. Rất quan trọng là các texture phải là liền mạch và có mức độ chi tiết cao, đảm bảo một diện mạo sắc nét và rõ ràng mà không có bất kỳ hạt nền hoặc các yếu tố chất lượng thấp nào có thể nhìn thấy được."
                        TextWrapping="Wrap"
                        Foreground="#001E00" FontSize="15" FontWeight="Regular"
-                       Margin="0 20 0 0"
+                       Margin="0 20 0 0" Grid.ColumnSpan="2"
                        ></TextBlock>
         </Grid>
 
         <Grid Grid.Row="3">
-            
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" Orientation="Vertical" >
-                <TextBlock Text="Specific Requirements:" Foreground="#001E00" FontSize="15" FontWeight="Regular">
+                <TextBlock Text="Yều cầu:" Foreground="#001E00" FontSize="15" FontWeight="Regular">
 
                 </TextBlock>
 
-                <TextBlock Text="• 4K resolution" Foreground="#001E00" FontSize="15" FontWeight="Regular">
+                <TextBlock Text="• Độ phân giải 4K" Foreground="#001E00" FontSize="15" FontWeight="Regular">
 
                 </TextBlock>
 
-                <TextBlock Text="• Need diffus, normals, height, gloss" Foreground="#001E00" FontSize="15" FontWeight="Regular">
+                <TextBlock Text="• Phổ , normals, height, gloss" Foreground="#001E00" FontSize="15" FontWeight="Regular">
 
                 </TextBlock>
 
             </StackPanel>
 
             <StackPanel Grid.Column="1">
-                <TextBlock Margin="0 20 0 0" Text="• 4K resolution" Foreground="#001E00" FontSize="15" FontWeight="Regular">
+                <TextBlock Margin="0 20 0 0" Text="• Độ phân giải 4K" Foreground="#001E00" FontSize="15" FontWeight="Regular">
 
                 </TextBlock>
 
@@ -75,7 +80,7 @@
         </Grid>
 
         <Grid Grid.Row="4">
-            <TextBlock Text="I am looking to acquire a total of 5 road textures in this order, and I am willing to pay $5 for each texture. If you can meet these specifications and provide the desired quality, I am open to purchasing additional textures from you, as I have an ongoing need for such high-quality textures."
+            <TextBlock Text="Tôi đang tìm mua tổng cộng 5 texture đường trong đơn hàng này, và tôi sẵn lòng trả $5 cho mỗi texture. Nếu bạn có thể đáp ứng các yêu cầu này và cung cấp chất lượng mong muốn, tôi sẵn lòng mua thêm các texture từ bạn, vì tôi đang có nhu cầu liên tục cho các texture chất lượng cao như vậy."
                        TextWrapping="Wrap"
                        Foreground="#001E00" FontSize="15" FontWeight="Regular"
                        Margin="0 20 0 0"
@@ -124,7 +129,7 @@
 
 
             </StackPanel>
-            
+
         </Grid>
 
 
@@ -138,7 +143,7 @@
                 <TextBlock Text="Thông tin khách hàng:"
                            Foreground="#001E00" FontSize="20" FontWeight="DemiBold"
                             Margin="0 15 0 0">
-                    
+
                 </TextBlock>
             </Grid>
 
@@ -173,7 +178,7 @@ Foreground="#9AAA97" FontSize="12">
                 </WrapPanel>
 
             </Grid>
-            
+
         </Grid>
 
         <Grid Grid.Row="7">
@@ -186,8 +191,8 @@ HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 10 0 0">
                 <Button.Clip>
                     <RectangleGeometry Rect="0,0,89,50" RadiusX="10" RadiusY="10"/>
                 </Button.Clip>
-            </Button>    
-        </Grid> 
+            </Button>
+        </Grid>
     </Grid>
 </Window>
  

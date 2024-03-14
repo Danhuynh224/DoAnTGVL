@@ -31,7 +31,7 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" FontSize="30" FontWeight="Bold" Text="Hồ sơ" Margin="0 12 0 0"
-           Foreground="#00A3FF" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+           Foreground="#FF8C00FC" VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <Grid Grid.Row="1">
                 <Grid  Width="605" Height="350" Background="#F2F1F1"
       VerticalAlignment="Top" HorizontalAlignment="Center">
@@ -157,7 +157,7 @@ Height="30" Padding="5" Width="220">
                     </Button.Clip>
                 </Button>
                 <Button Width="89" Height="36" Background="#9D9999" Content="Hủy" Click="click_Huy"
-                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,46,32">
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,59,29">
                     <Button.Clip>
                         <RectangleGeometry Rect="0,0,89,36" RadiusX="10" RadiusY="10"/>
                     </Button.Clip>

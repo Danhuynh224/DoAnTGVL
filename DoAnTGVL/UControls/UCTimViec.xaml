@@ -71,7 +71,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                     </Menu>
 
                     <!--searchbox-->
-                    <materialDesign:ColorZone Mode="Standard" Padding="8 0 8 0"
+                    <materialDesign:ColorZone  Mode="Standard" Padding="8 0 8 0"
         CornerRadius="5" VerticalAlignment="Center" Margin="100,0,0,0"
         materialDesign:ShadowAssist.ShadowDepth="Depth1">
                         <Grid>
@@ -93,7 +93,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                 materialDesign:HintAssist.Hint="Tìm kiếm theo tên"
                 materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
                 BorderThickness="0"
-                MinWidth="200" 
+                Width="200" 
                 VerticalAlignment="Top" Grid.RowSpan="2" />
                         </Grid>
                     </materialDesign:ColorZone>
