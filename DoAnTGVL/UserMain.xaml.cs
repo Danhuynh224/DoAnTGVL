@@ -20,12 +20,16 @@ namespace DoAnTGVL
     /// </summary>
     public partial class UserMain : Window
     {
-        private UserControl PreUC;
-        private UserControl CurUC;
+        private UserControl PreUC = new UCHome();
+        private UserControl CurUC= new UCHome();
+
         public UserMain()
         {
-            PreUC = null;
+           
             InitializeComponent();
+            gridMainWin.Children.Add(CurUC);
+
+
         }
         public void MnuLogout_Click(object sender, RoutedEventArgs e)
         {
@@ -37,7 +41,6 @@ namespace DoAnTGVL
             gridMainWin.Background = Brushes.White;
             CurUC = new UCTheoDoiBaiDang();
             gridMainWin.Children.Remove(PreUC);
-
             PreUC = CurUC;
             gridMainWin.Children.Add(CurUC);
         }
@@ -73,12 +76,15 @@ namespace DoAnTGVL
 
         private void MnTrangChu_Click(object sender, RoutedEventArgs e)
         {
-            gridMainWin.Background = Brushes.White;
-            CurUC = new UCThueTho();
-            gridMainWin.Children.Remove(PreUC);
-
-            PreUC = CurUC;
+            gridMainWin.Children.Clear();
+            CurUC = new UCHome();
             gridMainWin.Children.Add(CurUC);
         }
+        private void MnuTimTho_Click(object sender, RoutedEventArgs e)
+        {
+            gridMainWin.Children.Clear();
+            CurUC = new UCThueTho(); 
+            gridMainWin.Children.Add(CurUC);
+        }    
     }
 }
