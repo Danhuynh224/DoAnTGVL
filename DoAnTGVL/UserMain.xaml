@@ -22,36 +22,18 @@
         </Storyboard>
         <Storyboard x:Key="CloseMenu">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="gridMainmenu">
-                
+
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="50"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <!--<Storyboard x:Key="OpenMain">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="gridMainWin">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1300"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1450"/>
-            </DoubleAnimationUsingKeyFrames>
-        </Storyboard>
-        <Storyboard x:Key="CloseMain">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="gridMainWin">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1450"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1300"/>
-            </DoubleAnimationUsingKeyFrames>
-        </Storyboard>-->
     </Window.Resources>
     <Window.Triggers>
         <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
             <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
         </EventTrigger>
-        <!--<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
-            <BeginStoryboard Storyboard="{StaticResource CloseMain}"/>
-        </EventTrigger>-->
         <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
             <BeginStoryboard Storyboard="{StaticResource CloseMenu}"/>
         </EventTrigger>
-        <!--<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
-            <BeginStoryboard Storyboard="{StaticResource OpenMain}"/>
-        </EventTrigger>-->
         <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="gridMainmenu">
             <BeginStoryboard Storyboard="{StaticResource CloseMenu}"/>
         </EventTrigger>

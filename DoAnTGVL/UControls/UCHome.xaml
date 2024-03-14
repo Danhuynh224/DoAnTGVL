@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:DoAnTGVL.UControls"
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="1300"
-             Style="{StaticResource Win_Style}">
+             Style="{StaticResource UC_Style}">
     <Grid Background="White">
 
         <Ellipse Width="500" Height="500" VerticalAlignment="Bottom" Fill="#A367B1" Margin="551,0,249,-221" Opacity="0.6"/>

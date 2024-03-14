@@ -33,12 +33,12 @@ namespace DoAnTGVL
         {
             this.Hide();
             Window window;
-            if (txbTenDangNhap.Text == "User")
+            if (rdbKhach.IsChecked==true)
             {
                 window = new UserMain();
                 window.ShowDialog();
             }
-            else if(txbTenDangNhap.Text == "Tho")
+            else if(rdbTho.IsChecked == true)
             {
                 window = new ThoMain();
                 window.ShowDialog();
