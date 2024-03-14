@@ -59,9 +59,7 @@
         <Grid.ColumnDefinitions>
         </Grid.ColumnDefinitions>
         <Grid x:Name="gridMainWin" HorizontalAlignment="Right" Width="1450">
-            <Grid.Background>
-                <ImageBrush ImageSource="/image/undraw_Job_hunt_re_q203.png" Stretch="Uniform"></ImageBrush>
-            </Grid.Background>
+            
 
         </Grid>
         <Grid x:Name="gridMainmenu" Width="50" HorizontalAlignment="Left" MouseLeave="gridMainmenu_MouseLeave">
