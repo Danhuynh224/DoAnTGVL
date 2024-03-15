@@ -24,7 +24,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
 
                 <StackPanel Orientation="Horizontal"  >
                     <Button Style="{DynamicResource MaterialDesignToolButton}">
-                        <materialDesign:PackIcon Kind="Home" Height="30" Width="30" Margin="50 0 0 0"/>
+                        <materialDesign:PackIcon Kind="AccountHardHatOutline" Height="30" Width="30" Margin="50 0 0 0"/>
                     </Button>
                     <Menu Margin="20 0 0 0" Cursor="Hand" VerticalAlignment="Center" FontSize="20">
                         <MenuItem Header="Điện nước">
