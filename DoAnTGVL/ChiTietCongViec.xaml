@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="Chi Tiết Công Việc" Height="730" Width="800">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                                 From="0.5" To="1.0" Duration="0:0:0:0.5" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
     <Grid Margin="20">
 
         <Grid.RowDefinitions>
@@ -184,6 +194,10 @@ Foreground="#9AAA97" FontSize="12">
         <Grid Grid.Row="7">
             <Button Margin="0 10 0 0" Width="250" Height="50">
                 <TextBlock Text="Xác nhận" FontSize="20"></TextBlock>
+                <Button.Clip>
+                    <RectangleGeometry Rect="0,0,250,50" RadiusX="10" RadiusY="10"/>
+                </Button.Clip>
+
             </Button>
 
             <Button  Width="89" Height="50" Background="#9D9999" Content="Hủy" Click="btnHuy_Click"

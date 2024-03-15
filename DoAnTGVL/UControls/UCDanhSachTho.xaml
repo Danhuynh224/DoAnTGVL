@@ -72,7 +72,12 @@
                 </Grid>
 
                 <Grid Grid.Row="4">
-                    <Button Content="Xem chi tiết" FontSize="18" Margin="0 5 0 0" Height="40" Width="150" Click="btnXemChiTiet_Click" Background="#FF8C00FC"> </Button>
+                    <Button Content="Xem chi tiết" FontSize="18" Margin="0 5 0 0" Height="40" Width="150" Click="btnXemChiTiet_Click" Background="#FF8C00FC">
+
+                        <Button.Clip>
+                            <RectangleGeometry Rect="0,0,150,40" RadiusX="10" RadiusY="10"/>
+                        </Button.Clip>
+                    </Button>
                 </Grid>
 
             </Grid>

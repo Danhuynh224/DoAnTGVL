@@ -63,7 +63,7 @@
             </Grid>
 
             <Grid Grid.Row="3">
-                <TextBlock Text="Tôi đang tìm kiếm một nhà thiết kế 3D có kinh nghiệm làm việc với Adobe Substance Designer để tạo một texture tùy chỉnh cho dây Paracord của chúng tôi. Chúng tôi..."
+                <TextBlock Text="Tôi đang tìm kiếm một nhà thiết kế 3D có kinh nghiệm làm việc với Adobe Substance Designer để tạo một texture tùy chỉnh cho dây Paracord......"
                            FontSize="15" TextWrapping="Wrap" Foreground="#001E00" FontWeight="DemiBold"
                            Margin="0 20 0 0"
                            ></TextBlock>
@@ -100,9 +100,14 @@
             </Grid>
 
             <Grid Grid.Row="5">
-                <Button Margin="0 10 0 0" Width="150" HorizontalAlignment="Left"
-                        Content="Xem chi tiết" Click="btnXemChiTiet_Click"
-                    ></Button>
+                <Button Margin="0 10 0 0" Width="150" Height="40" HorizontalAlignment="Left"
+                        Content="Xem chi tiết" FontSize="15" Click="btnXemChiTiet_Click">
+
+                    <Button.Clip>
+                        <RectangleGeometry Rect="0,0,150,40" RadiusX="10" RadiusY="10"/>
+                    </Button.Clip>
+
+                </Button>
             </Grid>
            
         </Grid>

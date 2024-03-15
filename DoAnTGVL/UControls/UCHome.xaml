@@ -14,7 +14,7 @@
         <Ellipse Width="500" Height="500" VerticalAlignment="Bottom" Fill="#FFD1E3" Margin="204,0,596,-150" Opacity="0.6"/>
         <Ellipse Width="500" Height="500" VerticalAlignment="Bottom" Fill="#392467" Margin="941,0,-141,471" Opacity="0.6"/>
         <Ellipse Width="500" Height="500" VerticalAlignment="Bottom" Fill="#474F7A" Margin="551,0,249,548" Opacity="0.6"/>
-        <TextBlock Text="TriDan - Thế giới việc làm" Margin="200,290,169,210" FontSize="80" Style="{StaticResource MaterialDesignHeadline3TextBlock}"  />
+        <TextBlock Text="TriDan - Thế giới thợ" Margin="252,282,117,218" FontSize="90" Style="{StaticResource MaterialDesignHeadline3TextBlock}"   />
 
     </Grid>
 </UserControl>
