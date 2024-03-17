@@ -1,0 +1,14 @@
+﻿CREATE TABLE [dbo].[Tho]
+(
+	[Id] NVARCHAR(50) NOT NULL PRIMARY KEY, 
+    [HoTen] NVARCHAR(50) NULL, 
+    [CCCD] NVARCHAR(50) NULL, 
+    [SDT] NVARCHAR(50) NULL, 
+    [Dob] DATETIME2 NULL, 
+    [KhuVuc] NVARCHAR(50) NULL, 
+    [LinhVuc] NVARCHAR(50) NULL, 
+    [ChuyenMon] NVARCHAR(MAX) NULL, 
+    [GiaTien] INT NULL, 
+    [DanhGia] FLOAT NULL
+	
+)

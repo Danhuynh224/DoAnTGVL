@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[BaiDang]
+(
+	[ID] NCHAR(50) NOT NULL PRIMARY KEY, 
+    [IDUser] NVARCHAR(50) NULL, 
+    [TieuDe] NVARCHAR(50) NULL, 
+    [KhuVuc] NVARCHAR(50) NULL, 
+    [MoTa] NVARCHAR(MAX) NULL, 
+    [Date] DATETIME2 NULL, 
+    [KinhNghiem] NVARCHAR(50) NULL, 
+    [GhiChu] NVARCHAR(MAX) NULL
+)

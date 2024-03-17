@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[User]
+(
+	[Id] NVARCHAR(50) NOT NULL PRIMARY KEY, 
+    [HoTen] NVARCHAR(50) NULL, 
+    [CCCD] NVARCHAR(50) NULL, 
+    [SDT] NVARCHAR(50) NULL, 
+    [Dob] DATETIME2 NULL, 
+    [KhuVuc] NVARCHAR(50) NULL
+)
