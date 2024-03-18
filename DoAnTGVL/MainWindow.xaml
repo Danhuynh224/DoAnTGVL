@@ -13,7 +13,8 @@
         WindowStyle="None"
         AllowsTransparency="True" 
         Title="MainWindow" Height="450" Width="800"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        DataContext="{StaticResource MainVM}">
     <Window.Background>
         <ImageBrush ImageSource="/Image/5519785.jpg" TileMode="FlipXY"/>
 
