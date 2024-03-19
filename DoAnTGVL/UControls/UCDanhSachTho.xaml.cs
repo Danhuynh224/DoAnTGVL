@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DoAnTGVL.Class;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,13 +21,16 @@ namespace DoAnTGVL.UControls
     /// </summary>
     public partial class UCDanhSachTho : UserControl
     {
-        public UCDanhSachTho()
+        Tho tho;
+        public UCDanhSachTho(Tho tho)
         {
+            this.tho = tho;
             InitializeComponent();
+            this.DataContext = tho;
         }
         public void btnXemChiTiet_Click(object sender, RoutedEventArgs e)
         {
-            ChiTietTho chiTietTho = new ChiTietTho();
+            ChiTietTho chiTietTho = new ChiTietTho(tho);
             chiTietTho.Show();
 
         }

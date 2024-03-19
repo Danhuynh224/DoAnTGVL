@@ -15,18 +15,14 @@ namespace DoAnTGVL.BUS
     public class BUSThueTho
     {
         DAOTho dAOTho = new DAOTho();
-        BUSDanhSachTho bUSDanhSachTho = new BUSDanhSachTho();
         UserControl userControl;
-        int i = 0;
         public UCThueTho CreateUCThueTho()
         {
             List<Tho> DStho = dAOTho.ReadDatabase();
-            int n = DStho.Count;
             UCThueTho uCThueTho = new UCThueTho();
-            for(int i=0;i<n;i++)
+            foreach (Tho tho  in DStho)
             {
-                userControl= bUSDanhSachTho.CreateDSTho(DStho[i]);
-                
+                userControl = new UCDanhSachTho(tho); ; ;
                 userControl.Width = 280;
                 userControl.Height = 450;
                 userControl.Margin = new Thickness(10);

@@ -1,4 +1,5 @@
-﻿using DoAnTGVL.UControls;
+﻿using DoAnTGVL.Class;
+using DoAnTGVL.UControls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,13 +21,16 @@ namespace DoAnTGVL
     /// </summary>
     public partial class ChiTietTho : Window
     {
-        public ChiTietTho()
+        public ChiTietTho(Tho tho)
         {
+            
             InitializeComponent();
+            this.DataContext = tho;
             AddUserControl();
             AddUserControl();
             AddUserControl();
-            AddUserControl(); AddUserControl();
+            AddUserControl(); 
+            AddUserControl();
         }
         private void AddUserControl()
         {
