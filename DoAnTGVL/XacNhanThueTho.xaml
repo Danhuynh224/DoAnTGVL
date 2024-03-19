@@ -46,72 +46,13 @@
                     <StackPanel Orientation="Vertical">
 
                         <Grid Height="60" Margin="0,5,0,0">
-                            <Grid.ColumnDefinitions >
-                                <ColumnDefinition></ColumnDefinition>
-                                <ColumnDefinition></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-                            <Grid Grid.Column="0" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
 
+                            <Grid Height="60" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
                                 <GroupBox Header="Tiêu đề" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
                                     <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
                                 </GroupBox>
-
                             </Grid>
-                            <Grid Grid.Column="1" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
 
-                                <GroupBox Header="Họ và tên Thợ" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
-                                </GroupBox>
-                            </Grid>
-                        </Grid>
-
-                        <Grid Height="60" Margin="0,15,0,0">
-                            <Grid.ColumnDefinitions >
-                                <ColumnDefinition></ColumnDefinition>
-                                <ColumnDefinition></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-                            <Grid Grid.Column="0" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
-
-                                <GroupBox Header="Lĩnh vực" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <ComboBox VerticalAlignment="Bottom"
-                                                     FontSize="15"
-                                              Margin="-10 0 0 0"
-                                              BorderThickness="0"
-                                                    materialDesign:HintAssist.Hint="Điện tử"
-                                                    Height="30" Width="220">
-                                        <ComboBoxItem Content="Gia Sư" />
-                                        <ComboBoxItem Content="Sửa Nhà" />
-                                        <ComboBoxItem Content="Bảo Trì" />
-                                        <ComboBoxItem Content="Điện Tử" />
-                                        <ComboBoxItem Content="Điện Nước" />
-                                    </ComboBox>
-                                </GroupBox>
-
-                            </Grid>
-                            <Grid Grid.Column="1" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
-
-                                <GroupBox Header="Lĩnh vực" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <ComboBox  VerticalAlignment="Bottom"
-                                               Margin="-10 0 0 0"
-                                                FontSize="15"
-                                              BorderThickness="0"
-                                                    materialDesign:HintAssist.Hint="Quận 1"
-                                                    Height="30" Width="220">
-                                        <ComboBoxItem Content="Thủ Đức" />
-                                        <ComboBoxItem Content="Quận 1" />
-                                        <ComboBoxItem Content="Quận 2" />
-                                        <ComboBoxItem Content="Quận 4" />
-                                        <ComboBoxItem Content="Quận 5" />
-                                        <ComboBoxItem Content="Quận 6" />
-                                        <ComboBoxItem Content="Quận 7" />
-                                        <ComboBoxItem Content="Quận 8" />
-                                        <ComboBoxItem Content="Quận 9" />
-                                        <ComboBoxItem Content="Bình Thạnh" />
-                                        <ComboBoxItem Content="Tân Bình" />
-                                    </ComboBox>
-                                </GroupBox>
-
-                            </Grid>
                         </Grid>
 
                         <Grid Height="60" Margin="0,15,0,0">
@@ -120,65 +61,17 @@
                                     <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
                                 </GroupBox>
                             </Grid>
-                        </Grid>
-
-                        <Grid Height="60" Margin="0,15,0,0">
-                            <Grid.ColumnDefinitions >
-                                <ColumnDefinition></ColumnDefinition>
-                                <ColumnDefinition></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-                            <Grid Grid.Column="0" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
-                                <GroupBox Header="Ngày thuê" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <DatePicker Margin="4 0 0 0" FontSize="15" Height="50"
-                                                BorderThickness="0"
-                                                Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
-                                </GroupBox>
-
-                            </Grid>
-                            <Grid Grid.Column="1" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
-
-                                <GroupBox Header="Số điện thoại" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
-                                </GroupBox>
-                            </Grid> 
 
                         </Grid>
 
-                        <Grid Height="60" Margin="0,15,0,0">
-                            <Grid.ColumnDefinitions >
-                                <ColumnDefinition></ColumnDefinition>
-                                <ColumnDefinition></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-                            <Grid Grid.Column="0" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
-                                <GroupBox Header="Kinh nghiệm" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <ComboBox  VerticalAlignment="Bottom"
-                                               BorderThickness="0"
-                                                 FontSize="15"
-                                                materialDesign:HintAssist.Hint="Trên 3 năm"
-                                                Height="30" Margin="-10 0 0 0" Width="220">
-                                        <ComboBoxItem Content="Ít hơn 1 năm" />
-                                        <ComboBoxItem Content="1 - 2 năm" />
-                                        <ComboBoxItem Content="2 - 3 năm" />
-                                        <ComboBoxItem Content="Trên 3 năm" />
-                                    </ComboBox>
-                                </GroupBox>
-
-                            </Grid>
-                            <Grid Grid.Column="1" Height="50" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
-                                <GroupBox Header="Số lượng thợ" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
-                                </GroupBox>
-
-                            </Grid>
+                        <Grid Height="auto" Margin="0,15,0,0">
+                            <GroupBox Width="552"  Header="Ngày thuê" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="280">
+                                <Calendar
+                                        materialDesign:CalendarAssist.Orientation="Horizontal" />
+                            </GroupBox>
                         </Grid>
 
-                        <Grid Height="60" Margin="0,15,0,0">
-                            <Grid Grid.Column="0" Height="50" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
-                                <GroupBox Header="Ghi chú" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
-                                </GroupBox>
-                            </Grid>
-                        </Grid>
+                        
 
                     </StackPanel>
 

@@ -181,13 +181,13 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                         <ComboBoxItem
                         Content="Trên 3 năm" />
                     </ComboBox>
- 
-                </StackPanel>
 
+                </StackPanel>
+                    
 
             </materialDesign:ColorZone>
 
-
+            
 
         </Grid>
         <Grid Grid.Row="1">
