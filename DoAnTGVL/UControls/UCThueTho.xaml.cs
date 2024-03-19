@@ -1,5 +1,7 @@
-﻿using System;
+﻿using DoAnTGVL.BUS;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,32 +23,12 @@ namespace DoAnTGVL.UControls
     /// </summary>
     public partial class UCThueTho : UserControl
     {
-        int uc = 0;
+      
         public UCThueTho()
         {
-
+           
             InitializeComponent();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-            AddUserControl();
-
-
-
-
-
+   
         }
 
         private void click_DangBai(object sender, RoutedEventArgs e)
@@ -56,13 +38,10 @@ namespace DoAnTGVL.UControls
         }
         private void AddUserControl()
         {
-           
-           
             UCDanhSachTho userControl = new UCDanhSachTho();
             userControl.Width =280;
             userControl.Height = 450;
             userControl.Margin = new Thickness(10);
-
             // Thêm UserControl vào WrapPanel
             WpanelDanhS.Children.Add(userControl);
         }

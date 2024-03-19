@@ -1,4 +1,5 @@
-﻿using DoAnTGVL.UControls;
+﻿using DoAnTGVL.BUS;
+using DoAnTGVL.UControls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -82,8 +83,9 @@ namespace DoAnTGVL
         }
         private void MnuTimTho_Click(object sender, RoutedEventArgs e)
         {
+            BUSThueTho bUSThueTho = new BUSThueTho();
             gridMainWin.Children.Clear();
-            CurUC = new UCThueTho(); 
+            CurUC = bUSThueTho.CreateUCThueTho();
             gridMainWin.Children.Add(CurUC);
         }    
     }

@@ -21,11 +21,11 @@
                 </Grid.RowDefinitions>
 
                 <Grid Grid.Row="0">
-                    <TextBlock Text="Quận 1" Foreground="#5E6D55" FontSize="20" FontWeight="DemiBold" HorizontalAlignment="Right" Height="auto">
-                        
+                    <TextBlock x:Name="txtKhucVuc" Text="Quận 1" Foreground="#5E6D55" FontSize="20" FontWeight="DemiBold" HorizontalAlignment="Right" Height="30" Margin="0,0,10,0" VerticalAlignment="Bottom">
+
                     </TextBlock>
                 </Grid>
-                
+
                 <Ellipse Grid.Row="1" Width="110" Margin="0 0 0 0">
                     <Ellipse.Fill>
                         <ImageBrush ImageSource="/image/man.jpg"/>
@@ -35,11 +35,11 @@
                 <Grid Grid.Row="2">
                     <StackPanel Orientation="Vertical">
 
-                        <TextBlock Text="Nguyen Van A" Width="auto" Height="auto" Foreground="#001E00" FontSize="25" FontWeight="Black" HorizontalAlignment="Center" Margin="0 5 0 0" FontFamily="Yu Gothic UI Semibold">
+                        <TextBlock x:Name="txtName" Text="Nguyen Van A" Width="auto" Height="auto" Foreground="#001E00" FontSize="25" FontWeight="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 5 0 0" FontFamily="Yu Gothic UI Semibold">
 
                         </TextBlock>
 
-                        <TextBlock Text="Thợ điện lạnh" Width="auto" Height="auto" FontSize="22" FontWeight="Bold" HorizontalAlignment="Center" FontFamily="Yu Gothic UI Light">
+                        <TextBlock x:Name="txtLinhVuc" Text="Thợ điện lạnh" Width="auto" Height="auto" FontSize="22" FontWeight="Bold" HorizontalAlignment="Center" FontFamily="Yu Gothic UI Light">
                         </TextBlock>
 
                     </StackPanel>
@@ -48,27 +48,25 @@
 
                 <Grid Grid.Row="3">
                     <StackPanel>
-                        <WrapPanel>
-                            <materialDesign:PackIcon Margin="70 1 5 3" Kind="Star"  Height="25" Width="25" Foreground="#14A800"/>
-                            <TextBlock Text="5.0/5" FontSize="20" Foreground="#5E6D55" ></TextBlock>
+                        <WrapPanel HorizontalAlignment="Center">
+                            <materialDesign:PackIcon  Kind="Star"  Height="25" Width="25" Foreground="#14A800"/>
+                            <TextBlock x:Name="txtDanhGia"   Text="5.0/5" FontSize="20" Foreground="#5E6D55" ></TextBlock>
                         </WrapPanel>
 
-                        <TextBlock Text="1 năm kinh nghiệm" FontSize="18" Foreground="#5E6D55" HorizontalAlignment="Center">
-                            
-                        </TextBlock>
-
-
-                        <TextBlock Text="Sửa máy lạnh" Foreground="#5E6D55" Margin="0 6 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
-                                    
-                        </TextBlock>
-
-                        <TextBlock Text="Sửa tủ lạnh" Foreground="#5E6D55" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
+                        <TextBlock x:Name="txtKinhNghiem" Text="1 năm kinh nghiệm" FontSize="18" Foreground="#5E6D55" HorizontalAlignment="Center">
 
                         </TextBlock>
+
+
+                        <TextBlock x:Name="txtChuyenMon" TextWrapping="WrapWithOverflow" Text="Sửa máy lạnh" Foreground="#5E6D55" Margin="0 10 0 0" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30"  >
+
+                        </TextBlock>
+
+                        
 
                     </StackPanel>
-                    
-                    
+
+
                 </Grid>
 
                 <Grid Grid.Row="4">

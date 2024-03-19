@@ -165,3 +165,9 @@ D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\Style\UCstyle.baml
 D:\WinForm\testDA\DoAnTGVL\obj\Debug\net6.0-windows\Style\WinStyle.baml
 D:\WinForm\testDA\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.dll.config
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\DoAnTGVL.dll.config
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

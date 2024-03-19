@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DoAnTGVL.Class
 {
-    class Person
+    public class Person
     {
         private string id;
         private string hoTen;
