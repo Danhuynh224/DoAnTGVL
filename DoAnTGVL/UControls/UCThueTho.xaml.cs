@@ -1,4 +1,6 @@
 ﻿using DoAnTGVL.BUS;
+using DoAnTGVL.Class;
+using DoAnTGVL.DAO;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -23,12 +25,14 @@ namespace DoAnTGVL.UControls
     /// </summary>
     public partial class UCThueTho : UserControl
     {
-      
+        BUSThueTho bUSThueTho = new BUSThueTho();
+        DAOTho dAOTho = new DAOTho();
+        List<Tho> DStho;
         public UCThueTho()
         {
-           
             InitializeComponent();
-   
+            DStho = dAOTho.ReadAllTho();
+            bUSThueTho.CreateWrapThueTho(DStho, this);
         }
 
         private void click_DangBai(object sender, RoutedEventArgs e)
@@ -36,16 +40,27 @@ namespace DoAnTGVL.UControls
             Window dangbai = new DangBai();
             dangbai.ShowDialog();
         }
-        private void AddUserControl()
+
+        private void cbo_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            //UCDanhSachTho userControl = new UCDanhSachTho();
-            //userControl.Width =280;
-            //userControl.Height = 450;
-            //userControl.Margin = new Thickness(10);
-            //// Thêm UserControl vào WrapPanel
-            //WpanelDanhS.Children.Add(userControl);
+            try
+            {
+                if (cboKhuVuc.SelectedItem as ComboBoxItem != null)
+                {
+                    string selectedItem = (cboKhuVuc.SelectedItem as ComboBoxItem).Content.ToString();
+                    DStho = dAOTho.FilterTho("KhuVuc", selectedItem);
+                    bUSThueTho.CreateWrapThueTho(DStho, this);
+                }
+                else
+                {
+                    DStho = dAOTho.ReadAllTho();
+                    bUSThueTho.CreateWrapThueTho(DStho, this);
+                }    
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi");
+            }
         }
-
-
     }
 }

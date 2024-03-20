@@ -129,10 +129,11 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                 <StackPanel Orientation="Horizontal">
                     <ComboBox 
                         materialDesign:HintAssist.Hint="Khu vực"
+                        x:Name="cboKhuVuc"
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
-                        IsEditable="True"
+                        IsEditable="True" SelectionChanged="cbo_SelectionChanged"
                         >
                         <ComboBoxItem
                         Content="Quận 1" />
@@ -172,7 +173,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
-                        IsEditable="True"
+                        IsEditable="True" SelectionChanged="cbo_SelectionChanged"
                         >
                         <ComboBoxItem
                         Content="Ít hơn 1 năm" />
@@ -189,7 +190,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
-                        IsEditable="True"
+                        IsEditable="True" SelectionChanged="cbo_SelectionChanged"
                         >
                        <ComboBoxItem
                         Content="1 sao" 

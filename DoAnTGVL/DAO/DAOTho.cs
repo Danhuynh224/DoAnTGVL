@@ -1,8 +1,10 @@
 ﻿using DoAnTGVL.Class;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -14,39 +16,16 @@ namespace DoAnTGVL.DAO
     public class DAOTho
 
     {
-        int i = 0;
-        public List<Tho> ReadDatabase()
-        {
-            
+        DbConection dbConection =new DbConection();
+        public List<Tho> ReadAllTho()
+        {        
             string query = "Select * From Tho";
-            List<Tho> DStho= new List<Tho>();
-            
-            using (SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring))
-            {
-                
-                SqlCommand command = new SqlCommand(query, conn);
-
-                try
-                {
-                    conn.Open();
-                    SqlDataReader dataReader  = command.ExecuteReader();
-
-                    while (dataReader.Read())
-                    {
-                        Tho tho = new Tho(dataReader[0].ToString(), dataReader[1].ToString(), dataReader[2].ToString(), dataReader[3].ToString(),
-                    (DateTime)dataReader[4], dataReader[5].ToString(), dataReader[6].ToString(), dataReader[7].ToString(), dataReader[8].ToString(), (int)dataReader[9], Convert.ToSingle(dataReader[10]));
-                        DStho.Add(tho);
-                        
-                    }
-
-                    dataReader.Close();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-            }
-            return DStho;
+            return dbConection.ReadDatabase(query);
+        }
+        public List<Tho> FilterTho(string pro, string condition)
+        {
+            string query = string.Format("Select * From Tho Where {0} = N'{1}'",pro,condition);
+            return dbConection.ReadDatabase(query);
         }
     }
 }

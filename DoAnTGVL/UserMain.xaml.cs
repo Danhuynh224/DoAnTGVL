@@ -1,4 +1,5 @@
 ﻿using DoAnTGVL.BUS;
+using DoAnTGVL.DAO;
 using DoAnTGVL.UControls;
 using System;
 using System.Collections.Generic;
@@ -22,7 +23,8 @@ namespace DoAnTGVL
     public partial class UserMain : Window
     {
         private UserControl PreUC = new UCHome();
-        private UserControl CurUC= new UCHome();
+        private UserControl CurUC= new UCHome(); 
+        DAOTho dAOTho = new DAOTho();
 
         public UserMain()
         {
@@ -83,9 +85,8 @@ namespace DoAnTGVL
         }
         private void MnuTimTho_Click(object sender, RoutedEventArgs e)
         {
-            BUSThueTho bUSThueTho = new BUSThueTho();
             gridMainWin.Children.Clear();
-            CurUC = bUSThueTho.CreateUCThueTho();
+            CurUC = new UCThueTho();
             gridMainWin.Children.Add(CurUC);
         }    
     }

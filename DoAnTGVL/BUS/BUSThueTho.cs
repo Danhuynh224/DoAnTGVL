@@ -16,21 +16,18 @@ namespace DoAnTGVL.BUS
     {
         DAOTho dAOTho = new DAOTho();
         UserControl userControl;
-        public UCThueTho CreateUCThueTho()
+        public void CreateWrapThueTho(List<Tho> DStho,UCThueTho uCThueTho)
         {
-            List<Tho> DStho = dAOTho.ReadDatabase();
-            UCThueTho uCThueTho = new UCThueTho();
+            uCThueTho.WpanelDanhS.Children.Clear();
             foreach (Tho tho  in DStho)
-            {
-                userControl = new UCDanhSachTho(tho); ; ;
+            {                
+                userControl = new UCDanhSachTho(tho); 
                 userControl.Width = 280;
                 userControl.Height = 450;
                 userControl.Margin = new Thickness(10);
                 // Thêm UserControl vào WrapPanel
                 uCThueTho.WpanelDanhS.Children.Add(userControl);
-            }    
-            return uCThueTho;
-
+            }   
         }
     }
 }

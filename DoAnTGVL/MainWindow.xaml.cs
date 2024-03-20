@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Diagnostics;
+using System.Data.SqlClient;
 
 namespace DoAnTGVL
 {
@@ -21,6 +22,7 @@ namespace DoAnTGVL
     /// </summary>
     public partial class MainWindow : Window
     {
+        SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring);
         public MainWindow()
         {
             InitializeComponent();

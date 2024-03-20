@@ -32,7 +32,6 @@ namespace DoAnTGVL.UControls
         {
             ChiTietTho chiTietTho = new ChiTietTho(tho);
             chiTietTho.Show();
-
         }
     }
 }
