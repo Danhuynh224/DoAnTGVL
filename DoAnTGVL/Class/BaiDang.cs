@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DoAnTGVL.Class
 {
-    class BaiDang
+    public class BaiDang
     {
         private string iD;
         private string iDUser;
@@ -19,14 +19,23 @@ namespace DoAnTGVL.Class
 
         public BaiDang(string iD, string iDUser, string tieuDe, string khuVuc, string moTa, DateTime date, string kinhNghiem, string ghiChu)
         {
-            this.iD = iD;
-            this.iDUser = iDUser;
-            this.tieuDe = tieuDe;
-            this.khuVuc = khuVuc;
-            this.moTa = moTa;
-            this.date = date;
-            this.kinhNghiem = kinhNghiem;
-            this.ghiChu = ghiChu;
+            this.ID = iD;
+            this.IDUser = iDUser;
+            this.TieuDe = tieuDe;
+            this.KhuVuc = khuVuc;
+            this.MoTa = moTa;
+            this.Date = date;
+            this.KinhNghiem = kinhNghiem;
+            this.GhiChu = ghiChu;
         }
+
+        public string ID { get => iD; set => iD = value; }
+        public string IDUser { get => iDUser; set => iDUser = value; }
+        public string TieuDe { get => tieuDe; set => tieuDe = value; }
+        public string KhuVuc { get => khuVuc; set => khuVuc = value; }
+        public string MoTa { get => moTa; set => moTa = value; }
+        public DateTime Date { get => date; set => date = value; }
+        public string KinhNghiem { get => kinhNghiem; set => kinhNghiem = value; }
+        public string GhiChu { get => ghiChu; set => ghiChu = value; }
     }
 }

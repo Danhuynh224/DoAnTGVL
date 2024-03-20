@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DoAnTGVL.Class;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,12 @@ namespace DoAnTGVL.UControls
     /// </summary>
     public partial class UCDanhSachCongViec : UserControl
     {
-        public UCDanhSachCongViec()
+        BaiDang baidang;
+        public UCDanhSachCongViec(BaiDang baidang)
         {
+            this.baidang = baidang;
             InitializeComponent();
+            this.DataContext = baidang;
         }
 
 

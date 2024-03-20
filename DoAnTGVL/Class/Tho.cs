@@ -17,7 +17,7 @@ namespace DoAnTGVL.Class
         public Tho(string id, string hoTen, string cCCD, string sDT, DateTime dob, string khuvuc,string linhvuc,string chuyenmon, string kinhnghiem, int giatien,float danhgia) : base(id, hoTen, cCCD, sDT, dob, khuvuc)
         {
             this.linhVuc = linhvuc;
-            this.chuyenMon = chuyenmon; ;
+            this.chuyenMon = chuyenmon;
             this.giatien = giatien;
             this.danhGia = danhgia;
             this.Kinhnghiem= kinhnghiem;

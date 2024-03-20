@@ -21,7 +21,7 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0">
-                <TextBlock Text="Nhà phát triển Flutter có kinh nghiệm ở Trung Mỹ / Nam Mỹ để thực hiện..." TextWrapping="Wrap" Foreground="#001E00" FontSize="20" FontWeight="DemiBold">
+                <TextBlock Text="{Binding Path= TieuDe }" TextWrapping="Wrap" Foreground="#001E00" FontSize="20" FontWeight="DemiBold">
                     
                 </TextBlock>
             </Grid>
@@ -44,7 +44,7 @@
                 </Grid.ColumnDefinitions>
 
                 <WrapPanel Grid.Column="0" Orientation="Vertical">
-                    <TextBlock Text="Quận 1" Foreground="#001E00" FontSize="15" FontWeight="DemiBold"></TextBlock>
+                    <TextBlock Text="{Binding Path= KhuVuc}" Foreground="#001E00" FontSize="15" FontWeight="DemiBold"></TextBlock>
                     <TextBlock Text="Khu Vực" Margin="0 2 0 0"
                                Foreground="#9AAA97" FontSize="12">
                         
@@ -53,7 +53,7 @@
                 </WrapPanel>
 
                 <WrapPanel Grid.Column="1" Orientation="Vertical">
-                    <TextBlock Text="Trên 3 năm" Foreground="#001E00" FontSize="15" FontWeight="DemiBold"></TextBlock>
+                    <TextBlock Text="{Binding Path=KinhNghiem}" Foreground="#001E00" FontSize="15" FontWeight="DemiBold"></TextBlock>
                     <TextBlock Text="Kinh Nghiệm" Margin="0 2 0 0"
                             Foreground="#9AAA97" FontSize="12">
  
@@ -63,7 +63,7 @@
             </Grid>
 
             <Grid Grid.Row="3">
-                <TextBlock Text="Tôi đang tìm kiếm một nhà thiết kế 3D có kinh nghiệm làm việc với Adobe Substance Designer để tạo một texture tùy chỉnh cho dây Paracord......"
+                <TextBlock Text="{Binding Path= MoTa}"
                            FontSize="15" TextWrapping="Wrap" Foreground="#001E00" FontWeight="DemiBold"
                            Margin="0 20 0 0"
                            ></TextBlock>
