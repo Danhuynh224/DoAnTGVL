@@ -27,10 +27,12 @@ namespace DoAnTGVL.UControls
     {
         BUSThueTho bUSThueTho = new BUSThueTho();
         DAOTho dAOTho = new DAOTho();
+        FilterTho filterTho = new FilterTho();
         List<Tho> DStho;
         public UCThueTho()
         {
             InitializeComponent();
+            this.DataContext = filterTho;
             DStho = dAOTho.ReadAllTho();
             bUSThueTho.CreateWrapThueTho(DStho, this);
         }
@@ -42,25 +44,12 @@ namespace DoAnTGVL.UControls
         }
 
         private void cbo_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            try
-            {
-                if (cboKhuVuc.SelectedItem as ComboBoxItem != null)
-                {
-                    string selectedItem = (cboKhuVuc.SelectedItem as ComboBoxItem).Content.ToString();
-                    DStho = dAOTho.FilterTho("KhuVuc", selectedItem);
-                    bUSThueTho.CreateWrapThueTho(DStho, this);
-                }
-                else
-                {
-                    DStho = dAOTho.ReadAllTho();
-                    bUSThueTho.CreateWrapThueTho(DStho, this);
-                }    
-            }
-            catch
-            {
-                MessageBox.Show("Lỗi");
-            }
+        { 
+            filterTho.KhuVuc = (cboKhuVuc.SelectedItem != null) ? (cboKhuVuc.SelectedItem as ComboBoxItem).Content.ToString() : "";
+            filterTho.KinhNghiem = (cboKinhNghiem.SelectedItem != null) ? (cboKinhNghiem.SelectedItem as ComboBoxItem).Content.ToString() : "";
+            filterTho.DanhGia = (cboDanhGia.SelectedItem != null) ? float.Parse((cboDanhGia.SelectedItem as ComboBoxItem).Content.ToString()) : 0;
+            DStho = dAOTho.FilterTho(filterTho);
+            bUSThueTho.CreateWrapThueTho(DStho, this);
         }
     }
 }

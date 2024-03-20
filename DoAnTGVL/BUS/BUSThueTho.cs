@@ -11,23 +11,23 @@ using System.Windows;
 
 namespace DoAnTGVL.BUS
 {
-    
+
     public class BUSThueTho
     {
         DAOTho dAOTho = new DAOTho();
         UserControl userControl;
-        public void CreateWrapThueTho(List<Tho> DStho,UCThueTho uCThueTho)
+        public void CreateWrapThueTho(List<Tho> DStho, UCThueTho uCThueTho)
         {
             uCThueTho.WpanelDanhS.Children.Clear();
-            foreach (Tho tho  in DStho)
-            {                
-                userControl = new UCDanhSachTho(tho); 
+            foreach (Tho tho in DStho)
+            {
+                userControl = new UCDanhSachTho(tho);
                 userControl.Width = 280;
                 userControl.Height = 450;
                 userControl.Margin = new Thickness(10);
                 // Thêm UserControl vào WrapPanel
                 uCThueTho.WpanelDanhS.Children.Add(userControl);
-            }   
+            }
         }
-    }
+    }   
 }

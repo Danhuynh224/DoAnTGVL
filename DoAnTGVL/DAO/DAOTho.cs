@@ -22,9 +22,28 @@ namespace DoAnTGVL.DAO
             string query = "Select * From Tho";
             return dbConection.ReadDatabase(query);
         }
-        public List<Tho> FilterTho(string pro, string condition)
+        public List<Tho> FilterTho(FilterTho filterTho)
         {
-            string query = string.Format("Select * From Tho Where {0} = N'{1}'",pro,condition);
+            string query = "Select * From Tho";
+            if (!filterTho.checkemp()) {
+                query += " Where";
+                if (filterTho.KhuVuc != "")
+                {
+                    query += string.Format(" KhuVuc = N'{0}'", filterTho.KhuVuc);
+                }
+                if (filterTho.KinhNghiem !="")
+                {
+                    if (filterTho.KhuVuc != "")
+                        query += " and";
+                    query += string.Format(" KinhNghiem = N'{0}'", filterTho.KinhNghiem);
+                }
+                if (filterTho.DanhGia != 0)
+                {
+                    if (filterTho.KhuVuc != "" || filterTho.KinhNghiem != "")
+                        query += " and";
+                    query += string.Format(" DanhGia  >= {0}", filterTho.DanhGia);
+                }
+            }
             return dbConection.ReadDatabase(query);
         }
     }

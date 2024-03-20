@@ -130,10 +130,11 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                     <ComboBox 
                         materialDesign:HintAssist.Hint="Khu vực"
                         x:Name="cboKhuVuc"
+                        
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
-                        IsEditable="True" SelectionChanged="cbo_SelectionChanged"
+                        IsEditable="True" SelectionChanged="cbo_SelectionChanged" 
                         >
                         <ComboBoxItem
                         Content="Quận 1" />
@@ -170,6 +171,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
 
                     <ComboBox 
                         materialDesign:HintAssist.Hint="Kinh nghiệm"
+                        x:Name="cboKinhNghiem"
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
@@ -190,19 +192,20 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
+                        x:Name="cboDanhGia"
                         IsEditable="True" SelectionChanged="cbo_SelectionChanged"
                         >
                        <ComboBoxItem
-                        Content="1 sao" 
+                        Content="1" 
                           />
                        <ComboBoxItem
-                        Content="2 sao" />
+                        Content="2" />
                         <ComboBoxItem
-                        Content="3 sao" />
+                        Content="3" />
                        <ComboBoxItem
-                        Content="4 sao" />
+                        Content="4" />
                         <ComboBoxItem
-                        Content="5 sao" />
+                        Content="5" />
                     </ComboBox>
 
                 </StackPanel>
