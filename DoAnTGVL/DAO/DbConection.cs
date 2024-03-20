@@ -65,5 +65,34 @@ namespace DoAnTGVL.DAO
             }
             return DStho;
         }
+
+        public List<BaiDang> ReadDatabaseBaiDang(string query)
+        {
+            List<BaiDang> DSbaidang = new List<BaiDang>();
+            using (conn)
+            {
+                SqlCommand command = new SqlCommand(query, conn);
+                try
+                {
+                    conn.Open();
+                    SqlDataReader dataReader = command.ExecuteReader();
+
+                    while (dataReader.Read())
+                    {
+                        BaiDang baidang = new BaiDang(dataReader[0].ToString(), dataReader[1].ToString(), dataReader[2].ToString(), dataReader[3].ToString(),
+                    dataReader[4].ToString(), (DateTime)dataReader[5], dataReader[6].ToString(), dataReader[7].ToString());
+                        DSbaidang.Add(baidang);
+
+                    }
+
+                    dataReader.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            return DSbaidang;
+        }
     }
 }
