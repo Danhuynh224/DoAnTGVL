@@ -177,3 +177,4 @@ C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\DoAnTGVL.pdb
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\DoAnTGVL.genruntimeconfig.cache
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\ref\DoAnTGVL.dll
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows7.0\Converts\StringToDateConverter.cs
