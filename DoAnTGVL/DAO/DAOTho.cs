@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Documents;
+using System.Windows.Media.Converters;
 
 namespace DoAnTGVL.DAO
 {
@@ -25,30 +26,41 @@ namespace DoAnTGVL.DAO
         public List<Tho> FilterTho(FilterTho filterTho)
         {
             string query = "Select * From Tho";
+            bool exist = false;
             if (!filterTho.checkemp()) {
                 query += " Where";
                 if (filterTho.KhuVuc != "")
                 {
                     query += string.Format(" KhuVuc = N'{0}'", filterTho.KhuVuc);
+                    exist = true;
                 }
                 if (filterTho.KinhNghiem !="")
                 {
-                    if (filterTho.KhuVuc != "")
+                    if (exist)
                         query += " and";
                     query += string.Format(" KinhNghiem = N'{0}'", filterTho.KinhNghiem);
+                    exist = true;
                 }
                 if (filterTho.DanhGia != 0)
                 {
-                    if (filterTho.KhuVuc != "" || filterTho.KinhNghiem != "")
+                    if (exist)
                         query += " and";
                     query += string.Format(" DanhGia  >= {0}", filterTho.DanhGia);
+                    exist = true;
                 }
                 if (filterTho.ChuyenMon !="")
                 {
-                    if (filterTho.KhuVuc != "" || filterTho.KinhNghiem != "" || filterTho.DanhGia != 0)
+                    if (exist)
                         query += " and";
                     query += string.Format(" ChuyenMon = N'{0}'", filterTho.ChuyenMon);
-                }    
+                    exist = true;
+                } 
+                if (filterTho.Ten !="")
+                {
+                    if (exist)
+                        query += " and";
+                    query += string.Format(" HoTen like N'%{0}%'", filterTho.Ten);
+                }
             }
             return dbConection.ReadDatabase(query);
         }

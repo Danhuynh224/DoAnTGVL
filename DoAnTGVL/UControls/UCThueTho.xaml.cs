@@ -60,14 +60,17 @@ namespace DoAnTGVL.UControls
             }
             DStho = dAOTho.FilterTho(filterTho);
             bUSThueTho.CreateWrapThueTho(DStho, this);
-        }
-
-        
-
+        } 
         private void reload_button_Click(object sender, RoutedEventArgs e)
         {
             filterTho.reset();
             this.Content = new UCThueTho();
+        }
+
+        private void txbTimKiem_KeyUp(object sender, KeyEventArgs e)
+        {
+            DStho = dAOTho.FilterTho(filterTho);
+            bUSThueTho.CreateWrapThueTho(DStho, this);
         }
     }
 }
