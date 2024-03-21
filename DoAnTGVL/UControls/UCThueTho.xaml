@@ -5,10 +5,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DoAnTGVL.UControls"
-            
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="1300"
              Style="{StaticResource UC_Style}">
+    
     <Grid Height="auto" Width="auto">
         <Grid.RowDefinitions>
             <RowDefinition Height="120"></RowDefinition>
@@ -24,51 +24,51 @@
             <materialDesign:ColorZone Grid.Row="0" Height="60"
 Mode="PrimaryLight" Background="#FFF4F4F4">
 
-                <StackPanel Orientation="Horizontal"  >
-                    <Button Style="{DynamicResource MaterialDesignToolButton}">
-                        <materialDesign:PackIcon Kind="AccountCircleOutline" Height="30" Width="30" Margin="50 0 0 0"/>
+                <StackPanel  Orientation="Horizontal"  >
+                    <Button x:Name="reload_button" Style="{DynamicResource MaterialDesignToolButton}" Click="reload_button_Click">
+                        <materialDesign:PackIcon Kind="Reload" Height="25" Width="35" Margin="50 0 0 0"/>
                     </Button>
-                    <Menu Margin="20 0 0 0" Cursor="Hand" VerticalAlignment="Center" FontSize="20">
+                    <Menu Margin="20 0 0 0" Cursor="Hand" VerticalAlignment="Center" FontSize="20"  >
                         <MenuItem Header="Điện nước">
-                            <MenuItem Header="Sửa Đèn Quạt" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Đường Điện" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Bồn Nước" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Máy Nước Nóng" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Ống Cống" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Lắp điện nước" Cursor="Hand"></MenuItem>
+                            <MenuItem Header="Sửa đèn quạt"  Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Sửa đường điện" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Sửa bồn nước" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Sửa máy nước nóng" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Sửa ống cống" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Lắp điện nước" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
                         </MenuItem>
 
-                        <MenuItem Header="Điện tử" Margin="20 0 0 0">
-                            <MenuItem Header="Sửa Tivi" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Loa" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Máy Lạnh" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Tủ Lạnh" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Máy Giặt" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Máy Vi Tính" Cursor="Hand"></MenuItem>
+                        <MenuItem Header="Điện tử" Margin="20 0 0 0" >
+                            <MenuItem Header="Sửa tivi" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Sửa loa" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Sửa máy lạnh" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Sửa tủ lạnh" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Sửa máy giặt" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Sửa máy vi tính" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
                         </MenuItem>
 
-                        <MenuItem Header="Bảo trì" Margin="20 0 0 0">
-                            <MenuItem Header="Tủ Lạnh" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Máy Lạnh" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Máy Giặt" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Máy In" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Máy Tính" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Xe Máy" Cursor="Hand"></MenuItem>
+                        <MenuItem Header="Bảo trì" Margin="20 0 0 0" >
+                            <MenuItem Header="Tủ lạnh" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Máy lạnh" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Máy giặt" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Máy in" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Máy tính" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
+                            <MenuItem Header="Xe máy" Cursor="Hand" Click="GetChuyenMon"></MenuItem>
                         </MenuItem>
 
-                        <MenuItem Header="Gia sư" Margin="20 0 0 0">
+                        <MenuItem Header="Gia sư" Margin="20 0 0 0" Click="GetChuyenMon">
                             <MenuItem Header="Dạy kèm cấp 1" Cursor="Hand"></MenuItem>
                             <MenuItem Header="Dạy kèm cấp 2" Cursor="Hand"></MenuItem>
                             <MenuItem Header="Dạy kèm cấp 3" Cursor="Hand"></MenuItem>
                         </MenuItem>
 
-                        <MenuItem Header="Sửa nhà" Margin="20 0 0 0">
-                            <MenuItem Header="Chống Thấm" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sơn Nhà" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sơn Cửa" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Nhà Bếp" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Đồ Gỗ" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa ToaLet" Cursor="Hand"></MenuItem>
+                        <MenuItem Header="Sửa nhà" Margin="20 0 0 0" Click="GetChuyenMon">
+                            <MenuItem Header="Chống thấm" Cursor="Hand"></MenuItem>
+                            <MenuItem Header="Sơn nhà" Cursor="Hand"></MenuItem>
+                            <MenuItem Header="Sơn cửa" Cursor="Hand"></MenuItem>
+                            <MenuItem Header="Sửa nhà bếp" Cursor="Hand"></MenuItem>
+                            <MenuItem Header="Sửa đồ gỗ" Cursor="Hand"></MenuItem>
+                            <MenuItem Header="Sửa toaLet" Cursor="Hand"></MenuItem>
                         </MenuItem>
                     </Menu>
 
@@ -134,7 +134,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
-                        IsEditable="True" SelectionChanged="cbo_SelectionChanged" 
+                        IsEditable="True" SelectionChanged="fil_SelectionChanged" 
                         >
                         <ComboBoxItem
                         Content="Quận 1" />
@@ -175,7 +175,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
-                        IsEditable="True" SelectionChanged="cbo_SelectionChanged"
+                        IsEditable="True" SelectionChanged="fil_SelectionChanged"
                         >
                         <ComboBoxItem
                         Content="Ít hơn 1 năm" />
@@ -193,7 +193,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
                         x:Name="cboDanhGia"
-                        IsEditable="True" SelectionChanged="cbo_SelectionChanged"
+                        IsEditable="True" SelectionChanged="fil_SelectionChanged"
                         >
                        <ComboBoxItem
                         Content="1" 

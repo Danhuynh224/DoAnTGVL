@@ -24,5 +24,12 @@ namespace DoAnTGVL.Class
                 return true;
             return false;
         }
+        public void reset()
+        {
+            khuVuc = "";
+            kinhNghiem = "";
+            danhGia = 0;
+            chuyenMon = "";
+        }    
     }
 }

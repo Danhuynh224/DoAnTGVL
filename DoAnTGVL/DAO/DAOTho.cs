@@ -43,6 +43,12 @@ namespace DoAnTGVL.DAO
                         query += " and";
                     query += string.Format(" DanhGia  >= {0}", filterTho.DanhGia);
                 }
+                if (filterTho.ChuyenMon !="")
+                {
+                    if (filterTho.KhuVuc != "" || filterTho.KinhNghiem != "" || filterTho.DanhGia != 0)
+                        query += " and";
+                    query += string.Format(" ChuyenMon = N'{0}'", filterTho.ChuyenMon);
+                }    
             }
             return dbConection.ReadDatabase(query);
         }
