@@ -43,13 +43,31 @@ namespace DoAnTGVL.UControls
             dangbai.ShowDialog();
         }
 
-        private void cbo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void fil_SelectionChanged(object sender, SelectionChangedEventArgs e)
         { 
             filterTho.KhuVuc = (cboKhuVuc.SelectedItem != null) ? (cboKhuVuc.SelectedItem as ComboBoxItem).Content.ToString() : "";
             filterTho.KinhNghiem = (cboKinhNghiem.SelectedItem != null) ? (cboKinhNghiem.SelectedItem as ComboBoxItem).Content.ToString() : "";
             filterTho.DanhGia = (cboDanhGia.SelectedItem != null) ? float.Parse((cboDanhGia.SelectedItem as ComboBoxItem).Content.ToString()) : 0;
             DStho = dAOTho.FilterTho(filterTho);
             bUSThueTho.CreateWrapThueTho(DStho, this);
+        }
+        private void GetChuyenMon(object sender, RoutedEventArgs e)
+        {
+            MenuItem subMenuItem = sender as MenuItem;
+            if (subMenuItem != null)
+            {
+                filterTho.ChuyenMon = subMenuItem.Header.ToString();              
+            }
+            DStho = dAOTho.FilterTho(filterTho);
+            bUSThueTho.CreateWrapThueTho(DStho, this);
+        }
+
+        
+
+        private void reload_button_Click(object sender, RoutedEventArgs e)
+        {
+            filterTho.reset();
+            this.Content = new UCThueTho();
         }
     }
 }
