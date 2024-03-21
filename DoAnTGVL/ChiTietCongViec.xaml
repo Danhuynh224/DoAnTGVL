@@ -31,8 +31,7 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
-            <TextBlock Text=
-"Nhà phát triển Flutter có kinh nghiệm ở Trung Mỹ / Nam Mỹ để thực hiện..." 
+            <TextBlock Text="{Binding Path= TieuDe}" 
                        TextWrapping="Wrap" 
                        Foreground="#001E00" FontSize="25" FontWeight="DemiBold">
 
@@ -48,7 +47,7 @@
                 <ColumnDefinition Width="59*"/>
                 <ColumnDefinition Width="701*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Text="Tôi hiện đang cần các texture đường phố có độ phân giải 4K, được chỉnh sửa tùy chỉnh để tích hợp bụi bẩn từ lốp xe và các đường ghi kẻ đường thực tế theo yêu cầu của tôi. Rất quan trọng là các texture phải là liền mạch và có mức độ chi tiết cao, đảm bảo một diện mạo sắc nét và rõ ràng mà không có bất kỳ hạt nền hoặc các yếu tố chất lượng thấp nào có thể nhìn thấy được."
+            <TextBlock Text="{Binding Path= MoTa}"
                        TextWrapping="Wrap"
                        Foreground="#001E00" FontSize="15" FontWeight="Regular"
                        Margin="0 20 0 0" Grid.ColumnSpan="2"
@@ -56,44 +55,21 @@
         </Grid>
 
         <Grid Grid.Row="3">
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-
             <StackPanel Grid.Column="0" Orientation="Vertical" >
-                <TextBlock Text="Yều cầu:" Foreground="#001E00" FontSize="15" FontWeight="Regular">
-
-                </TextBlock>
-
-                <TextBlock Text="• Độ phân giải 4K" Foreground="#001E00" FontSize="15" FontWeight="Regular">
-
-                </TextBlock>
-
-                <TextBlock Text="• Phổ , normals, height, gloss" Foreground="#001E00" FontSize="15" FontWeight="Regular">
-
-                </TextBlock>
-
+                <TextBlock Text="Yêu cầu:" Foreground="#001E00" FontSize="15" FontWeight="Regular"></TextBlock>
+                <TextBlock Text="{Binding Path= YeuCau}"
+                           TextWrapping="Wrap"
+                            Margin="0 5 0 0"
+                           ></TextBlock>
+                    
             </StackPanel>
-
-            <StackPanel Grid.Column="1">
-                <TextBlock Margin="0 20 0 0" Text="• Độ phân giải 4K" Foreground="#001E00" FontSize="15" FontWeight="Regular">
-
-                </TextBlock>
-
-                <TextBlock Text="• Need diffus, normals, height, gloss" Foreground="#001E00" FontSize="15" FontWeight="Regular">
-
-                </TextBlock>
-            </StackPanel>
-
+            
         </Grid>
 
         <Grid Grid.Row="4">
-            <TextBlock Text="Tôi đang tìm mua tổng cộng 5 texture đường trong đơn hàng này, và tôi sẵn lòng trả $5 cho mỗi texture. Nếu bạn có thể đáp ứng các yêu cầu này và cung cấp chất lượng mong muốn, tôi sẵn lòng mua thêm các texture từ bạn, vì tôi đang có nhu cầu liên tục cho các texture chất lượng cao như vậy."
+            <TextBlock Text="{Binding Path= GhiChu}"
                        TextWrapping="Wrap"
-                       Foreground="#001E00" FontSize="15" FontWeight="Regular"
-                       Margin="0 20 0 0"
+                        Margin="0 20 0 0"
                        ></TextBlock>
         </Grid>
 

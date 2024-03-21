@@ -32,7 +32,7 @@ namespace DoAnTGVL.UControls
 
         private void btnXemChiTiet_Click(object sender, RoutedEventArgs e)
         {
-            ChiTietCongViec chiTietCV = new ChiTietCongViec();
+            ChiTietCongViec chiTietCV = new ChiTietCongViec(baidang);
             chiTietCV.Show();
         }
     }

@@ -16,8 +16,9 @@ namespace DoAnTGVL.Class
         private DateTime date;
         private string kinhNghiem;
         private string ghiChu;
+        private string yeuCau;
 
-        public BaiDang(string iD, string iDUser, string tieuDe, string khuVuc, string moTa, DateTime date, string kinhNghiem, string ghiChu)
+        public BaiDang(string iD, string iDUser, string tieuDe, string khuVuc, string moTa, DateTime date, string kinhNghiem, string yeuCau ,string ghiChu)
         {
             this.ID = iD;
             this.IDUser = iDUser;
@@ -27,6 +28,7 @@ namespace DoAnTGVL.Class
             this.Date = date;
             this.KinhNghiem = kinhNghiem;
             this.GhiChu = ghiChu;
+            this.YeuCau = yeuCau;
         }
 
         public string ID { get => iD; set => iD = value; }
@@ -37,5 +39,6 @@ namespace DoAnTGVL.Class
         public DateTime Date { get => date; set => date = value; }
         public string KinhNghiem { get => kinhNghiem; set => kinhNghiem = value; }
         public string GhiChu { get => ghiChu; set => ghiChu = value; }
+        public string YeuCau { get => yeuCau; set => yeuCau = value; }
     }
 }

@@ -80,7 +80,7 @@ namespace DoAnTGVL.DAO
                     while (dataReader.Read())
                     {
                         BaiDang baidang = new BaiDang(dataReader[0].ToString(), dataReader[1].ToString(), dataReader[2].ToString(), dataReader[3].ToString(),
-                    dataReader[4].ToString(), (DateTime)dataReader[5], dataReader[6].ToString(), dataReader[7].ToString());
+                    dataReader[4].ToString(), (DateTime)dataReader[5], dataReader[6].ToString(), dataReader[7].ToString(), dataReader[8].ToString());
                         DSbaidang.Add(baidang);
 
                     }

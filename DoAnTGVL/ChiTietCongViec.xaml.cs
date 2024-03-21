@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DoAnTGVL.Class;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,10 @@ namespace DoAnTGVL
     /// </summary>
     public partial class ChiTietCongViec : Window
     {
-        public ChiTietCongViec()
+        public ChiTietCongViec(BaiDang baidang)
         {
             InitializeComponent();
+            this.DataContext = baidang; 
         }
 
         private void btnHuy_Click(object sender, RoutedEventArgs e)
