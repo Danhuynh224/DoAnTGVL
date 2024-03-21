@@ -1,14 +1,16 @@
-﻿CREATE TABLE [dbo].[BaiDang]
-(
-	[ID] NCHAR(50) NOT NULL PRIMARY KEY, 
-    [IDUser] NVARCHAR(50) NULL, 
-    [TieuDe] NVARCHAR(50) NULL, 
-    [KhuVuc] NVARCHAR(50) NULL, 
-    [MoTa] NVARCHAR(MAX) NULL, 
-    [Date] DATETIME2 NULL, 
-    [KinhNghiem] NVARCHAR(50) NULL, 
-    [GhiChu] NVARCHAR(MAX) NULL
-)
+﻿CREATE TABLE [dbo].[BaiDang] (
+    [ID]         NCHAR (50)     NOT NULL,
+    [IDUser]     NVARCHAR (50)  NULL,
+    [TieuDe]     NVARCHAR (MAX) NULL,
+    [LinhVuc]    NVARCHAR (50)  NULL,
+    [KhuVuc]     NVARCHAR (50)  NULL,
+    [MoTa]       NVARCHAR (MAX) NULL,
+    [Date]       DATETIME2 (7)  NULL,
+    [KinhNghiem] NVARCHAR (50)  NULL,
+    [YeuCau]     NVARCHAR (MAX) NULL,
+    [GhiChu]     NVARCHAR (MAX) NULL,
+    PRIMARY KEY CLUSTERED ([ID] ASC)
+);
 
 
 Insert into BaiDang Values ('1', '1', N'Cần thuê thợ điện tử chuyên nghiệp cho dự án mới', N'Thủ Đức', N'Đảm bảo sửa chữa và bảo trì các thiết bị điện tử trong dự án mới, bao gồm máy tính, máy in, thiết bị điện tử khác theo yêu cầu', N'2024-3-4', N'1 - 2 năm', N'Có kinh nghiệm trong việc sửa chữa và bảo trì thiết bị điện tử, hiểu biết về các linh kiện điện tử, có khả năng xử lý sự cố.', N'Ưu tiên ứng viên có bằng cấp và chứng chỉ liên quan đến điện tử.')

@@ -39,7 +39,7 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <TextBlock Margin="0 20 0 0" Text="Đăng tải 2 ngày trước" Foreground="#9AAA97" FontSize="15"></TextBlock>
+            <TextBlock Margin="0 5 0 0" Text="Đăng tải 2 ngày trước" Foreground="#9AAA97" FontSize="15"></TextBlock>
         </Grid>
 
         <Grid Grid.Row="2">
@@ -56,9 +56,10 @@
 
         <Grid Grid.Row="3">
             <StackPanel Grid.Column="0" Orientation="Vertical" >
-                <TextBlock Text="Yêu cầu:" Foreground="#001E00" FontSize="15" FontWeight="Regular"></TextBlock>
+                <TextBlock Text="Yêu cầu:" Foreground="#001E00" FontSize="20" FontWeight="DemiBold"></TextBlock>
                 <TextBlock Text="{Binding Path= YeuCau}"
                            TextWrapping="Wrap"
+                           Foreground="#001E00" FontSize="15" FontWeight="Regular"
                             Margin="0 5 0 0"
                            ></TextBlock>
                     
@@ -69,6 +70,7 @@
         <Grid Grid.Row="4">
             <TextBlock Text="{Binding Path= GhiChu}"
                        TextWrapping="Wrap"
+                       Foreground="#001E00" FontSize="15" FontWeight="Regular"
                         Margin="0 20 0 0"
                        ></TextBlock>
         </Grid>
@@ -91,29 +93,11 @@
 
                 <Border CornerRadius="19" Background="#F2F7F2" BorderThickness="2">
                     <Grid Width="97" Height="30">
-                        <TextBlock Text="Sửa máy lạnh" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55" 
+                        <TextBlock Text="{Binding Path= LinhVuc}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55" 
                     
                     ></TextBlock>
                     </Grid>
                 </Border>
-
-                <Border Margin="10 0 0 0" CornerRadius="19" Background="#F2F7F2" BorderThickness="2">
-                    <Grid Width="97" Height="30">
-                        <TextBlock Text="Điện lạnh" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55" 
-
-></TextBlock>
-                    </Grid>
-                </Border>
-
-                <Border Margin="10 0 0 0" CornerRadius="19" Background="#F2F7F2" BorderThickness="2">
-                    <Grid Width="97" Height="30">
-                        <TextBlock Text="Nhiệt" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55" 
-
-></TextBlock>
-                    </Grid>
-                </Border>
-
-
             </StackPanel>
 
         </Grid>

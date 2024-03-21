@@ -1,5 +1,7 @@
-﻿using System;
+﻿using DoAnTGVL.Class;
+using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,14 +21,30 @@ namespace DoAnTGVL
     /// </summary>
     public partial class DangBai : Window
     {
-        public DangBai()
+        BaiDang baidang;
+        public DangBai(BaiDang baidang)
         {
+            this.baidang = baidang;
             InitializeComponent();
+            this.DataContext = baidang;
         }
 
         private void click_Huy(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void click_DangBai(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                //BaiDang baidang = new BaiDang("20", "1", );
+
+            }
+            catch
+            {
+                MessageBox.Show("Vui long dien day du thong tin");
+            }
         }
     }
 }

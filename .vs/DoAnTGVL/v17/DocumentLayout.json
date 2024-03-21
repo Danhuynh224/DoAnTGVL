@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\WinForm\\testDA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\testda\\doantgvl\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\testda\\doantgvl\\chitietcongviec.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\chitietcongviec.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\testda\\doantgvl\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\testda\\doantgvl\\ucontrols\\ucdanhsachcongviec.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -203,7 +203,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -262,6 +262,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\WinForm\\testDA\\DoAnTGVL\\App.xaml",
+              "RelativeDocumentMoniker": "DoAnTGVL\\App.xaml",
+              "ToolTip": "D:\\WinForm\\testDA\\DoAnTGVL\\App.xaml",
+              "RelativeToolTip": "DoAnTGVL\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-12T14:07:26.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ChiTietCongViec.xaml",
               "DocumentMoniker": "D:\\WinForm\\testDA\\DoAnTGVL\\ChiTietCongViec.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\ChiTietCongViec.xaml",
@@ -282,18 +294,6 @@
               "ViewState": "AQIAABMAAAAAAAAAAAAswCIAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T17:34:57.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\WinForm\\testDA\\DoAnTGVL\\App.xaml",
-              "RelativeDocumentMoniker": "DoAnTGVL\\App.xaml",
-              "ToolTip": "D:\\WinForm\\testDA\\DoAnTGVL\\App.xaml",
-              "RelativeToolTip": "DoAnTGVL\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-12T14:07:26.492Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

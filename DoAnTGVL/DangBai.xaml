@@ -51,18 +51,11 @@
                     <StackPanel Orientation="Vertical">
 
                         <Grid Height="50" Margin="0,10,0,0">
-                            <Grid.ColumnDefinitions >
-                                <ColumnDefinition></ColumnDefinition>
-                                <ColumnDefinition></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-                            <Grid Grid.Column="0" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
-                                <materialDesign:PackIcon Kind="FormatTitle" Height="25" Width="25"/>
-                                <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Nhập tiêu đề"/>
+                            <Grid Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="FormatTitle" Height="25" Width="auto"/>
+                                <TextBox x:Name="txtTieuDe" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Nhập tiêu đề"/>
                             </Grid>
-                            <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
-                                <materialDesign:PackIcon Kind="AccountBox" Height="25" Width="25"/>
-                                <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Họ và tên"/>
-                            </Grid>
+
                         </Grid>
 
                         <Grid Height="50" Margin="0,15,0,0">
@@ -72,7 +65,7 @@
                             </Grid.ColumnDefinitions>
                             <Grid Grid.Column="0" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="Work" Height="24" Width="25" VerticalAlignment="Center"/>
-                                <ComboBox HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                                <ComboBox x:Name="cboLinhVuc" HorizontalAlignment="Right" VerticalAlignment="Bottom"
                                      FontSize="15"
                                     materialDesign:HintAssist.Hint="Lĩnh vực"
                                     Height="30" Padding="5" Width="220">
@@ -85,7 +78,7 @@
                             </Grid>
                             <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="Map" Height="24" Width="25" VerticalAlignment="Center"/>
-                                <ComboBox HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                                <ComboBox x:Name="cboKhuVuc" HorizontalAlignment="Right" VerticalAlignment="Bottom"
                                          FontSize="15"
                                         materialDesign:HintAssist.Hint="Khu vực"
                                         Height="30" Padding="5" Width="220">
@@ -104,29 +97,6 @@
                             </Grid>
                         </Grid>
 
-                        <Grid Height="50" Margin="0,15,0,0">
-                            <Grid Grid.Column="0" Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
-                                <materialDesign:PackIcon Kind="More" Height="25" Width="25"/>
-                                <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Mô tả việc chi tiết"/>
-                            </Grid>
-                        </Grid>
-
-                        <Grid Height="50" Margin="0,15,0,0">
-                            <Grid.ColumnDefinitions >
-                                <ColumnDefinition></ColumnDefinition>
-                                <ColumnDefinition></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-                            <Grid Grid.Column="0" Height="35" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
-                                <materialDesign:PackIcon Kind="CalendarToday" Height="25" Width="25" VerticalAlignment="Top"/>
-                                <DatePicker Margin="30 0 0 0" FontSize="14" 
-                                    materialDesign:HintAssist.Hint="Ngày bắt đầu"
-                                    Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
-                            </Grid>
-                            <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
-                                <materialDesign:PackIcon Kind="Phone" Height="25" Width="25"/>
-                                <TextBox Margin="30 0 0 0" MaxLength="10" FontSize="15" materialDesign:HintAssist.Hint="Nhập SDT"/>
-                            </Grid>
-                        </Grid>
 
                         <Grid Height="50" Margin="0,15,0,0">
                             <Grid.ColumnDefinitions >
@@ -135,7 +105,7 @@
                             </Grid.ColumnDefinitions>
                             <Grid Grid.Column="0" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="Magic" Height="24" Width="25" VerticalAlignment="Center"/>
-                                <ComboBox HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                                <ComboBox x:Name="cboKinhNghiem" HorizontalAlignment="Right" VerticalAlignment="Bottom"
                                      FontSize="15"
                                     materialDesign:HintAssist.Hint="Kinh nghiệm"
                                     Height="30" Padding="5" Width="220">
@@ -145,23 +115,41 @@
                                     <ComboBoxItem Content="Trên 3 năm" />
                                 </ComboBox>
                             </Grid>
-                            <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
-                                <materialDesign:PackIcon Kind="People" Height="25" Width="25"/>
-                                <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Số lượng thợ"/>
+
+                            <Grid Grid.Column="1" Height="35" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="CalendarToday" Height="25" Width="25" VerticalAlignment="Top"/>
+                                <DatePicker x:Name="dtpNgayBatDau" Margin="30 0 0 0" FontSize="14" 
+materialDesign:HintAssist.Hint="Ngày bắt đầu"
+Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+                            </Grid>
+
+                        </Grid>
+
+                        <Grid Height="50" Margin="0,15,0,0">
+                            <Grid Grid.Column="0" Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="More" Height="25" Width="25"/>
+                                <TextBox x:Name="txtMoTa" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Mô tả việc chi tiết"/>
+                            </Grid>
+                        </Grid>
+                        
+                        <Grid Height="50" Margin="0,15,0,0">
+                            <Grid Grid.Column="0" Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
+                                <materialDesign:PackIcon Kind="RequiredCircle" Height="25" Width="25"/>
+                                <TextBox x:Name="txtYeuCau" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Yêu cầu"/>
                             </Grid>
                         </Grid>
 
                         <Grid Height="50" Margin="0,15,0,0">
                             <Grid Grid.Column="0" Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="Note" Height="25" Width="25"/>
-                                <TextBox Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Ghi chú"/>
+                                <TextBox x:Name="txtGhiChu" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Ghi chú"/>
                             </Grid>
                         </Grid>
 
                     </StackPanel>
 
                 </Grid>
-                <Button Width="120" Height="40" Background="#478C10" Content="Đăng" FontSize="18"
+                <Button Width="120" Height="40" Background="#478C10" Content="Đăng" FontSize="18" Click="click_DangBai"
                     HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,434,0,0">
                     <Button.Clip>
                         <RectangleGeometry Rect="0,0,120,40" RadiusX="10" RadiusY="10"/>
