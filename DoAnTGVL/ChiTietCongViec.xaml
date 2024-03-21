@@ -20,13 +20,13 @@
     <Grid Margin="20">
 
         <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>
-            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
-            <RowDefinition Height="100"></RowDefinition>
-            <RowDefinition Height="110"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
@@ -38,24 +38,26 @@
             </TextBlock>
         </Grid>
 
-        <Grid Grid.Row="1">
-            <TextBlock Margin="0 5 0 0" Text="Đăng tải 2 ngày trước" Foreground="#9AAA97" FontSize="15"></TextBlock>
+        <Grid Grid.Row="1" Margin="0 10 0 0">
+            <TextBlock Text="Đăng tải 2 ngày trước" Foreground="#9AAA97" FontSize="15"></TextBlock>
         </Grid>
 
         <Grid Grid.Row="2">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="59*"/>
-                <ColumnDefinition Width="701*"/>
-            </Grid.ColumnDefinitions>
-            <TextBlock Text="{Binding Path= MoTa}"
-                       TextWrapping="Wrap"
-                       Foreground="#001E00" FontSize="15" FontWeight="Regular"
-                       Margin="0 20 0 0" Grid.ColumnSpan="2"
-                       ></TextBlock>
+            
+            <StackPanel Grid.Column="0" Orientation="Vertical" Margin="0 20 0 0">
+                <TextBlock Text="Mô tả chi tiết công việc:" Foreground="#001E00" FontSize="20" FontWeight="DemiBold"></TextBlock>
+                <TextBlock Text="{Binding Path= MoTa}"
+           TextWrapping="Wrap"
+           Foreground="#001E00" FontSize="15" FontWeight="Regular"
+           Margin="0 5 0 0" Grid.ColumnSpan="2"
+           ></TextBlock>
+
+            </StackPanel>
+            
         </Grid>
 
         <Grid Grid.Row="3">
-            <StackPanel Grid.Column="0" Orientation="Vertical" >
+            <StackPanel Grid.Column="0" Orientation="Vertical" Margin="0 30 0 0">
                 <TextBlock Text="Yêu cầu:" Foreground="#001E00" FontSize="20" FontWeight="DemiBold"></TextBlock>
                 <TextBlock Text="{Binding Path= YeuCau}"
                            TextWrapping="Wrap"
@@ -68,11 +70,18 @@
         </Grid>
 
         <Grid Grid.Row="4">
-            <TextBlock Text="{Binding Path= GhiChu}"
-                       TextWrapping="Wrap"
-                       Foreground="#001E00" FontSize="15" FontWeight="Regular"
-                        Margin="0 20 0 0"
-                       ></TextBlock>
+
+            <StackPanel Grid.Column="0" Orientation="Vertical" Margin="0 20 0 0">
+                <TextBlock Text="Ghi chú:" Foreground="#001E00" FontSize="20" FontWeight="DemiBold"></TextBlock>
+                <TextBlock Text="{Binding Path= GhiChu}"
+           TextWrapping="Wrap"
+           Foreground="#001E00" FontSize="15" FontWeight="Regular"
+            Margin="0 5 0 0"
+           ></TextBlock>
+
+            </StackPanel>
+
+            
         </Grid>
 
 
@@ -85,7 +94,7 @@
             <Grid Grid.Row="0">
                 <TextBlock  Text="Lĩnh Vực:"
                        Foreground="#001E00" FontSize="20" FontWeight="DemiBold"
-                       Margin="0 15 0 0"
+                       Margin="0 10 0 0"
                        ></TextBlock>
             </Grid>
 

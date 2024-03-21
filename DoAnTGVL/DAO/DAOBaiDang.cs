@@ -20,8 +20,8 @@ namespace DoAnTGVL.DAO
 
         public void Them(BaiDang baidang)
         {
-            string sqlStr = string.Format("INSERT INTO BaiDang ( IDUser, TieuDe, KhuVuc, MoTa, Date, KinhNghiem, YeuCau, GhiChu) VALUES ('{0}', N'{1}', N'{2}', N'{3}', '{4}', N'{5}', N'{6}', N'{7}')"
-                    , "100", baidang.TieuDe, baidang.KhuVuc, baidang.MoTa, baidang.DateThue.ToShortDateString(), baidang.KinhNghiem, baidang.YeuCau, baidang.GhiChu);
+            string sqlStr = string.Format("INSERT INTO BaiDang ( IDUser, TieuDe, LinhVuc, KhuVuc, MoTa, Date, KinhNghiem, YeuCau, GhiChu) VALUES ('{0}', N'{1}', N'{2}', N'{3}', '{4}', N'{5}', N'{6}', N'{7}', N'{8}')"
+                    , "100", baidang.TieuDe, baidang.LinhVuc, baidang.KhuVuc, baidang.MoTa, baidang.DateThue.ToShortDateString(), baidang.KinhNghiem, baidang.YeuCau, baidang.GhiChu);
             dbConection.Process(sqlStr);
         }
     }

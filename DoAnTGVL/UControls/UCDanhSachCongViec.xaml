@@ -13,7 +13,7 @@
             
             <Grid.RowDefinitions>
                 <RowDefinition></RowDefinition>
-                <RowDefinition Height="34"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
@@ -26,7 +26,7 @@
                 </TextBlock>
             </Grid>
 
-            <WrapPanel Grid.Row="1" Orientation="Horizontal" Margin="0 12 0 0">
+            <WrapPanel Grid.Row="1" Orientation="Horizontal" >
                 <TextBlock Text="Mr.Tris" Foreground="#9AAA97" FontSize="15">
                     
                 </TextBlock>
@@ -74,28 +74,12 @@
 
                     <Border CornerRadius="19" Background="#F2F7F2" BorderThickness="2">
                         <Grid Width="97" Height="30">
-                            <TextBlock Text="Sửa máy lạnh" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55" 
+                            <TextBlock Text="{Binding Path=LinhVuc}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55" 
                                 
                                 ></TextBlock>
                         </Grid>
                     </Border>
-
-                    <Border Margin="10 0 0 0" CornerRadius="19" Background="#F2F7F2" BorderThickness="2">
-                        <Grid Width="97" Height="30">
-                            <TextBlock Text="Điện lạnh" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55" 
-            
-            ></TextBlock>
-                        </Grid>
-                    </Border>
-
-                    <Border Margin="10 0 0 0" CornerRadius="19" Background="#F2F7F2" BorderThickness="2">
-                        <Grid Width="97" Height="30">
-                            <TextBlock Text="Nhiệt" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55" 
-            
-            ></TextBlock>
-                        </Grid>
-                    </Border>
-
+                    
                 </WrapPanel>     
             </Grid>
 

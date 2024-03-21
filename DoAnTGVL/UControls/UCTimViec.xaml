@@ -10,14 +10,10 @@
              Style="{StaticResource UC_Style}">
     <Grid Height="auto" Width="auto">
         <Grid.RowDefinitions>
-            <RowDefinition Height="120"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
-            <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
 
             <materialDesign:ColorZone Grid.Row="0" Height="60"
 Mode="PrimaryLight" Background="#FFF4F4F4">
@@ -26,49 +22,65 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                     <Button Style="{DynamicResource MaterialDesignToolButton}">
                         <materialDesign:PackIcon Kind="AccountHardHatOutline" Height="30" Width="30" Margin="50 0 0 0"/>
                     </Button>
-                    <Menu Margin="20 0 0 0" Cursor="Hand" VerticalAlignment="Center" FontSize="20">
-                        <MenuItem Header="Điện nước">
-                            <MenuItem Header="Sửa Đèn Quạt" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Đường Điện" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Bồn Nước" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Máy Nước Nóng" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Ống Cống" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Lắp điện nước" Cursor="Hand"></MenuItem>
-                        </MenuItem>
+                    <StackPanel Orientation="Horizontal">
+                        <ComboBox 
+                        materialDesign:HintAssist.Hint="Khu vực"
+                        materialDesign:TextFieldAssist.HasClearButton="True"
+                        Width="200" Height="50" Margin="125,0,0,0"
+                        FontSize="20" BorderThickness="0"
+                        IsEditable="True"
+                        >
+                        <ComboBoxItem
+                        Content="Quận 1" />
+                        <ComboBoxItem
+                        Content="Quận 2" />
+                        <ComboBoxItem
+                        Content="Quận 3" />
+                        <ComboBoxItem
+                        Content="Quận 4" />
+                        <ComboBoxItem
+                        Content="Quận 5" />
+                        <ComboBoxItem
+                        Content="Quận 6" />
+                        <ComboBoxItem
+                        Content="Quận 7" />
+                        <ComboBoxItem
+                        Content="Quận 8" />
+                        <ComboBoxItem
+                        Content="Quận 9" />
+                        <ComboBoxItem
+                        Content="Quận 10" />
+                        <ComboBoxItem
+                        Content="Quận 11" />
+                        <ComboBoxItem
+                        Content="Quận 12" />
+                        <ComboBoxItem
+                        Content="Thủ Đức" />
+                        <ComboBoxItem
+                        Content="Bình Thạnh" />
+                        <ComboBoxItem
+                        Content="Gò Vấp" />
+                        </ComboBox>
 
-                        <MenuItem Header="Điện tử" Margin="20 0 0 0">
-                            <MenuItem Header="Sửa Tivi" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Loa" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Máy Lạnh" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Tủ Lạnh" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Máy Giặt" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Máy Vi Tính" Cursor="Hand"></MenuItem>
-                        </MenuItem>
 
-                        <MenuItem Header="Bảo trì" Margin="20 0 0 0">
-                            <MenuItem Header="Tủ Lạnh" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Máy Lạnh" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Máy Giặt" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Máy In" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Máy Tính" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Xe Máy" Cursor="Hand"></MenuItem>
-                        </MenuItem>
+                        <ComboBox 
+                        materialDesign:HintAssist.Hint="Kinh nghiệm"
+                        materialDesign:TextFieldAssist.HasClearButton="True"
+                        Width="200" Height="50" Margin="125,0,0,0"
+                        FontSize="20" BorderThickness="0"
+                        IsEditable="True"
+                        >
+                        <ComboBoxItem
+                        Content="Ít hơn 1 năm" />
+                        <ComboBoxItem
+                        Content="1 - 2 năm" />
+                        <ComboBoxItem
+                        Content="2 - 3 năm" />
+                        <ComboBoxItem
+                        Content="Trên 3 năm" />
+                        </ComboBox>
 
-                        <MenuItem Header="Gia sư" Margin="20 0 0 0">
-                            <MenuItem Header="Dạy kèm cấp 1" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Dạy kèm cấp 2" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Dạy kèm cấp 3" Cursor="Hand"></MenuItem>
-                        </MenuItem>
-
-                        <MenuItem Header="Sửa nhà" Margin="20 0 0 0">
-                            <MenuItem Header="Chống Thấm" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sơn Nhà" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sơn Cửa" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Nhà Bếp" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa Đồ Gỗ" Cursor="Hand"></MenuItem>
-                            <MenuItem Header="Sửa ToaLet" Cursor="Hand"></MenuItem>
-                        </MenuItem>
-                    </Menu>
+                    </StackPanel>
 
                     <!--searchbox-->
                     <materialDesign:ColorZone  Mode="Standard" Padding="8 0 8 0"
@@ -121,73 +133,8 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                 </StackPanel>
             </materialDesign:ColorZone>
 
-            <materialDesign:ColorZone Grid.Row="1" Height="60"
-Mode="PrimaryLight" Background="#FFF4F4F4">
 
-                <StackPanel Orientation="Horizontal">
-                    <ComboBox 
-                        materialDesign:HintAssist.Hint="Khu vực"
-                        materialDesign:TextFieldAssist.HasClearButton="True"
-                        Width="200" Height="50" Margin="125,0,0,0"
-                        FontSize="20" BorderThickness="0"
-                        IsEditable="True"
-                        >
-                        <ComboBoxItem
-                        Content="Quận 1" />
-                        <ComboBoxItem
-                        Content="Quận 2" />
-                        <ComboBoxItem
-                        Content="Quận 3" />
-                        <ComboBoxItem
-                        Content="Quận 4" />
-                        <ComboBoxItem
-                        Content="Quận 5" />
-                        <ComboBoxItem
-                        Content="Quận 6" />
-                        <ComboBoxItem
-                        Content="Quận 7" />
-                        <ComboBoxItem
-                        Content="Quận 8" />
-                        <ComboBoxItem
-                        Content="Quận 9" />
-                        <ComboBoxItem
-                        Content="Quận 10" />
-                        <ComboBoxItem
-                         Content="Quận 11" />
-                        <ComboBoxItem
-                        Content="Quận 12" />
-                        <ComboBoxItem
-                        Content="Thủ Đức" />
-                        <ComboBoxItem
-                        Content="Bình Thạnh" />
-                        <ComboBoxItem
-                        Content="Gò Vấp" />
-                    </ComboBox>
-
-
-                    <ComboBox 
-                        materialDesign:HintAssist.Hint="Kinh nghiệm"
-                        materialDesign:TextFieldAssist.HasClearButton="True"
-                        Width="200" Height="50" Margin="125,0,0,0"
-                        FontSize="20" BorderThickness="0"
-                        IsEditable="True"
-                        >
-                        <ComboBoxItem
-                        Content="Ít hơn 1 năm" />
-                        <ComboBoxItem
-                        Content="1 - 2 năm" />
-                        <ComboBoxItem
-                        Content="2 - 3 năm" />
-                        <ComboBoxItem
-                        Content="Trên 3 năm" />
-                    </ComboBox>
-
-                </StackPanel>
-                    
-
-            </materialDesign:ColorZone>
-
-            
+           
 
         </Grid>
         <Grid Grid.Row="1">

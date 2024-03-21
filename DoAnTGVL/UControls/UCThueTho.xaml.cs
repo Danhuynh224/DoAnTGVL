@@ -32,7 +32,7 @@ namespace DoAnTGVL.UControls
         {
             InitializeComponent();
             this.DataContext = filterTho;
-            DStho = dAOTho.ReadAllTho();
+            //DStho = dAOTho.ReadAllTho();
             bUSThueTho.CreateWrapThueTho(filterTho, this);
         }
         private void fil_SelectionChanged(object sender, SelectionChangedEventArgs e)
