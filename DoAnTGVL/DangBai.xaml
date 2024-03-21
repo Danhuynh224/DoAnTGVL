@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DoAnTGVL"
+        xmlns:converts="clr-namespace:DoAnTGVL.Converts"
         mc:Ignorable="d"
         Title="Đăng bài" Height="550" Width="700"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
@@ -18,6 +19,10 @@
         WindowStyle="None"
         AllowsTransparency="True" 
         WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <converts:StringToDateConverter x:Key="StringToDateConverter"/>
+    </Window.Resources>
     <Window.Triggers>
         <EventTrigger RoutedEvent="Window.Loaded">
             <BeginStoryboard>
@@ -53,7 +58,7 @@
                         <Grid Height="50" Margin="0,10,0,0">
                             <Grid Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="FormatTitle" Height="25" Width="auto"/>
-                                <TextBox x:Name="txtTieuDe" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Nhập tiêu đề"/>
+                                <TextBox x:Name="txtTieuDe" Text="{Binding TieuDe, UpdateSourceTrigger=PropertyChanged}" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Nhập tiêu đề"/>
                             </Grid>
 
                         </Grid>
@@ -66,7 +71,7 @@
                             <Grid Grid.Column="0" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="Work" Height="24" Width="25" VerticalAlignment="Center"/>
                                 <ComboBox x:Name="cboLinhVuc" HorizontalAlignment="Right" VerticalAlignment="Bottom"
-                                     FontSize="15"
+                                     FontSize="15" Text="{Binding LinhVuc, UpdateSourceTrigger=PropertyChanged}"
                                     materialDesign:HintAssist.Hint="Lĩnh vực"
                                     Height="30" Padding="5" Width="220">
                                     <ComboBoxItem Content="Gia Sư" />
@@ -78,8 +83,9 @@
                             </Grid>
                             <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="Map" Height="24" Width="25" VerticalAlignment="Center"/>
+                               
                                 <ComboBox x:Name="cboKhuVuc" HorizontalAlignment="Right" VerticalAlignment="Bottom"
-                                         FontSize="15"
+                                         FontSize="15" Text="{Binding KhuVuc, UpdateSourceTrigger=PropertyChanged}"
                                         materialDesign:HintAssist.Hint="Khu vực"
                                         Height="30" Padding="5" Width="220">
                                     <ComboBoxItem Content="Thủ Đức" />
@@ -106,7 +112,7 @@
                             <Grid Grid.Column="0" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="Magic" Height="24" Width="25" VerticalAlignment="Center"/>
                                 <ComboBox x:Name="cboKinhNghiem" HorizontalAlignment="Right" VerticalAlignment="Bottom"
-                                     FontSize="15"
+                                     FontSize="15" Text="{Binding KinhNghiem, UpdateSourceTrigger=PropertyChanged}"
                                     materialDesign:HintAssist.Hint="Kinh nghiệm"
                                     Height="30" Padding="5" Width="220">
                                     <ComboBoxItem Content="Ít hơn 1 năm" />
@@ -118,8 +124,8 @@
 
                             <Grid Grid.Column="1" Height="35" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="CalendarToday" Height="25" Width="25" VerticalAlignment="Top"/>
-                                <DatePicker x:Name="dtpNgayBatDau" Margin="30 0 0 0" FontSize="14" 
-materialDesign:HintAssist.Hint="Ngày bắt đầu"
+                                <DatePicker x:Name="dtpNgayBatDau" Margin="30 0 0 0" FontSize="14"   
+materialDesign:HintAssist.Hint="Ngày bắt đầu" SelectedDate="{Binding DateThue, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource StringToDateConverter}}"
 Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
                             </Grid>
 
@@ -128,21 +134,22 @@ Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
                         <Grid Height="50" Margin="0,15,0,0">
                             <Grid Grid.Column="0" Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="More" Height="25" Width="25"/>
-                                <TextBox x:Name="txtMoTa" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Mô tả việc chi tiết"/>
+                                <TextBox x:Name="txtMoTa" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Mô tả việc chi tiết"
+                                         Text="{Binding MoTa , UpdateSourceTrigger=PropertyChanged}"/>
                             </Grid>
                         </Grid>
                         
                         <Grid Height="50" Margin="0,15,0,0">
                             <Grid Grid.Column="0" Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="RequiredCircle" Height="25" Width="25"/>
-                                <TextBox x:Name="txtYeuCau" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Yêu cầu"/>
+                                <TextBox Text="{Binding YeuCau , UpdateSourceTrigger=PropertyChanged}" x:Name="txtYeuCau" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Yêu cầu"/>
                             </Grid>
                         </Grid>
 
                         <Grid Height="50" Margin="0,15,0,0">
                             <Grid Grid.Column="0" Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="Note" Height="25" Width="25"/>
-                                <TextBox x:Name="txtGhiChu" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Ghi chú"/>
+                                <TextBox Text="{Binding GhiChu , UpdateSourceTrigger=PropertyChanged}" x:Name="txtGhiChu" Margin="30 0 0 0" FontSize="15" materialDesign:HintAssist.Hint="Ghi chú"/>
                             </Grid>
                         </Grid>
 

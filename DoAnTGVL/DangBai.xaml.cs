@@ -1,7 +1,9 @@
 ﻿using DoAnTGVL.Class;
+using DoAnTGVL.DAO;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,12 +23,14 @@ namespace DoAnTGVL
     /// </summary>
     public partial class DangBai : Window
     {
+        
+        public BaiDang baiDang { get; set; }
         //BaiDang baidang;
         public DangBai()
         {
-            //this.baidang = baidang;
+            baiDang =new BaiDang();
             InitializeComponent();
-            //this.DataContext = baidang;
+            this.DataContext = baiDang;
         }
 
         private void click_Huy(object sender, RoutedEventArgs e)
@@ -36,9 +40,11 @@ namespace DoAnTGVL
 
         private void click_DangBai(object sender, RoutedEventArgs e)
         {
+
             try
             {
-                //BaiDang baidang = new BaiDang("20", "1", );
+                DAOBaiDang dAOBaiDang = new DAOBaiDang();
+                dAOBaiDang.Them(baiDang);
 
             }
             catch
@@ -47,4 +53,5 @@ namespace DoAnTGVL
             }
         }
     }
+    
 }
