@@ -28,28 +28,19 @@ namespace DoAnTGVL.UControls
         BUSThueTho bUSThueTho = new BUSThueTho();
         DAOTho dAOTho = new DAOTho();
         FilterTho filterTho = new FilterTho();
-        List<Tho> DStho;
         public UCThueTho()
         {
             InitializeComponent();
             this.DataContext = filterTho;
             DStho = dAOTho.ReadAllTho();
-            bUSThueTho.CreateWrapThueTho(DStho, this);
+            bUSThueTho.CreateWrapThueTho(filterTho, this);
         }
-
-        private void click_DangBai(object sender, RoutedEventArgs e)
-        {
-            Window dangbai = new DangBai();
-            dangbai.ShowDialog();
-        }
-
         private void fil_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        { 
+        {
             filterTho.KhuVuc = (cboKhuVuc.SelectedItem != null) ? (cboKhuVuc.SelectedItem as ComboBoxItem).Content.ToString() : "";
             filterTho.KinhNghiem = (cboKinhNghiem.SelectedItem != null) ? (cboKinhNghiem.SelectedItem as ComboBoxItem).Content.ToString() : "";
-            filterTho.DanhGia = (cboDanhGia.SelectedItem != null) ? float.Parse((cboDanhGia.SelectedItem as ComboBoxItem).Content.ToString()) : 0;
-            DStho = dAOTho.FilterTho(filterTho);
-            bUSThueTho.CreateWrapThueTho(DStho, this);
+            filterTho.DanhGia = (cboDanhGia.SelectedItem != null) ? float.Parse((cboDanhGia.SelectedItem as ComboBoxItem).Content.ToString()) : 0;           
+            bUSThueTho.CreateWrapThueTho(filterTho, this);
         }
         private void GetChuyenMon(object sender, RoutedEventArgs e)
         {
@@ -58,19 +49,21 @@ namespace DoAnTGVL.UControls
             {
                 filterTho.ChuyenMon = subMenuItem.Header.ToString();              
             }
-            DStho = dAOTho.FilterTho(filterTho);
-            bUSThueTho.CreateWrapThueTho(DStho, this);
+            bUSThueTho.CreateWrapThueTho(filterTho, this);
         } 
         private void reload_button_Click(object sender, RoutedEventArgs e)
         {
             filterTho.reset();
             this.Content = new UCThueTho();
         }
-
         private void txbTimKiem_KeyUp(object sender, KeyEventArgs e)
         {
-            DStho = dAOTho.FilterTho(filterTho);
-            bUSThueTho.CreateWrapThueTho(DStho, this);
+            bUSThueTho.CreateWrapThueTho(filterTho, this);
+        }
+        private void click_DangBai(object sender, RoutedEventArgs e)
+        {
+            Window dangbai = new DangBai();
+            dangbai.ShowDialog();
         }
     }
 }

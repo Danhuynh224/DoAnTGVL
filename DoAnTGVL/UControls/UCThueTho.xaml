@@ -5,10 +5,13 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DoAnTGVL.UControls"
+             xmlns:converts="clr-namespace:DoAnTGVL.Converts"
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="1300"
              Style="{StaticResource UC_Style}">
-    
+    <!--<UserControl.Resources>
+        <converts:ComboBoxItemTextConverter x:Key="ComboBoxItemTextConverter"/>
+    </UserControl.Resources>-->
     <Grid Height="auto" Width="auto">
         <Grid.RowDefinitions>
             <RowDefinition Height="120"></RowDefinition>
@@ -131,11 +134,12 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                     <ComboBox 
                         materialDesign:HintAssist.Hint="Khu vực"
                         x:Name="cboKhuVuc"
-                        
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
-                        IsEditable="True" SelectionChanged="fil_SelectionChanged" 
+                        IsEditable="True" SelectionChanged="fil_SelectionChanged"
+                       
+                       
                         >
                         <ComboBoxItem
                         Content="Quận 1" />

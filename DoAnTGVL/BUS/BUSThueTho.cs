@@ -16,9 +16,10 @@ namespace DoAnTGVL.BUS
     {
         DAOTho dAOTho = new DAOTho();
         UserControl userControl;
-        public void CreateWrapThueTho(List<Tho> DStho, UCThueTho uCThueTho)
+        public void CreateWrapThueTho(FilterTho filterTho, UCThueTho uCThueTho)
         {
             uCThueTho.WpanelDanhS.Children.Clear();
+            List<Tho>  DStho = dAOTho.FilterTho(filterTho);
             foreach (Tho tho in DStho)
             {
                 userControl = new UCDanhSachTho(tho);
