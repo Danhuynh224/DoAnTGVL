@@ -21,12 +21,12 @@ namespace DoAnTGVL
     /// </summary>
     public partial class DangBai : Window
     {
-        BaiDang baidang;
-        public DangBai(BaiDang baidang)
+        //BaiDang baidang;
+        public DangBai()
         {
-            this.baidang = baidang;
+            //this.baidang = baidang;
             InitializeComponent();
-            this.DataContext = baidang;
+            //this.DataContext = baidang;
         }
 
         private void click_Huy(object sender, RoutedEventArgs e)

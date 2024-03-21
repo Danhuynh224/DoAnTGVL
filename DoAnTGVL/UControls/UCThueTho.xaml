@@ -91,12 +91,13 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                             </Button>
                             <TextBox Grid.Column="1" x:Name="txbTimKiem"
                                      FontSize="18"
+                                     Text="{Binding Path = Ten,UpdateSourceTrigger=PropertyChanged}"
                 Margin="8,4,0,0"
                 materialDesign:HintAssist.Hint="Tìm kiếm theo tên"
                 materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
                 BorderThickness="0"
                 Width="200" 
-                VerticalAlignment="Top" Grid.RowSpan="2" />
+                VerticalAlignment="Top" Grid.RowSpan="2" KeyUp="txbTimKiem_KeyUp"   />
                         </Grid>
                     </materialDesign:ColorZone>
                     <!--entersearch-->
