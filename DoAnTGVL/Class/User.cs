@@ -8,7 +8,7 @@ namespace DoAnTGVL.Class
 {
     public class User : Person
     {
-        public User(string id, string hoTen, string cCCD, string sDT, DateTime dob, string khuvuc) : base(id, hoTen, cCCD, sDT, dob, khuvuc)
+        public User(int id, string hoTen, string cCCD, string sDT, DateTime dob, string khuvuc) : base(id, hoTen, cCCD, sDT, dob, khuvuc)
         {
         }
     }
