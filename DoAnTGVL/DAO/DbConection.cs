@@ -68,6 +68,7 @@ namespace DoAnTGVL.DAO
 
         public List<BaiDang> ReadDatabaseBaiDang(string query)
         {
+            SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring);
             List<BaiDang> DSbaidang = new List<BaiDang>();
             using (conn)
             {

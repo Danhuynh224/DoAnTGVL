@@ -7,16 +7,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows;
+using DoAnTGVL.DAO;
 
 namespace DoAnTGVL.BUS
 {
     class BUSTimViec
     {
+        DAOBaiDang dAOBaiDang = new DAOBaiDang();
         UserControl userControl;
-        public void CreateWrapBaiDang(List<BaiDang> DSbaidang, UCTimViec uctimviec)
+        public void CreateWrapBaiDang(FilterBaiDang filterBaiDang, UCTimViec uctimviec)
         {
             uctimviec.WpanelDanhS.Children.Clear();
-            foreach (BaiDang baidang in DSbaidang)
+            List<BaiDang> DSbaiDang = dAOBaiDang.FilterBaiDang(filterBaiDang);
+            foreach (BaiDang baidang in DSbaiDang)
             {
                 userControl = new UCDanhSachCongViec(baidang);
                 userControl.Width = 620;

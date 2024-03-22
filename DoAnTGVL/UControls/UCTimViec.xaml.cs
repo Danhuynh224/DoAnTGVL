@@ -25,30 +25,29 @@ namespace DoAnTGVL.UControls
     {
         BUSTimViec bustimviec = new BUSTimViec();
         DAOBaiDang daobaidang = new DAOBaiDang();
-        List<BaiDang> DSbaidang;
+        FilterBaiDang filterBaiDang=new FilterBaiDang();
         public UCTimViec()
         {
             InitializeComponent();
-            DSbaidang = daobaidang.ReadAllBaiDang();
-            bustimviec.CreateWrapBaiDang(DSbaidang, this);
+            this.DataContext = filterBaiDang;
+            bustimviec.CreateWrapBaiDang(filterBaiDang, this);
         }
-        //private void AddUserControl()
-        //{
 
-
-        //    UCDanhSachCongViec userControl = new UCDanhSachCongViec();
-        //    userControl.Width = 620;
-        //    userControl.Height = 370;
-        //    userControl.Margin = new Thickness(10);
-
-        //    // Thêm UserControl vào WrapPanel
-        //    WpanelDanhS.Children.Add(userControl);
-        //}
-
+        private void fil_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            filterBaiDang.KhuVuc = (cboKhuVuc.SelectedItem != null) ? (cboKhuVuc.SelectedItem as ComboBoxItem).Content.ToString() : "";
+            filterBaiDang.KinhNghiem = (cboKinhNghiem.SelectedItem != null) ? (cboKinhNghiem.SelectedItem as ComboBoxItem).Content.ToString() : "";
+            bustimviec.CreateWrapBaiDang(filterBaiDang, this); ;
+        }
         private void btnUploadProfile_Click(object sender, RoutedEventArgs e)
         {
             Window profile = new ProfileTho();
             profile.Show();
+        }
+        private void txbTimKiem_KeyUp(object sender, KeyEventArgs e)
+        {
+            MessageBox.Show(filterBaiDang.Ten);
+            bustimviec.CreateWrapBaiDang(filterBaiDang, this);
         }
     }
 

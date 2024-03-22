@@ -24,59 +24,61 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                     </Button>
                     <StackPanel Orientation="Horizontal">
                         <ComboBox 
+                        x:Name="cboKhuVuc"
                         materialDesign:HintAssist.Hint="Khu vực"
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
-                        IsEditable="True"
+                        IsEditable="True" SelectionChanged="fil_SelectionChanged"
                         >
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 1" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 2" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 3" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 4" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 5" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 6" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 7" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 8" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 9" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 10" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 11" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Quận 12" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Thủ Đức" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Bình Thạnh" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Gò Vấp" />
                         </ComboBox>
 
 
                         <ComboBox 
+                        x:Name="cboKinhNghiem"
                         materialDesign:HintAssist.Hint="Kinh nghiệm"
                         materialDesign:TextFieldAssist.HasClearButton="True"
                         Width="200" Height="50" Margin="125,0,0,0"
                         FontSize="20" BorderThickness="0"
-                        IsEditable="True"
+                        IsEditable="True" SelectionChanged="fil_SelectionChanged"
                         >
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Ít hơn 1 năm" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="1 - 2 năm" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="2 - 3 năm" />
-                        <ComboBoxItem
+                            <ComboBoxItem
                         Content="Trên 3 năm" />
                         </ComboBox>
 
@@ -106,7 +108,8 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                 materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
                 BorderThickness="0"
                 Width="200" 
-                VerticalAlignment="Top" Grid.RowSpan="2" />
+                VerticalAlignment="Top" Grid.RowSpan="2"
+                                     Text="{Binding Path = Ten ,UpdateSourceTrigger=PropertyChanged}" KeyUp="txbTimKiem_KeyUp"/>
                         </Grid>
                     </materialDesign:ColorZone>
                     <!--entersearch-->
@@ -134,7 +137,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
             </materialDesign:ColorZone>
 
 
-           
+
 
         </Grid>
         <Grid Grid.Row="1">
@@ -143,10 +146,11 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
             <Grid   x:Name="gridPage" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
                 <ScrollViewer VerticalScrollBarVisibility="Auto" >
                     <Grid Width="auto" Background="White" >
+                        
 
 
 
-                        <WrapPanel x:Name="WpanelDanhS" HorizontalAlignment="Center" Grid.ColumnSpan="1" Grid.Column="1" Margin="0,0,0,0"   />
+                        <WrapPanel x:Name="WpanelDanhS" HorizontalAlignment="Center" Grid.ColumnSpan="1" Margin="0,0,0,0"   />
 
 
                     </Grid>
