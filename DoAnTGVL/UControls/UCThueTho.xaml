@@ -213,14 +213,27 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                         Content="5" />
                     </ComboBox>
 
-                    <StackPanel Orientation="Horizontal" Margin="70 0 0 0" VerticalAlignment="Center">
-                        <TextBlock Text="Giá tiền" Foreground="#7E7E7E" FontSize="20" ></TextBlock>
-                        <Slider Maximum="1000000"  TickFrequency="100000" IsSnapToTickEnabled="True" Name="slValue" 
-                                Margin="20 0 0 0" Width="200" VerticalAlignment="Center" />
-                        <TextBox Text="{Binding ElementName=slValue, Path=Value, UpdateSourceTrigger=PropertyChanged}"  TextAlignment="Center" Width="auto" 
-                                 Margin="20 0 0 0" BorderThickness="0" Foreground="#7E7E7E" FontSize="20"/>
-
-                    </StackPanel>
+                    <ComboBox 
+                    materialDesign:HintAssist.Hint="Chọn giá tiền"
+                    materialDesign:TextFieldAssist.HasClearButton="True"
+                    Width="200" Height="50" Margin="125,0,0,0"
+                    FontSize="20" BorderThickness="0"
+                    x:Name="cboGiaTien"
+                    IsEditable="True" SelectionChanged="fil_SelectionChanged"
+                    >
+                    <ComboBoxItem
+                    Content="Dưới 200.000đ" />
+                    <ComboBoxItem
+                    Content="200.000đ - 400.000đ" />
+                    <ComboBoxItem
+                    Content="400.000đ - 600.000đ" />
+                    <ComboBoxItem
+                    Content="600.000đ - 800.000đ" />
+                    <ComboBoxItem
+                    Content="Trên 800.000đ" />
+                    <ComboBoxItem
+                    Content="Tất cả" />
+                    </ComboBox>
 
                 </StackPanel>
                 

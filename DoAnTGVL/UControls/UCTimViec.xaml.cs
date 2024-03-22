@@ -46,8 +46,13 @@ namespace DoAnTGVL.UControls
         }
         private void txbTimKiem_KeyUp(object sender, KeyEventArgs e)
         {
-            MessageBox.Show(filterBaiDang.Ten);
             bustimviec.CreateWrapBaiDang(filterBaiDang, this);
+        }
+
+        private void btn_reload_Click(object sender, RoutedEventArgs e)
+        {
+            filterBaiDang.reset();
+            this.Content = new UCTimViec();
         }
     }
 

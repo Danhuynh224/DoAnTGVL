@@ -14,21 +14,19 @@ namespace DoAnTGVL.Class
         public float DanhGia { get => danhGia; set => danhGia = value; }
         public string ChuyenMon { get => chuyenMon; set => chuyenMon = value; }
 
-        public event PropertyChangedEventHandler? PropertyChanged;
+        
 
         public override bool checkemp()
         {
-            if (KhuVuc == "" && KinhNghiem == "" && danhGia == 0 && chuyenMon == "" && Ten =="")
+            if ( base.checkemp() && danhGia == 0 && chuyenMon == "" )
                 return true;
             return false;
         }
-        public void reset()
+        public override void reset()
         {
-            KhuVuc = "";
-            KinhNghiem = "";
+            base.reset();
             danhGia = 0;
             chuyenMon = "";
-            Ten = "";
         }    
         
             

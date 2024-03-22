@@ -22,10 +22,12 @@ namespace DoAnTGVL.Class
 
         virtual public bool checkemp()
         {
-            if(khuVuc == "" && kinhNghiem == "")
+            if(khuVuc == "" && kinhNghiem == "" && Ten=="")
                 return true;
             return false;
         }
+
+        
         protected virtual void OnPropertyChanged(string propertyName)
         {
             if ((PropertyChanged != null))
@@ -33,6 +35,12 @@ namespace DoAnTGVL.Class
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
 
+        }
+        virtual public void reset()
+        {
+            KhuVuc = "";
+            KinhNghiem = "";
+            Ten = "";
         }
     }
 }

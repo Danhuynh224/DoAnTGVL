@@ -50,7 +50,7 @@ namespace DoAnTGVL.DAO
 
                     while (dataReader.Read())
                     {
-                        Tho tho = new Tho(dataReader[0].ToString(), dataReader[1].ToString(), dataReader[2].ToString(), dataReader[3].ToString(),
+                        Tho tho = new Tho((int)dataReader[0], dataReader[1].ToString(), dataReader[2].ToString(), dataReader[3].ToString(),
                     (DateTime)dataReader[4], dataReader[5].ToString(), dataReader[6].ToString(), dataReader[7].ToString(), dataReader[8].ToString(), (int)dataReader[9], Convert.ToSingle(dataReader[10]));
                         DStho.Add(tho);
 

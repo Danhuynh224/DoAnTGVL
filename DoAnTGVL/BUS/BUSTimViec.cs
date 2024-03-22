@@ -14,11 +14,13 @@ namespace DoAnTGVL.BUS
     class BUSTimViec
     {
         DAOBaiDang dAOBaiDang = new DAOBaiDang();
-        UserControl userControl;
+
         public void CreateWrapBaiDang(FilterBaiDang filterBaiDang, UCTimViec uctimviec)
         {
             uctimviec.WpanelDanhS.Children.Clear();
             List<BaiDang> DSbaiDang = dAOBaiDang.FilterBaiDang(filterBaiDang);
+            UserControl userControl;
+
             foreach (BaiDang baidang in DSbaiDang)
             {
                 userControl = new UCDanhSachCongViec(baidang);
