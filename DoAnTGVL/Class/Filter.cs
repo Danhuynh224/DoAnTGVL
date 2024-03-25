@@ -13,16 +13,18 @@ namespace DoAnTGVL.Class
         private string khuVuc = "";
         private string kinhNghiem = "";
         private string ten = "";
+        private string giatien = "";
 
         public string KhuVuc { get => khuVuc; set => khuVuc = value; }
         public string KinhNghiem { get => kinhNghiem; set => kinhNghiem = value; }
         public string Ten { get => ten; set { ten = value; OnPropertyChanged("Ten"); } }
+        public string Giatien { get => giatien; set => giatien = value; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
         virtual public bool checkemp()
         {
-            if(khuVuc == "" && kinhNghiem == "" && Ten=="")
+            if(khuVuc == "" && kinhNghiem == "" && Ten=="" && Giatien=="")
                 return true;
             return false;
         }
@@ -41,6 +43,24 @@ namespace DoAnTGVL.Class
             KhuVuc = "";
             KinhNghiem = "";
             Ten = "";
+
+        }
+        public  string chuyenDoiGiaTien()
+        {
+            string converted = Giatien;
+
+            // Chuyển đổi 'dưới' thành '<'
+            converted = converted.Replace("Dưới", " <");
+
+            // Chuyển đổi 'Trên' thành '>'
+            converted = converted.Replace("Trên", " >");
+
+            // Chuyển đổi 'between and'
+            converted = converted.Replace("200.000đ - 400.000đ", " between 200000 and 400000");
+            converted = converted.Replace("400.000đ - 600.000đ", " between 400000 and 600000");
+            converted = converted.Replace("600.000đ - 800.000đ", " between 600000 and 800000");
+
+            return converted;
         }
     }
 }

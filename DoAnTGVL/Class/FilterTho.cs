@@ -27,7 +27,8 @@ namespace DoAnTGVL.Class
             base.reset();
             danhGia = 0;
             chuyenMon = "";
-        }    
+        }   
+        
         
             
     }

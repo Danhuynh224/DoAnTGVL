@@ -61,7 +61,15 @@ namespace DoAnTGVL.DAO
                         query += " and";
                     query += string.Format(" HoTen like N'%{0}%'", filterTho.Ten);
                 }
+                if (filterTho.Giatien != "")
+                {
+                    
+                    if (exist)
+                        query += " and";
+                    query += string.Format(" GiaTien{0}", filterTho.chuyenDoiGiaTien());
+                }
             }
+            MessageBox.Show(query); 
             return dbConection.ReadDatabase(query);
         }
     }

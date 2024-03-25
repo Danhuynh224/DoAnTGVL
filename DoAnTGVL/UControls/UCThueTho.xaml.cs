@@ -39,7 +39,8 @@ namespace DoAnTGVL.UControls
         {
             filterTho.KhuVuc = (cboKhuVuc.SelectedItem != null) ? (cboKhuVuc.SelectedItem as ComboBoxItem).Content.ToString() : "";
             filterTho.KinhNghiem = (cboKinhNghiem.SelectedItem != null) ? (cboKinhNghiem.SelectedItem as ComboBoxItem).Content.ToString() : "";
-            filterTho.DanhGia = (cboDanhGia.SelectedItem != null) ? float.Parse((cboDanhGia.SelectedItem as ComboBoxItem).Content.ToString()) : 0;           
+            filterTho.DanhGia = (cboDanhGia.SelectedItem != null) ? float.Parse((cboDanhGia.SelectedItem as ComboBoxItem).Content.ToString()) : 0;
+            filterTho.Giatien = (cboGiaTien.SelectedItem != null) ? (cboGiaTien.SelectedItem as ComboBoxItem).Content.ToString() : "";
             bUSThueTho.CreateWrapThueTho(filterTho, this);
         }
         private void GetChuyenMon(object sender, RoutedEventArgs e)
