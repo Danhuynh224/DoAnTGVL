@@ -41,7 +41,7 @@
             <Grid>
                 <StackPanel  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,90,0,0" Orientation="Horizontal" >
 
-                    <RadioButton x:Name="rdbKhach"
+                    <RadioButton x:Name="rdbUser"
                         Content="Khách" Margin="0,0,20,0"
                             Style="{StaticResource MaterialDesignRadioButton}" />
                     <RadioButton x:Name="rdbTho"

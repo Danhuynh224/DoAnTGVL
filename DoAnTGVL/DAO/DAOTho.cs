@@ -69,7 +69,6 @@ namespace DoAnTGVL.DAO
                     query += string.Format(" GiaTien{0}", filterTho.chuyenDoiGiaTien());
                 }
             }
-            MessageBox.Show(query); 
             return dbConection.ReadDatabase(query);
         }
     }

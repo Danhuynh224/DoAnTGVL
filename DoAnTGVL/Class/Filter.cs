@@ -50,10 +50,10 @@ namespace DoAnTGVL.Class
             string converted = Giatien;
 
             // Chuyển đổi 'dưới' thành '<'
-            converted = converted.Replace("Dưới", " <");
+            converted = converted.Replace("Dưới ", " < 200000");
 
             // Chuyển đổi 'Trên' thành '>'
-            converted = converted.Replace("Trên", " >");
+            converted = converted.Replace("Trên 800.000đ", " > 800000");
 
             // Chuyển đổi 'between and'
             converted = converted.Replace("200.000đ - 400.000đ", " between 200000 and 400000");

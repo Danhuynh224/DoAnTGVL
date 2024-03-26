@@ -35,8 +35,9 @@ namespace DoAnTGVL
         {
             this.Hide();
             Window window;
-            if (rdbKhach.IsChecked==true)
+            if (rdbUser.IsChecked==true)
             {
+                
                 window = new UserMain();
                 window.ShowDialog();
             }

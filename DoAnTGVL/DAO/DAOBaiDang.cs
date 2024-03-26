@@ -51,8 +51,7 @@ namespace DoAnTGVL.DAO
                         query += " and";
                     query += string.Format(" TieuDe like N'%{0}%'", filterBaiDang.Ten);
                 }
-            }
-            
+            }           
             return dbConection.ReadDatabaseBaiDang(query);
         }
     }

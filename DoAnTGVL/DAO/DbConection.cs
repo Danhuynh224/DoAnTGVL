@@ -55,7 +55,6 @@ namespace DoAnTGVL.DAO
                         DStho.Add(tho);
 
                     }
-
                     dataReader.Close();
                 }
                 catch (Exception ex)
@@ -85,7 +84,6 @@ namespace DoAnTGVL.DAO
                         DSbaidang.Add(baidang);
 
                     }
-
                     dataReader.Close();
                 }
                 catch (Exception ex)
