@@ -14,6 +14,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Diagnostics;
 using System.Data.SqlClient;
+using DoAnTGVL.BUS;
+using DoAnTGVL.Class;
 
 namespace DoAnTGVL
 {
@@ -23,9 +25,12 @@ namespace DoAnTGVL
     public partial class MainWindow : Window
     {
         SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring);
+        TaiKhoan taikhoan= new TaiKhoan();
+        BUSTaiKhoan bUSTaiKhoan = new BUSTaiKhoan();
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = taikhoan;
         }
         public void btn_Close_Click(object sender, RoutedEventArgs e)
         {
@@ -37,9 +42,10 @@ namespace DoAnTGVL
             Window window;
             if (rdbUser.IsChecked==true)
             {
-                
-                window = new UserMain();
+                User user = new User(1, "Huỳnh Việt Đan", "099900134386", "08765678542",DateTime.Today, "Quận 1");
+                window = new UserMain(user);
                 window.ShowDialog();
+                
             }
             else if(rdbTho.IsChecked == true)
             {
@@ -62,5 +68,7 @@ namespace DoAnTGVL
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
+
+       
     }
 }

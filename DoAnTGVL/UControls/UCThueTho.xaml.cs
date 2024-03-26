@@ -28,11 +28,12 @@ namespace DoAnTGVL.UControls
         BUSThueTho bUSThueTho = new BUSThueTho();
         DAOTho dAOTho = new DAOTho();
         FilterTho filterTho = new FilterTho();
-        public UCThueTho()
+        User user;
+        public UCThueTho(User user)
         {
             InitializeComponent();
+            this.user = user;
             this.DataContext = filterTho;
-            //DStho = dAOTho.ReadAllTho();
             bUSThueTho.CreateWrapThueTho(filterTho, this);
         }
         private void fil_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -55,7 +56,7 @@ namespace DoAnTGVL.UControls
         private void reload_button_Click(object sender, RoutedEventArgs e)
         {
             filterTho.reset();
-            this.Content = new UCThueTho();
+            this.Content = new UCThueTho(user);
         }
         private void txbTimKiem_KeyUp(object sender, KeyEventArgs e)
         {
