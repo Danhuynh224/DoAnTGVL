@@ -28,6 +28,7 @@
             </BeginStoryboard>
         </EventTrigger>
     </Window.Triggers>
+   
     <Border BorderBrush="Black" BorderThickness="1">
 
         <Grid>
@@ -49,7 +50,7 @@
 
                             <Grid Height="60" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
                                 <GroupBox Header="Tiêu đề" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
+                                    <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" Text="{Binding Path=TieuDe, UpdateSourceTrigger=PropertyChanged}" />
                                 </GroupBox>
                             </Grid>
 
@@ -58,16 +59,20 @@
                         <Grid Height="60" Margin="0,15,0,0">
                             <Grid Height="60" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
                                 <GroupBox Header="Mô tả việc chi tiết" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
-                                    <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
+                                    <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" Text="{Binding Path=MoTa, UpdateSourceTrigger=PropertyChanged}"/>
                                 </GroupBox>
                             </Grid>
 
                         </Grid>
 
                         <Grid Height="auto" Margin="0,15,0,0">
-                            <GroupBox Width="552"  Header="Ngày thuê" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="280">
-                                <Calendar
-                                        materialDesign:CalendarAssist.Orientation="Horizontal" />
+                            <GroupBox Width="552"  Header="Ngày thuê" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="280" >
+                                <Calendar x:Name="calenNgayThue" 
+                                        materialDesign:CalendarAssist.Orientation="Horizontal" Loaded="calenNgayThue_Loaded" SelectedDate="{Binding DateThue, UpdateSourceTrigger=PropertyChanged}" >
+                                    <Calendar.BlackoutDates >
+
+                                    </Calendar.BlackoutDates>
+                                </Calendar>
                             </GroupBox>
                         </Grid>
 
@@ -76,8 +81,8 @@
                     </StackPanel>
 
                 </Grid>
-                <Button Width="150" Height="40" Background="#478C10" Content="Xác nhận" FontSize="18"
-                HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,474,0,0">
+                <Button x:Name="btn_Xacnhan" Width="150" Height="40" Background="#478C10" Content="Xác nhận" FontSize="18"
+                HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,474,0,0" Click="btn_Xacnhan_Click" >
                     <Button.Clip>
                         <RectangleGeometry Rect="0,0,150,40" RadiusX="10" RadiusY="10"/>
                     </Button.Clip>

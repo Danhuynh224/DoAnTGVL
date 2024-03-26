@@ -22,7 +22,7 @@ namespace DoAnTGVL.BUS
             List<Tho>  DStho = dAOTho.FilterTho(filterTho);
             foreach (Tho tho in DStho)
             {
-                userControl = new UCDanhSachTho(tho);
+                userControl = new UCDanhSachTho(tho,uCThueTho.user);
                 userControl.Width = 280;
                 userControl.Height = 450;
                 userControl.Margin = new Thickness(10);

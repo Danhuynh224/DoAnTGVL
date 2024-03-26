@@ -28,7 +28,7 @@ namespace DoAnTGVL.UControls
         BUSThueTho bUSThueTho = new BUSThueTho();
         DAOTho dAOTho = new DAOTho();
         FilterTho filterTho = new FilterTho();
-        User user;
+        public User user;
         public UCThueTho(User user)
         {
             InitializeComponent();

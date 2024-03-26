@@ -29,7 +29,7 @@ namespace DoAnTGVL
         User user;
         public UserMain(User user)
         {
-           
+            this.user = user;
             InitializeComponent();
             gridMainWin.Children.Add(CurUC);
 
