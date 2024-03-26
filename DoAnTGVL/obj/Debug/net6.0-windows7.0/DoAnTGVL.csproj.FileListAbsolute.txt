@@ -270,3 +270,6 @@ D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\DoAnTGVL.sourcelink.
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\DoAnTGVL.csproj.Up2Date
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\DoAnTGVL.genruntimeconfig.cache
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\ref\DoAnTGVL.dll
+D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\Style\PagingButtonStyle.baml
+D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDSCongViecTho.g.cs
+D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDSCongViecTho.baml

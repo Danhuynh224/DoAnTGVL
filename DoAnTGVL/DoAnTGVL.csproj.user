@@ -37,6 +37,9 @@
     <Compile Update="UControls\UCDanhSachTho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UControls\UCDSCongViecTho.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UControls\UCHome.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -93,6 +96,9 @@
     <Page Update="ProfileTho.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Style\PagingButtonStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Style\UCstyle.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -115,6 +121,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UControls\UCDanhSachTho.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UControls\UCDSCongViecTho.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UControls\UCHome.xaml">
