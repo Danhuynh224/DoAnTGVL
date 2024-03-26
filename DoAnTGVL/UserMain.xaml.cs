@@ -1,4 +1,5 @@
 ﻿using DoAnTGVL.BUS;
+using DoAnTGVL.Class;
 using DoAnTGVL.DAO;
 using DoAnTGVL.UControls;
 using System;
@@ -26,7 +27,7 @@ namespace DoAnTGVL
         private UserControl CurUC= new UCHome(); 
         DAOTho dAOTho = new DAOTho();
 
-        public UserMain()
+        public UserMain(User user)
         {
            
             InitializeComponent();

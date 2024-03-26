@@ -8,7 +8,7 @@
         
         mc:Ignorable="d"
         xmlns:navigation="clr-namespace:System.Windows.Navigation;assembly=PresentationFramework"
-    
+        xmlns:xaml="clr-namespace:DoAnTGVL.Style"
         x:Name="dangnhap"
         WindowStyle="None"
         AllowsTransparency="True" 
@@ -58,13 +58,14 @@
                                  Margin="20,182,0,0"/>
                 <TextBox    Margin="0,129,0,0" Height="26" Width="130" x:Name="txbTenDangNhap"
                     HorizontalAlignment="Center" VerticalAlignment="Top"
-                    materialDesign:HintAssist.Hint="Tên đăng nhập">
+                    materialDesign:HintAssist.Hint="Tên đăng nhập" Text="{Binding Path=LogName , UpdateSourceTrigger=PropertyChanged}">
                 </TextBox>
 
                 <PasswordBox  materialDesign:HintAssist.Hint="Mật khẩu"  x:Name="txbMatKhau"
                       HorizontalAlignment="Center" VerticalAlignment="Top"
                       Margin="0,176,0,0" Height="26" Width="130"
-                      materialDesign:TextFieldAssist.HasClearButton="True" />
+                      materialDesign:TextFieldAssist.HasClearButton="True"
+                      />
 
                 <TextBlock Foreground="#0056FC"
                    HorizontalAlignment="Left" VerticalAlignment="Top"
