@@ -255,8 +255,7 @@
               "RelativeToolTip": "DoAnTGVL\\UControls\\UCDanhSachCongViec.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-12T14:39:49.445Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -268,8 +267,7 @@
               "RelativeToolTip": "DoAnTGVL\\DanhGiaTho.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-14T07:26:49.674Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -335,8 +333,7 @@
               "RelativeToolTip": "DoAnTGVL\\DAO\\DbConection.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAQwE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:20:16.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T15:20:16.931Z"
             },
             {
               "$type": "Document",
@@ -359,8 +356,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCDanhSachTho.xaml",
               "RelativeToolTip": "DoAnTGVL\\UControls\\UCDanhSachTho.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T17:36:06.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T17:36:06.771Z"
             },
             {
               "$type": "Document",
@@ -371,8 +367,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCThueTho.xaml",
               "RelativeToolTip": "DoAnTGVL\\UControls\\UCThueTho.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T17:37:23.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T17:37:23.916Z"
             },
             {
               "$type": "Document",
@@ -383,8 +378,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCCViecTho.xaml",
               "RelativeToolTip": "DoAnTGVL\\UControls\\UCCViecTho.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-14T15:43:14.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T15:43:14.477Z"
             },
             {
               "$type": "Document",
@@ -395,8 +389,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UserMain.xaml",
               "RelativeToolTip": "DoAnTGVL\\UserMain.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T17:49:49.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T17:49:49.916Z"
             },
             {
               "$type": "Document",
@@ -407,8 +400,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietTho.xaml",
               "RelativeToolTip": "DoAnTGVL\\ChiTietTho.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-14T07:15:24.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T07:15:24.792Z"
             },
             {
               "$type": "Document",
@@ -419,8 +411,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DangBai.xaml",
               "RelativeToolTip": "DoAnTGVL\\DangBai.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-21T07:18:56.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T07:18:56.584Z"
             },
             {
               "$type": "Document",
@@ -443,8 +434,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ProfileTho.xaml",
               "RelativeToolTip": "DoAnTGVL\\ProfileTho.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-20T15:17:31.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T15:17:31.831Z"
             },
             {
               "$type": "Document",
@@ -455,8 +445,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ThoMain.xaml",
               "RelativeToolTip": "DoAnTGVL\\ThoMain.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T17:44:26.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T17:44:26.446Z"
             },
             {
               "$type": "Document",
@@ -479,8 +468,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCTheoDoiBaiDang.xaml",
               "RelativeToolTip": "DoAnTGVL\\UControls\\UCTheoDoiBaiDang.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-14T15:45:43.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T15:45:43.008Z"
             },
             {
               "$type": "Document",
@@ -491,8 +479,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCSuaCV.xaml",
               "RelativeToolTip": "DoAnTGVL\\UControls\\UCSuaCV.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T17:46:32.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T17:46:32.026Z"
             },
             {
               "$type": "Document",
@@ -503,8 +490,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCHome.xaml",
               "RelativeToolTip": "DoAnTGVL\\UControls\\UCHome.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-14T15:45:41.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T15:45:41.486Z"
             },
             {
               "$type": "Document",
@@ -515,8 +501,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\XacNhanThueTho.xaml",
               "RelativeToolTip": "DoAnTGVL\\XacNhanThueTho.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T17:36:30.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T17:36:30.861Z"
             },
             {
               "$type": "Document",
@@ -527,8 +512,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietCongViec.xaml",
               "RelativeToolTip": "DoAnTGVL\\ChiTietCongViec.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-20T16:18:38.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T16:18:38.662Z"
             },
             {
               "$type": "Document",
@@ -539,8 +523,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\MainWindow.xaml",
               "RelativeToolTip": "DoAnTGVL\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-26T12:37:04.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T12:37:04.513Z"
             },
             {
               "$type": "Document",
@@ -552,8 +535,7 @@
               "RelativeToolTip": "DoAnTGVL\\Class\\Filter.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAkwDkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T08:35:19.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T08:35:19.886Z"
             },
             {
               "$type": "Document",
@@ -944,8 +926,7 @@
               "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCUserChuaThucHien.xaml",
               "RelativeToolTip": "DoAnTGVL\\UControls\\UCUserChuaThucHien.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T17:46:22.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T17:46:22.827Z"
             }
           ]
         }

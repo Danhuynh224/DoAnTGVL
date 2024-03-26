@@ -21,11 +21,15 @@ namespace DoAnTGVL
     /// </summary>
     public partial class ChiTietTho : Window
     {
-        public ChiTietTho(Tho tho)
+        Tho tho;
+        User user;
+        public ChiTietTho(Tho tho, User user)
         {
             
             InitializeComponent();
             this.DataContext = tho;
+            this.user = user;
+            this.tho = tho;
             AddUserControl();
             AddUserControl();
             AddUserControl();
@@ -46,7 +50,7 @@ namespace DoAnTGVL
         private void Thue_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
-            Window xacnhan = new XacNhanThueTho();
+            Window xacnhan = new XacNhanThueTho(tho, user);
             xacnhan.ShowDialog();
             this.Show();
         }

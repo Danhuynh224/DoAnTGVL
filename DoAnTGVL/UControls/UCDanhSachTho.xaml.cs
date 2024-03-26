@@ -22,15 +22,18 @@ namespace DoAnTGVL.UControls
     public partial class UCDanhSachTho : UserControl
     {
         Tho tho;
-        public UCDanhSachTho(Tho tho)
+        User user;
+        public UCDanhSachTho(Tho tho, User user)
         {
             this.tho = tho;
+            this.user = user;
+            
             InitializeComponent();
             this.DataContext = tho;
         }
         public void btnXemChiTiet_Click(object sender, RoutedEventArgs e)
         {
-            ChiTietTho chiTietTho = new ChiTietTho(tho);
+            ChiTietTho chiTietTho = new ChiTietTho(tho, user);
             chiTietTho.Show();
         }
     }
