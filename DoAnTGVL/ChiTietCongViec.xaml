@@ -96,17 +96,29 @@
                        Foreground="#001E00" FontSize="20" FontWeight="DemiBold"
                        Margin="0 10 0 0"
                        ></TextBlock>
+                <TextBlock  Text="Ngày Thuê:"
+       Foreground="#001E00" FontSize="20" FontWeight="DemiBold"
+       Margin="350 10 0 0"
+       ></TextBlock>
             </Grid>
 
             <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0 5 0 0">
 
                 <Border CornerRadius="19" Background="#F2F7F2" BorderThickness="2">
                     <Grid Width="97" Height="30">
-                        <TextBlock Text="{Binding Path= LinhVuc}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55" 
+                        <TextBlock Text="{Binding Path= LinhVuc}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55"  FontWeight="SemiBold" 
                     
                     ></TextBlock>
                     </Grid>
                 </Border>
+                <Border Margin="250 0 0 0" CornerRadius="19" Background="#F2F7F2" BorderThickness="2">
+                    <Grid Width="150" Height="30">
+                        <TextBlock Text="{Binding DateThue ,StringFormat={}{0:MM/dd/yyy}}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#5E6D55" FontWeight="SemiBold" 
+    
+    ></TextBlock>
+                    </Grid>
+                </Border>
+
             </StackPanel>
 
         </Grid>
@@ -143,7 +155,7 @@
                 </WrapPanel>
 
                 <WrapPanel Grid.Column="1" Orientation="Vertical" Margin="-50 0 0 0">
-                    <TextBlock Text="Quận 1" Foreground="#001E00" FontSize="15" FontWeight="DemiBold"></TextBlock>
+                    <TextBlock Text="{Binding Path= KhuVuc}" Foreground="#001E00" FontSize="15" FontWeight="DemiBold"></TextBlock>
                     <TextBlock Text="Việt Nam" Margin="0 2 0 0"
 Foreground="#9AAA97" FontSize="12">
 
@@ -161,7 +173,7 @@ Foreground="#9AAA97" FontSize="12">
         </Grid>
 
         <Grid Grid.Row="7">
-            <Button Margin="0 10 0 0" Width="250" Height="50">
+            <Button x:Name="btn_Commfirm" Margin="0 10 0 0" Width="250" Height="50" Click="btn_Commfirm_Click">
                 <TextBlock Text="Xác nhận" FontSize="20"></TextBlock>
                 <Button.Clip>
                     <RectangleGeometry Rect="0,0,250,50" RadiusX="10" RadiusY="10"/>

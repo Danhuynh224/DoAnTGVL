@@ -24,5 +24,17 @@ namespace DoAnTGVL.DAO
             dbConection.Process(sqlString);
             MessageBox.Show("Sucessfully");
         }
+        public void ThoThem(BaiDang baiDang, Tho tho)
+        {
+            string sqlString = string.Format("INSERT INTO DSCongViec ( IDTho, IDUser, TieuDe, MoTa, LinhVuc, KhuVuc, DateThue, TrangThai) VALUES ({0}, {1}, N'{2}', N'{3}',N'{4}',N'{5}','{6}', N'{7}')", tho.Id, baiDang.IDUser,
+              baiDang.TieuDe, baiDang.MoTa, baiDang.LinhVuc, baiDang.KhuVuc, baiDang.DateThue.ToShortDateString(), "Đã xác nhận");
+            dbConection.Process(sqlString);
+            MessageBox.Show("Sucessfully"); 
+        }
+        public bool CheckNgayBan(DateTime date, int idTho)
+        {
+            string queryString = string.Format("SELECT * FROM DSCongViec WHERE DateThue = '{0}' and IDTho = {1}", date, idTho);
+            return dbConection.CheckExist(queryString);
+        }
     }
 }

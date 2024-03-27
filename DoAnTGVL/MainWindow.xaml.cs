@@ -49,7 +49,8 @@ namespace DoAnTGVL
             }
             else if(rdbTho.IsChecked == true)
             {
-                window = new ThoMain();
+                Tho tho = new Tho(1, "Nguyễn Ngọc Hoàng", "099900134386", "08765678542", DateTime.Today, "Quận 1", "Điện lạnh", "Sửa máy lạnh", "1 - 2 năm", 500000,4);
+                window = new ThoMain(tho);
                 window.ShowDialog();
             }
             this.Show();

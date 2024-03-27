@@ -57,9 +57,7 @@ namespace DoAnTGVL
 
         private void btn_Xacnhan_Click(object sender, RoutedEventArgs e)
         {
-            
-            DAODSCongViec dAODSCongViec = new DAODSCongViec();
-            dAODSCongViec.Them(congViec);
+            bUSXacNhan.Them(congViec);
             this.Close();   
         }
     }
