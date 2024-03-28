@@ -59,7 +59,7 @@
         <Grid.ColumnDefinitions>
         </Grid.ColumnDefinitions>
         <Grid x:Name="gridMainWin" HorizontalAlignment="Right" Width="1450">
-            
+
 
         </Grid>
         <Grid x:Name="gridMainmenu" Width="50" HorizontalAlignment="Left" MouseLeave="gridMainmenu_MouseLeave">
@@ -95,7 +95,7 @@
                                 <MenuItem Header="Trang chủ" Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuTrangChu_Click">
                                     <MenuItem.Icon>
                                         <materialDesign:PackIcon Width="28" Height="28" Kind="Home"  Margin="-8.45,-9,0,0"  >
-                                            <materialDesign:PackIcon.Foreground> 
+                                            <materialDesign:PackIcon.Foreground>
                                                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                                     <GradientStop Color="Black"/>
                                                     <GradientStop Color="#FFD371F0" Offset="1"/>
@@ -120,9 +120,9 @@
                                         </materialDesign:PackIcon>
                                     </MenuItem.Icon>
                                 </MenuItem>
-                                <MenuItem Header="Danh sách việc làm"  Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="mnuSuaCV_Click">
+                                <MenuItem Header="Danh sách việc làm"  Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="mnuDSVL_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Width="26" Height="25" Kind="ListBoxOutline" Margin="-7,-6,0,0"  >
+                                        <materialDesign:PackIcon Width="28" Height="24" Kind="ListBoxOutline" Margin="-7,-6,0,-3" VerticalAlignment="Stretch"  >
                                             <materialDesign:PackIcon.Foreground>
                                                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                                     <GradientStop Color="Black"/>
@@ -148,8 +148,8 @@
                                         </materialDesign:PackIcon>
                                     </MenuItem.Icon>
                                 </MenuItem>
-                                
-                                
+
+
                                 <MenuItem x:Name="mnuLogout"  Width="200"   Header="Đăng xuất" FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Margin="0,300" Click="MnuLogout_Click">
                                     <MenuItem.Icon>
                                         <materialDesign:PackIcon Width="26" Height="24" Kind="Logout"  Grid.IsSharedSizeScope="True" Margin="0,-5,0,0" HorizontalAlignment="Center"  >

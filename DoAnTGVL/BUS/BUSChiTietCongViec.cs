@@ -23,5 +23,10 @@ namespace DoAnTGVL.BUS
                 MessageBox.Show("Ngày đó bạn bận!!!");
             }    
         }
+
+        public List<CongViec> LoadData()
+        {
+            return dAODSCongViec.ReadAllCongViec();
+        }
     }
 }

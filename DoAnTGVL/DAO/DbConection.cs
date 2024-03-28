@@ -8,6 +8,7 @@ using System.Data;
 using System.Data.SqlClient;
 using DoAnTGVL.Class;
 using System.Collections;
+using System.Reflection.PortableExecutable;
 
 namespace DoAnTGVL.DAO
 {
@@ -35,6 +36,28 @@ namespace DoAnTGVL.DAO
                 conn.Close();
             }
         }
+
+        public DataTable Update(string sqlStr)
+        {
+            try
+            {
+                conn.Open();
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                return dt;
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return null;
+        }
+
         public List<Tho> ReadDatabase(string query)
         {
             SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring);
@@ -137,6 +160,42 @@ namespace DoAnTGVL.DAO
                     return true;
                 }
             }
+        }
+
+        public List<CongViec> ReadDatabaseCongViec(string query)
+        {
+            SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring);
+            List<CongViec> DSCongViec = new List<CongViec>();
+            using (conn)
+            {
+                SqlCommand command = new SqlCommand(query, conn);
+                try
+                {
+                    conn.Open();
+                    SqlDataReader dataReader = command.ExecuteReader();
+
+                    while (dataReader.Read())
+                    {
+                        CongViec data = new CongViec();
+                        data.TieuDe = dataReader.GetString(3);
+                        data.MoTa = dataReader.GetString(4);
+                        data.LinhVuc = dataReader.GetString(5);
+                        data.KhuVuc = dataReader.GetString(6);
+                        data.DateThue = dataReader.GetDateTime(7);
+                        data.TrangThai = dataReader.GetString(8);
+
+                        // Set other properties if needed
+                        DSCongViec.Add(data);
+
+                    }
+                    dataReader.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            return DSCongViec;
         }
     }
 }

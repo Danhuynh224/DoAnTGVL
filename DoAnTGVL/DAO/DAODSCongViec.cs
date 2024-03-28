@@ -36,5 +36,11 @@ namespace DoAnTGVL.DAO
             string queryString = string.Format("SELECT * FROM DSCongViec WHERE DateThue = '{0}' and IDTho = {1}", date, idTho);
             return dbConection.CheckExist(queryString);
         }
+
+        public List<CongViec> ReadAllCongViec()
+        {
+            string query = "Select * From DSCongViec";
+            return dbConection.ReadDatabaseCongViec(query);
+        }
     }
 }

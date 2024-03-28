@@ -89,5 +89,12 @@ namespace DoAnTGVL
             gridMainWin.Children.Clear();
             gridMainWin.Children.Add(CurUC);
         }
+
+        private void mnuDSVL_Click(object sender, RoutedEventArgs e)
+        {
+            CurUC = new UCDSCongViecTho();
+            gridMainWin.Children.Clear();
+            gridMainWin.Children.Add(CurUC);
+        }
     }
 }

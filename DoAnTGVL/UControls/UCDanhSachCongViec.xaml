@@ -21,7 +21,7 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0">
-                <TextBlock Text="{Binding Path= TieuDe }" TextWrapping="Wrap" Foreground="#001E00" FontSize="20" FontWeight="DemiBold">
+                <TextBlock Text="{Binding Path= TieuDe}" TextWrapping="Wrap" Foreground="#001E00" FontSize="20" FontWeight="DemiBold">
                     
                 </TextBlock>
             </Grid>
