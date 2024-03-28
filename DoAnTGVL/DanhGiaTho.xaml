@@ -35,7 +35,7 @@
                 <RowDefinition Height="60"></RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0" FontSize="30" FontWeight="Bold" Text="Đánh giá thợ"
+            <TextBlock Grid.Row="0" FontSize="30" FontWeight="Bold" Text="Đánh giá"
        Foreground="#FF8C00FC" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             <Grid Grid.Row="1">
                 <Grid  Width="605" Height="450" Background="White"
@@ -52,24 +52,35 @@
                                     <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
                                 </GroupBox>
                             </Grid>
+                            
 
                         </Grid>
-
-                        <Grid Height="60" Margin="0,15,0,0">
-                            <Grid Height="60" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
-                                <GroupBox Header="Mô tả việc chi tiết" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="50">
+                        <materialDesign:RatingBar Margin="30,30,0,0"
+                            x:Name="BasicRatingBarWithPreview"
+                            IsPreviewValueEnabled="True"
+                            Value="3" />
+                        <Grid Height="100" Margin="0,15,0,0">
+                            <Grid Height="100" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 5 0 0">
+                                <GroupBox Header="Mô tả việc chi tiết" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="90">
                                     <TextBox Foreground="#707070" Background="White" BorderThickness="0" FontSize="15" Style="{DynamicResource d}" />
                                 </GroupBox>
                             </Grid>
 
                         </Grid>
 
-                        <Grid Height="auto" Margin="0,15,0,0">
-                            <GroupBox Width="552"  Header="Ngày thuê" Style="{DynamicResource d}" BorderBrush="#707070" Foreground="#707070" BorderThickness="1.5" Height="280">
-                                <Calendar
-                                    materialDesign:CalendarAssist.Orientation="Horizontal" />
-                            </GroupBox>
+                        <Grid Height="150" Width="552">
+                            <!-- Đặt một Border để tạo khung viền cho WrapPanel -->
+                            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" Margin="0,25,0,0">
+                                <!-- WrapPanel để bọc các phần tử con -->
+                                <WrapPanel>
+                                    <!-- Các phần tử con -->
+                                    <Image > </Image>
+                                    
+                                    <!-- Thêm các phần tử khác nếu cần -->
+                                </WrapPanel>
+                            </Border>
                         </Grid>
+
 
 
 

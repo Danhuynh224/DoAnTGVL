@@ -192,26 +192,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                         Content="Trên 3 năm" />
                     </ComboBox>
 
-                    <ComboBox 
-                        materialDesign:HintAssist.Hint="Đánh giá"
-                        materialDesign:TextFieldAssist.HasClearButton="True"
-                        Width="200" Height="50" Margin="125,0,0,0"
-                        FontSize="20" BorderThickness="0"
-                        x:Name="cboDanhGia"
-                        IsEditable="True" SelectionChanged="fil_SelectionChanged"
-                        >
-                       <ComboBoxItem
-                        Content="1" 
-                          />
-                       <ComboBoxItem
-                        Content="2" />
-                        <ComboBoxItem
-                        Content="3" />
-                       <ComboBoxItem
-                        Content="4" />
-                        <ComboBoxItem
-                        Content="5" />
-                    </ComboBox>
+                    
 
                     <ComboBox 
                     materialDesign:HintAssist.Hint="Chọn giá tiền"
@@ -234,7 +215,11 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                     <ComboBoxItem
                     Content="Tất cả" />
                     </ComboBox>
-
+                    <CheckBox x:Name="chboxYeuThich"
+    materialDesign:CheckBoxAssist.CheckBoxSize="30" Margin="125,0,0,0"
+    Content="Yêu thích" FontSize="20"
+    IsChecked="{Binding Path = YeuThich,UpdateSourceTrigger=PropertyChanged}" Click="chboxYeuThich_Click" />
+                    
                 </StackPanel>
                 
                 

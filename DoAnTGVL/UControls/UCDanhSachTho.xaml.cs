@@ -1,4 +1,5 @@
-﻿using DoAnTGVL.Class;
+﻿using DoAnTGVL.BUS;
+using DoAnTGVL.Class;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,6 +36,12 @@ namespace DoAnTGVL.UControls
         {
             ChiTietTho chiTietTho = new ChiTietTho(tho, user);
             chiTietTho.Show();
+        }
+
+        private void ToggleButton_Click(object sender, RoutedEventArgs e)
+        {
+            BUSDanhSachTho bUSDanhSachTho = new BUSDanhSachTho();
+            bUSDanhSachTho.ThemXoaDSYeuThich(tho,user);
         }
     }
 }

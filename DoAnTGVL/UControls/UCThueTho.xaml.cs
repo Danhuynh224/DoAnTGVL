@@ -34,15 +34,14 @@ namespace DoAnTGVL.UControls
             InitializeComponent();
             this.user = user;
             this.DataContext = filterTho;
-            bUSThueTho.CreateWrapThueTho(filterTho, this);
+            bUSThueTho.CreateWrapThueTho(filterTho,user, this);
         }
         private void fil_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             filterTho.KhuVuc = (cboKhuVuc.SelectedItem != null) ? (cboKhuVuc.SelectedItem as ComboBoxItem).Content.ToString() : "";
             filterTho.KinhNghiem = (cboKinhNghiem.SelectedItem != null) ? (cboKinhNghiem.SelectedItem as ComboBoxItem).Content.ToString() : "";
-            filterTho.DanhGia = (cboDanhGia.SelectedItem != null) ? float.Parse((cboDanhGia.SelectedItem as ComboBoxItem).Content.ToString()) : 0;
             filterTho.Giatien = (cboGiaTien.SelectedItem != null) ? (cboGiaTien.SelectedItem as ComboBoxItem).Content.ToString() : "";
-            bUSThueTho.CreateWrapThueTho(filterTho, this);
+            bUSThueTho.CreateWrapThueTho(filterTho, user, this);
         }
         private void GetChuyenMon(object sender, RoutedEventArgs e)
         {
@@ -51,7 +50,7 @@ namespace DoAnTGVL.UControls
             {
                 filterTho.ChuyenMon = subMenuItem.Header.ToString();              
             }
-            bUSThueTho.CreateWrapThueTho(filterTho, this);
+            bUSThueTho.CreateWrapThueTho(filterTho, user, this);
         } 
         private void reload_button_Click(object sender, RoutedEventArgs e)
         {
@@ -60,12 +59,17 @@ namespace DoAnTGVL.UControls
         }
         private void txbTimKiem_KeyUp(object sender, KeyEventArgs e)
         {
-            bUSThueTho.CreateWrapThueTho(filterTho, this);
+            bUSThueTho.CreateWrapThueTho(filterTho, user, this);
         }
         private void click_DangBai(object sender, RoutedEventArgs e)
         {
             Window dangbai = new DangBai();
             dangbai.ShowDialog();
+        }
+
+        private void chboxYeuThich_Click(object sender, RoutedEventArgs e)
+        {
+            bUSThueTho.CreateWrapThueTho(filterTho, user, this);
         }
     }
 }

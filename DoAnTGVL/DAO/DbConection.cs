@@ -22,10 +22,8 @@ namespace DoAnTGVL.DAO
                 conn.Open();
                 string sqlStr = string.Format(sql);
                 SqlCommand cmd = new SqlCommand(sqlStr, conn);
-                if (cmd.ExecuteNonQuery() > 0)
-                    MessageBox.Show("Thanh cong");
-                else
-                    MessageBox.Show("Nhap sai");
+                cmd.ExecuteNonQuery();
+                    
             }
             catch (Exception ex)
             {
@@ -196,6 +194,62 @@ namespace DoAnTGVL.DAO
                 }
             }
             return DSCongViec;
+        }
+
+        public User ReadDatabaseUser(string query)
+        {
+            SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring);
+            User user = null;
+            using (conn)
+            {
+                SqlCommand command = new SqlCommand(query, conn);
+                try
+                {
+                    conn.Open();
+                    SqlDataReader dataReader = command.ExecuteReader();
+
+                    while (dataReader.Read())
+                    {
+                        user = new((int)dataReader[0], dataReader[1].ToString(), dataReader[2].ToString(), dataReader[3].ToString(),
+                    (DateTime)dataReader[4], dataReader[5].ToString());
+
+                    }
+                    dataReader.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            return user;
+        }
+
+        public List<int> ReadDatabaseYeuThich(string query)
+        {
+            SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring);
+            List<int> DSYeuThich = new List<int>();
+            using (conn)
+            {
+                SqlCommand command = new SqlCommand(query, conn);
+                try
+                {
+                    conn.Open();
+                    SqlDataReader dataReader = command.ExecuteReader();
+
+                    while (dataReader.Read())
+                    {
+
+                        DSYeuThich.Add((int)dataReader[1]);
+
+                    }
+                    dataReader.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            return DSYeuThich;
         }
     }
 }

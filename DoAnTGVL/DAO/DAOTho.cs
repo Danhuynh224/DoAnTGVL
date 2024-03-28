@@ -23,14 +23,24 @@ namespace DoAnTGVL.DAO
             string query = "Select * From Tho";
             return dbConection.ReadDatabase(query);
         }
-        public List<Tho> FilterTho(FilterTho filterTho)
+        public List<Tho> FilterTho(FilterTho filterTho, int userId)
         {
             string query = "Select * From Tho";
             bool exist = false;
             if (!filterTho.checkemp()) {
-                query += " Where";
+                if(filterTho.YeuThich) 
+                {
+                    query += string.Format(", YeuThich Where Id=IDTho"); 
+                    exist = true;
+                }
+                else
+                {
+                    query += " Where"; 
+                }
                 if (filterTho.KhuVuc != "")
                 {
+                    if (exist)
+                        query += " and";
                     query += string.Format(" KhuVuc = N'{0}'", filterTho.KhuVuc);
                     exist = true;
                 }

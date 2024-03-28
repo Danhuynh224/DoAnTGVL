@@ -40,19 +40,9 @@ namespace DoAnTGVL
         {
             this.Hide();
             Window window;
-            if (rdbUser.IsChecked==true)
-            {
-                User user = new User(1, "Huỳnh Việt Đan", "099900134386", "08765678542",DateTime.Today, "Quận 1");
-                window = new UserMain(user);
-                window.ShowDialog();
-                
-            }
-            else if(rdbTho.IsChecked == true)
-            {
-                Tho tho = new Tho(1, "Nguyễn Ngọc Hoàng", "099900134386", "08765678542", DateTime.Today, "Quận 1", "Điện lạnh", "Sửa máy lạnh", "1 - 2 năm", 500000,4);
-                window = new ThoMain(tho);
-                window.ShowDialog();
-            }
+            BUSDangNhap busDangNhap=new BUSDangNhap();
+            window = busDangNhap.Login(0, (bool)rdbUser.IsChecked);
+            window.ShowDialog();    
             this.Show();
 
         }

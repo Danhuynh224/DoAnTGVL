@@ -16,12 +16,13 @@ namespace DoAnTGVL.BUS
     {
         DAOTho dAOTho = new DAOTho();
         UserControl userControl;
-        public void CreateWrapThueTho(FilterTho filterTho, UCThueTho uCThueTho)
+        public void CreateWrapThueTho(FilterTho filterTho,User user, UCThueTho uCThueTho)
         {
             uCThueTho.WpanelDanhS.Children.Clear();
-            List<Tho>  DStho = dAOTho.FilterTho(filterTho);
+            List<Tho>  DStho = dAOTho.FilterTho(filterTho, user.Id);
             foreach (Tho tho in DStho)
             {
+                tho.CheckDcYeuThich(user.DSYeuThich); 
                 userControl = new UCDanhSachTho(tho,uCThueTho.user);
                 userControl.Width = 280;
                 userControl.Height = 450;
