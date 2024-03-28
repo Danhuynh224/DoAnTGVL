@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "D:\\WinForm\\DoAnWinForm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\ucontrols\\ucdscongviectho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\ucontrols\\ucdscongviectho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\dao\\dbconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\dao\\dbconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\usermain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\usermain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\ucontrols\\ucuserchuathuchien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\ucontrols\\ucuserchuathuchien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\dao\\daotaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\dao\\daotaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\ucontrols\\uchome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\ucontrols\\uchome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\style\\pagingbuttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\style\\pagingbuttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\chitiettho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\chitiettho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\chitietcongviec.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\chitietcongviec.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\dao\\dbconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\dao\\dbconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\ucontrols\\ucdanhsachtho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -33,14 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\ucontrols\\ucdanhsachcongviec.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\ucontrols\\ucdanhsachcongviec.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\usermain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\usermain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\chitiettho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\chitiettho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\dangbai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -71,20 +87,12 @@
       "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\ucontrols\\ucsuacv.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\ucontrols\\uchome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\ucontrols\\uchome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\xacnhanthuetho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\xacnhanthuetho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\danhgiatho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\danhgiatho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\chitietcongviec.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\chitietcongviec.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -109,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\dao\\daobaidang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\dao\\daobaidang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\dao\\daotaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\dao\\daotaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\class\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -230,10 +234,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\ucontrols\\ucviewdg.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\ucontrols\\ucviewdg.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|d:\\winform\\doanwinform\\doantgvl\\ucontrols\\ucuserchuathuchien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{954CBD8E-7156-4E1D-A8CA-62C62EDECAF3}|DoAnTGVL\\DoAnTGVL.csproj|solutionrelative:doantgvl\\ucontrols\\ucuserchuathuchien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -247,7 +247,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "UCDanhSachCongViec.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCDanhSachCongViec.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCDanhSachCongViec.xaml",
@@ -259,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "DanhGiaTho.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DanhGiaTho.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\DanhGiaTho.xaml",
@@ -271,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "BaiDang.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Class\\BaiDang.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\Class\\BaiDang.cs",
@@ -284,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "UCThueTho.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCThueTho.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCThueTho.xaml.cs",
@@ -302,42 +302,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UCDSCongViecTho.xaml",
-              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCDSCongViecTho.xaml",
-              "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCDSCongViecTho.xaml",
-              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCDSCongViecTho.xaml",
-              "RelativeToolTip": "DoAnTGVL\\UControls\\UCDSCongViecTho.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-26T13:15:48.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PagingButtonStyle.xaml",
-              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Style\\PagingButtonStyle.xaml",
-              "RelativeDocumentMoniker": "DoAnTGVL\\Style\\PagingButtonStyle.xaml",
-              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Style\\PagingButtonStyle.xaml",
-              "RelativeToolTip": "DoAnTGVL\\Style\\PagingButtonStyle.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-26T14:58:42.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DbConection.cs",
-              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DAO\\DbConection.cs",
-              "RelativeDocumentMoniker": "DoAnTGVL\\DAO\\DbConection.cs",
-              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DAO\\DbConection.cs",
-              "RelativeToolTip": "DoAnTGVL\\DAO\\DbConection.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwE4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:20:16.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\App.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\App.xaml",
@@ -349,7 +313,116 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UCDSCongViecTho.xaml",
+              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCDSCongViecTho.xaml",
+              "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCDSCongViecTho.xaml",
+              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCDSCongViecTho.xaml",
+              "RelativeToolTip": "DoAnTGVL\\UControls\\UCDSCongViecTho.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T13:15:48.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UCUserChuaThucHien.xaml",
+              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCUserChuaThucHien.xaml",
+              "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCUserChuaThucHien.xaml",
+              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCUserChuaThucHien.xaml",
+              "RelativeToolTip": "DoAnTGVL\\UControls\\UCUserChuaThucHien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-13T17:46:22.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DAOTaiKhoan.cs",
+              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DAO\\DAOTaiKhoan.cs",
+              "RelativeDocumentMoniker": "DoAnTGVL\\DAO\\DAOTaiKhoan.cs",
+              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DAO\\DAOTaiKhoan.cs",
+              "RelativeToolTip": "DoAnTGVL\\DAO\\DAOTaiKhoan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T08:33:33.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserMain.xaml",
+              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UserMain.xaml",
+              "RelativeDocumentMoniker": "DoAnTGVL\\UserMain.xaml",
+              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UserMain.xaml",
+              "RelativeToolTip": "DoAnTGVL\\UserMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-13T17:49:49.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UCHome.xaml",
+              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCHome.xaml",
+              "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCHome.xaml",
+              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCHome.xaml",
+              "RelativeToolTip": "DoAnTGVL\\UControls\\UCHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-14T15:45:41.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PagingButtonStyle.xaml",
+              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Style\\PagingButtonStyle.xaml",
+              "RelativeDocumentMoniker": "DoAnTGVL\\Style\\PagingButtonStyle.xaml",
+              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Style\\PagingButtonStyle.xaml",
+              "RelativeToolTip": "DoAnTGVL\\Style\\PagingButtonStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T14:58:42.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChiTietTho.xaml",
+              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietTho.xaml",
+              "RelativeDocumentMoniker": "DoAnTGVL\\ChiTietTho.xaml",
+              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietTho.xaml",
+              "RelativeToolTip": "DoAnTGVL\\ChiTietTho.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-14T07:15:24.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChiTietCongViec.xaml",
+              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietCongViec.xaml",
+              "RelativeDocumentMoniker": "DoAnTGVL\\ChiTietCongViec.xaml",
+              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietCongViec.xaml",
+              "RelativeToolTip": "DoAnTGVL\\ChiTietCongViec.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-20T16:18:38.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbConection.cs",
+              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DAO\\DbConection.cs",
+              "RelativeDocumentMoniker": "DoAnTGVL\\DAO\\DbConection.cs",
+              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DAO\\DbConection.cs",
+              "RelativeToolTip": "DoAnTGVL\\DAO\\DbConection.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:20:16.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UCDanhSachTho.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCDanhSachTho.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCDanhSachTho.xaml",
@@ -360,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "UCThueTho.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCThueTho.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCThueTho.xaml",
@@ -371,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "UCCViecTho.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCCViecTho.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCCViecTho.xaml",
@@ -382,29 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserMain.xaml",
-              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UserMain.xaml",
-              "RelativeDocumentMoniker": "DoAnTGVL\\UserMain.xaml",
-              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UserMain.xaml",
-              "RelativeToolTip": "DoAnTGVL\\UserMain.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T17:49:49.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ChiTietTho.xaml",
-              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietTho.xaml",
-              "RelativeDocumentMoniker": "DoAnTGVL\\ChiTietTho.xaml",
-              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietTho.xaml",
-              "RelativeToolTip": "DoAnTGVL\\ChiTietTho.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-14T07:15:24.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "DangBai.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DangBai.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\DangBai.xaml",
@@ -415,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "UCstyle.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Style\\UCstyle.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\Style\\UCstyle.xaml",
@@ -427,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ProfileTho.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ProfileTho.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\ProfileTho.xaml",
@@ -438,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ThoMain.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ThoMain.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\ThoMain.xaml",
@@ -449,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "WinStyle.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Style\\WinStyle.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\Style\\WinStyle.xaml",
@@ -461,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "UCTheoDoiBaiDang.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCTheoDoiBaiDang.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCTheoDoiBaiDang.xaml",
@@ -472,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "UCSuaCV.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCSuaCV.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCSuaCV.xaml",
@@ -483,18 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UCHome.xaml",
-              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCHome.xaml",
-              "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCHome.xaml",
-              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCHome.xaml",
-              "RelativeToolTip": "DoAnTGVL\\UControls\\UCHome.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-14T15:45:41.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "XacNhanThueTho.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\XacNhanThueTho.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\XacNhanThueTho.xaml",
@@ -505,18 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ChiTietCongViec.xaml",
-              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietCongViec.xaml",
-              "RelativeDocumentMoniker": "DoAnTGVL\\ChiTietCongViec.xaml",
-              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietCongViec.xaml",
-              "RelativeToolTip": "DoAnTGVL\\ChiTietCongViec.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-20T16:18:38.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\MainWindow.xaml",
@@ -527,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Filter.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Class\\Filter.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\Class\\Filter.cs",
@@ -539,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "DAOTho.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DAO\\DAOTho.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\DAO\\DAOTho.cs",
@@ -551,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "BUSTimViec.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\BUS\\BUSTimViec.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\BUS\\BUSTimViec.cs",
@@ -563,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "BUSThueTho.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\BUS\\BUSThueTho.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\BUS\\BUSThueTho.cs",
@@ -575,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "DAOBaiDang.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DAO\\DAOBaiDang.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\DAO\\DAOBaiDang.cs",
@@ -587,19 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DAOTaiKhoan.cs",
-              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DAO\\DAOTaiKhoan.cs",
-              "RelativeDocumentMoniker": "DoAnTGVL\\DAO\\DAOTaiKhoan.cs",
-              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DAO\\DAOTaiKhoan.cs",
-              "RelativeToolTip": "DoAnTGVL\\DAO\\DAOTaiKhoan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T08:33:33.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "TaiKhoan.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Class\\TaiKhoan.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\Class\\TaiKhoan.cs",
@@ -611,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Class\\User.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\Class\\User.cs",
@@ -623,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Person.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Class\\Person.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\Class\\Person.cs",
@@ -635,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Tho.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\Class\\Tho.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\Class\\Tho.cs",
@@ -647,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "UCDanhSachTho.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCDanhSachTho.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCDanhSachTho.xaml.cs",
@@ -659,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "UserMain.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UserMain.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\UserMain.xaml.cs",
@@ -671,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "UCTimViec.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCTimViec.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCTimViec.xaml",
@@ -682,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "DangBai.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DangBai.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\DangBai.xaml.cs",
@@ -694,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "UCTheoDoiBaiDang.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCTheoDoiBaiDang.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCTheoDoiBaiDang.xaml.cs",
@@ -706,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "UCDanhSachCongViec.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCDanhSachCongViec.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCDanhSachCongViec.xaml.cs",
@@ -718,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "ChiTietCongViec.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietCongViec.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\ChiTietCongViec.xaml.cs",
@@ -730,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "XuatHoaDon.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\XuatHoaDon.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\XuatHoaDon.xaml",
@@ -741,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "ChiTietTho.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ChiTietTho.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\ChiTietTho.xaml.cs",
@@ -753,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "UCDanhGia.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCDanhGia.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCDanhGia.xaml",
@@ -764,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "UCTimViec.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCTimViec.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCTimViec.xaml.cs",
@@ -776,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "UCTienDo.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCTienDo.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCTienDo.xaml",
@@ -787,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "dbo.BaiDang [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/TheGioiTho/True/SqlTable/dbo.BaiDang.sql",
               "ToolTip": "dbo.BaiDang [Data]",
@@ -796,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "UCTrangChu.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCTrangChu.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCTrangChu.xaml",
@@ -807,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "App.config",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\App.config",
               "RelativeDocumentMoniker": "DoAnTGVL\\App.config",
@@ -819,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "DoAnTGVL.csproj",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DoAnTGVL.csproj",
               "RelativeDocumentMoniker": "DoAnTGVL\\DoAnTGVL.csproj",
@@ -831,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "DoAnTGVL",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DoAnTGVL.csproj",
               "RelativeDocumentMoniker": "DoAnTGVL\\DoAnTGVL.csproj",
@@ -842,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "SQLQuery2.sql ",
               "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\rtzsnnmm..sql",
               "ToolTip": "SQLQuery2.sql *",
@@ -851,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "dbo.Tho [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/TheGioiTho/True/SqlTable/dbo.Tho.sql",
               "ToolTip": "dbo.Tho [Data]",
@@ -860,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "DanhGiaTho.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DanhGiaTho.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\DanhGiaTho.xaml.cs",
@@ -872,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "UCTrangChu.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCTrangChu.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCTrangChu.xaml.cs",
@@ -884,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "ProfileTho.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ProfileTho.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\ProfileTho.xaml.cs",
@@ -896,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "ThoMain.xaml.cs",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\ThoMain.xaml.cs",
               "RelativeDocumentMoniker": "DoAnTGVL\\ThoMain.xaml.cs",
@@ -908,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "UCViewDG.xaml",
               "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCViewDG.xaml",
               "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCViewDG.xaml",
@@ -916,17 +933,6 @@
               "RelativeToolTip": "DoAnTGVL\\UControls\\UCViewDG.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-13T17:46:28.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "UCUserChuaThucHien.xaml",
-              "DocumentMoniker": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCUserChuaThucHien.xaml",
-              "RelativeDocumentMoniker": "DoAnTGVL\\UControls\\UCUserChuaThucHien.xaml",
-              "ToolTip": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\UControls\\UCUserChuaThucHien.xaml",
-              "RelativeToolTip": "DoAnTGVL\\UControls\\UCUserChuaThucHien.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T17:46:22.827Z"
             }
           ]
         }
