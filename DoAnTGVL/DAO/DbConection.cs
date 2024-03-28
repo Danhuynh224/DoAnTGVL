@@ -18,7 +18,6 @@ namespace DoAnTGVL.DAO
         {
             try
             {
-                // Ket noi
                 conn.Open();
                 string sqlStr = string.Format(sql);
                 SqlCommand cmd = new SqlCommand(sqlStr, conn);
@@ -80,7 +79,7 @@ namespace DoAnTGVL.DAO
                     while (dataReader.Read())
                     {
                         BaiDang baidang = new BaiDang((int)dataReader[0], dataReader[1].ToString(), dataReader[2].ToString(), dataReader[3].ToString(), dataReader[4].ToString(),
-                    dataReader[5].ToString(), (DateTime)dataReader[6], dataReader[7].ToString(), dataReader[8].ToString(), dataReader[9].ToString());
+                    dataReader[5].ToString(), ((DateTime)dataReader[6]).Date, dataReader[7].ToString(), dataReader[8].ToString(), dataReader[9].ToString());
                         DSbaidang.Add(baidang);
 
                     }
@@ -119,6 +118,25 @@ namespace DoAnTGVL.DAO
                 }
             }
             return NgayBan;
+        }
+        public bool CheckExist(string query)
+        {
+            SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring);            
+            using (conn)
+            {
+                SqlCommand command = new SqlCommand(query, conn);
+                conn.Open();
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.HasRows)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
         }
     }
 }

@@ -26,11 +26,15 @@ namespace DoAnTGVL.UControls
         BUSTimViec bustimviec = new BUSTimViec();
         DAOBaiDang daobaidang = new DAOBaiDang();
         FilterBaiDang filterBaiDang=new FilterBaiDang();
-        public UCTimViec()
+        public Tho tho;
+        public UCTimViec(Tho tho)
         {
             InitializeComponent();
             this.DataContext = filterBaiDang;
+            this.tho = tho;
             bustimviec.CreateWrapBaiDang(filterBaiDang, this);
+            
+            
         }
 
         private void fil_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -52,7 +56,7 @@ namespace DoAnTGVL.UControls
         private void btn_reload_Click(object sender, RoutedEventArgs e)
         {
             filterBaiDang.reset();
-            this.Content = new UCTimViec();
+            this.Content = new UCTimViec(tho);
         }
     }
 

@@ -273,3 +273,6 @@ D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\ref\DoAnTGVL.dll
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\Style\PagingButtonStyle.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDSCongViecTho.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDSCongViecTho.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\Style\PagingButtonStyle.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDSCongViecTho.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDSCongViecTho.baml

@@ -28,7 +28,7 @@ namespace DoAnTGVL.Class
             this.LinhVuc = linhVuc;
             this.KhuVuc = khuVuc;
             this.MoTa = moTa;
-            this.DateThue = date;
+            this.DateThue = date.Date;
             this.KinhNghiem = kinhNghiem;
             this.GhiChu = ghiChu;
             this.YeuCau = yeuCau;

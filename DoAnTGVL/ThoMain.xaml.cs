@@ -1,4 +1,5 @@
-﻿using DoAnTGVL.UControls;
+﻿using DoAnTGVL.Class;
+using DoAnTGVL.UControls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,9 +26,10 @@ namespace DoAnTGVL
     {
         private UserControl PreUC = new UCHome();
         private UserControl CurUC = new UCHome();
-        public ThoMain()
+        Tho tho;
+        public ThoMain(Tho tho)
         {
-
+            this.tho= tho;
             InitializeComponent();
             gridMainWin.Children.Add(CurUC);
         } 
@@ -83,7 +85,7 @@ namespace DoAnTGVL
         }
         private void MnuTimViec_Click(object sender, RoutedEventArgs e)
         {
-            CurUC = new UCTimViec();
+            CurUC = new UCTimViec(tho);
             gridMainWin.Children.Clear();
             gridMainWin.Children.Add(CurUC);
         }
