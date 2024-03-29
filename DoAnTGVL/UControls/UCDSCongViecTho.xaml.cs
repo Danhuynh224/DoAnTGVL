@@ -26,9 +26,11 @@ namespace DoAnTGVL.UControls
     /// </summary>
     public partial class UCDSCongViecTho : UserControl
     {
+        Tho tho;
         BUSChiTietCongViec buschitietcv = new BUSChiTietCongViec();
-        public UCDSCongViecTho()
+        public UCDSCongViecTho(Tho tho)
         {
+            this.tho = tho;
             InitializeComponent();
             LoadDataIntoListView();
             CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(lsvDSCV.ItemsSource);
@@ -37,7 +39,7 @@ namespace DoAnTGVL.UControls
 
         private void LoadDataIntoListView()
         {
-            List<CongViec> dataList = buschitietcv.LoadData();
+            List<CongViec> dataList = buschitietcv.LoadData(tho.Id);
             lsvDSCV.ItemsSource = dataList;
         }
     }

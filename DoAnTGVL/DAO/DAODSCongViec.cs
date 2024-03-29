@@ -37,9 +37,9 @@ namespace DoAnTGVL.DAO
             return dbConection.CheckExist(queryString);
         }
 
-        public List<CongViec> ReadAllCongViec()
+        public List<CongViec> ReadAllCongViec(int id)
         {
-            string query = "Select * From DSCongViec";
+            string query =string.Format("Select * From DSCongViec Where IDTho = {0}",id);
             return dbConection.ReadDatabaseCongViec(query);
         }
     }

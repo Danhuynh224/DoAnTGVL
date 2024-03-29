@@ -86,7 +86,7 @@
 
                         <GridViewColumn Width="130" Header="Khu Vực" DisplayMemberBinding="{Binding KhuVuc}"/>
 
-                        <GridViewColumn Width="160" Header="Ngày Làm" DisplayMemberBinding="{Binding DateThue}" />
+                        <GridViewColumn Width="160" Header="Ngày Làm" DisplayMemberBinding="{Binding DateThue  ,StringFormat={}{0:MM/dd/yyy}}" />
 
                         <GridViewColumn Width="160" Header="Trạng Thái">
                             <!--DisplayMemberBinding="{Binding TrangThai}">-->

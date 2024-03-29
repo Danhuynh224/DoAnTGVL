@@ -24,9 +24,9 @@ namespace DoAnTGVL.BUS
             }    
         }
 
-        public List<CongViec> LoadData()
+        public List<CongViec> LoadData(int id)
         {
-            return dAODSCongViec.ReadAllCongViec();
+            return dAODSCongViec.ReadAllCongViec(id);
         }
     }
 }

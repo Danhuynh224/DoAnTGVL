@@ -43,7 +43,7 @@ namespace DoAnTGVL
         private void MnuTheoDoiBaiDang_Click(object sender, RoutedEventArgs e)
         {
             gridMainWin.Background = Brushes.White;
-            CurUC = new UCTheoDoiBaiDang();
+            
             gridMainWin.Children.Remove(PreUC);
             PreUC = CurUC;
             gridMainWin.Children.Add(CurUC);

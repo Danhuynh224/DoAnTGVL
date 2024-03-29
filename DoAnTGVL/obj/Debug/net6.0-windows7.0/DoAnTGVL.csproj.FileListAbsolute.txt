@@ -121,7 +121,6 @@ C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDanhSachTho.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCHome.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCSuaCV.g.cs
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTheoDoiBaiDang.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCThueTho.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTienDo.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTimViec.g.cs
@@ -153,7 +152,6 @@ C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDanhSachTho.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCHome.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCSuaCV.baml
-C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTheoDoiBaiDang.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCThueTho.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTienDo.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTimViec.baml
