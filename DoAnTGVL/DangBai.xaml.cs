@@ -45,6 +45,8 @@ namespace DoAnTGVL
             {
                 DAOBaiDang dAOBaiDang = new DAOBaiDang();
                 dAOBaiDang.Them(baiDang);
+                MessageBox.Show("Thêm thành công");
+                this.Close();
 
             }
             catch

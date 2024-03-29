@@ -12,11 +12,13 @@ namespace DoAnTGVL.BUS
     public class BUSChiTietCongViec
     {
         DAODSCongViec dAODSCongViec= new DAODSCongViec();
+        DAOBaiDang dAOBaiDang = new DAOBaiDang();   
         public void Them(BaiDang baiDang, Tho tho)
         {
             if(dAODSCongViec.CheckNgayBan(baiDang.DateThue,tho.Id))
             {
                 dAODSCongViec.ThoThem(baiDang, tho);
+                dAOBaiDang.XoaBaiDang(baiDang);
             }
             else
             {

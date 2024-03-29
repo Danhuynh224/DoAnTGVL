@@ -54,5 +54,11 @@ namespace DoAnTGVL.DAO
             }           
             return dbConection.ReadDatabaseBaiDang(query);
         }
+
+        public void XoaBaiDang(BaiDang baiDang)
+        {
+            string query =string.Format( "Delete  From BaiDang Where ID = {0}",baiDang.ID);
+            dbConection.Process(query);
+        }
     }
 }
