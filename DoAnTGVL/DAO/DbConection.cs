@@ -238,9 +238,7 @@ namespace DoAnTGVL.DAO
 
                     while (dataReader.Read())
                     {
-
                         DSYeuThich.Add((int)dataReader[1]);
-
                     }
                     dataReader.Close();
                 }

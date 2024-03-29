@@ -193,7 +193,6 @@ D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDanhSach
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDanhSachTho.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCHome.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCSuaCV.g.cs
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTheoDoiBaiDang.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCThueTho.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTienDo.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTimViec.g.cs
@@ -246,7 +245,6 @@ D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDanhSach
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDanhSachTho.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCHome.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCSuaCV.baml
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTheoDoiBaiDang.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCThueTho.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTienDo.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTimViec.baml
