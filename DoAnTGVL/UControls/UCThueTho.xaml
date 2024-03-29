@@ -112,9 +112,6 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                             <RectangleGeometry Rect="0,0,60,50" RadiusX="50" RadiusY="60">
                             </RectangleGeometry>
                         </Button.Clip>
-                        <materialDesign:PackIcon Kind="Send" Width="30"
-                         Height="30" 
-                         Foreground="Black" Opacity="0.7" />
                     </Button>
                     <Button Height="45" Width="150" Background="#FF8C00FC" Margin="20,0,0,0" Click="click_DangBai"
                     >

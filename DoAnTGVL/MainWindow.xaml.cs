@@ -41,7 +41,7 @@ namespace DoAnTGVL
             this.Hide();
             Window window;
             BUSDangNhap busDangNhap=new BUSDangNhap();
-            window = busDangNhap.Login(0, (bool)rdbUser.IsChecked);
+            window = busDangNhap.Login(1, (bool)rdbUser.IsChecked);
             window.ShowDialog();    
             this.Show();
 
