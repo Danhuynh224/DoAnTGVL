@@ -20,16 +20,16 @@ namespace DoAnTGVL.DAO
         {
 
             string sqlString = string.Format("INSERT INTO DSCongViec ( IDTho, IDUser, TieuDe, MoTa, LinhVuc, KhuVuc, DateThue, TrangThai) VALUES ({0}, {1}, N'{2}', N'{3}',N'{4}',N'{5}','{6}', N'{7}')", congViec.IDTho, congViec.IDUser,
-                congViec.TieuDe, congViec.MoTa, congViec.LinhVuc,congViec.KhuVuc ,congViec.DateThue.ToShortDateString(), congViec.TrangThai);
+                congViec.TieuDe, congViec.MoTa, congViec.LinhVuc,congViec.KhuVuc ,congViec.DateThue, congViec.TrangThai);
             dbConection.Process(sqlString);
-            MessageBox.Show("Sucessfully");
+            MessageBox.Show("Thuê thành công");
         }
         public void ThoThem(BaiDang baiDang, Tho tho)
         {
             string sqlString = string.Format("INSERT INTO DSCongViec ( IDTho, IDUser, TieuDe, MoTa, LinhVuc, KhuVuc, DateThue, TrangThai) VALUES ({0}, {1}, N'{2}', N'{3}',N'{4}',N'{5}','{6}', N'{7}')", tho.Id, baiDang.IDUser,
-              baiDang.TieuDe, baiDang.MoTa, baiDang.LinhVuc, baiDang.KhuVuc, baiDang.DateThue.ToShortDateString(), "Đã xác nhận");
+              baiDang.TieuDe, baiDang.MoTa, baiDang.LinhVuc, baiDang.KhuVuc, baiDang.DateThue, "Đã xác nhận");
             dbConection.Process(sqlString);
-            MessageBox.Show("Sucessfully"); 
+            MessageBox.Show("Nhận việc thành công"); 
         }
         public bool CheckNgayBan(DateTime date, int idTho)
         {

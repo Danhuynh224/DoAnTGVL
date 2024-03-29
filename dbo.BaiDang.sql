@@ -5,7 +5,7 @@
     [LinhVuc]    NVARCHAR (50)  NULL,
     [KhuVuc]     NVARCHAR (50)  NULL,
     [MoTa]       NVARCHAR (MAX) NULL,
-    [Date]       DATETIME2 (7)  NULL,
+    [Date]       DATETIME (7)  NULL,
     [KinhNghiem] NVARCHAR (50)  NULL,
     [YeuCau]     NVARCHAR (MAX) NULL,
     [GhiChu]     NVARCHAR (MAX) NULL,

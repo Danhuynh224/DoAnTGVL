@@ -11,11 +11,11 @@ namespace DoAnTGVL.Class
         private int iD;
         private int iDTho;
         private int iDUser;
-        private string tieuDe;
-        private string linhVuc;
+        private string tieuDe="";
+        private string linhVuc="";
         private string moTa;
         private string khuVuc;
-        private DateTime dateThue=DateTime.Today;
+        private DateTime dateThue;
         private string trangThai="Chưa thực hiện";
 
         public int ID { get => iD; set => iD = value; }
@@ -28,7 +28,7 @@ namespace DoAnTGVL.Class
         public string TrangThai { get => trangThai; set => trangThai = value; }
         public string MoTa { get => moTa; set => moTa = value; }
 
-        
+   
         public CongViec()
         {
 

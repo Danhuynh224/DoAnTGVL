@@ -41,6 +41,7 @@ namespace DoAnTGVL
         private void click_Huy(object sender, RoutedEventArgs e)
         {
             Close();
+            
         }
 
         
@@ -50,7 +51,7 @@ namespace DoAnTGVL
             List<DateTime> dates = bUSXacNhan.Load_Calender(tho.Id);
             foreach (DateTime dateTime in dates)
             {
-                calenNgayThue.BlackoutDates.Add(new CalendarDateRange(dateTime));
+                    calenNgayThue.BlackoutDates.Add(new CalendarDateRange(dateTime));
                 
             }
         }
@@ -58,7 +59,7 @@ namespace DoAnTGVL
         private void btn_Xacnhan_Click(object sender, RoutedEventArgs e)
         {
             bUSXacNhan.Them(congViec);
-            this.Close();   
+            
         }
     }
 }

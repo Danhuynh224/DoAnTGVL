@@ -19,7 +19,7 @@ namespace DoAnTGVL.BUS
         }
         public void Them(CongViec congviec)
         {
-            if (congviec.TieuDe != "" || congviec.MoTa != "")
+            if (congviec.TieuDe != "" && congviec.MoTa != "")
                 dAODScongViec.Them(congviec);
             else
             {

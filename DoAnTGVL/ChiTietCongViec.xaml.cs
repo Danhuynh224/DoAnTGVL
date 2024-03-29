@@ -41,7 +41,7 @@ namespace DoAnTGVL
         }
 
         private void btn_Commfirm_Click(object sender, RoutedEventArgs e)
-        {  
+        {
             bUSChiTiet.Them(baiDang, tho);
             this.Close();
         } 

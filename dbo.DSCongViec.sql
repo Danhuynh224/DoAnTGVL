@@ -6,7 +6,7 @@
     [MoTa]       NVARCHAR (MAX) NULL,
     [LinhVuc]    NVARCHAR (50)  NULL,
     [KhuVuc]     NVARCHAR (50)  NULL,
-    [DateThue]       DATETIME2 (7)  NULL,
+    [DateThue]       DATETIME (7)  NULL,
     [TrangThai ] NVARCHAR (50)  NULL,
     PRIMARY KEY CLUSTERED ([ID] ASC)
 );

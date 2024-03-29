@@ -30,7 +30,7 @@ namespace DoAnTGVL.DAO
             if (!filterTho.checkemp()) {
                 if(filterTho.YeuThich) 
                 {
-                    query += string.Format(", YeuThich Where Id=IDTho"); 
+                    query += string.Format(", YeuThich Where Id=IDTho and IDUser = {0}",userId); 
                     exist = true;
                 }
                 else

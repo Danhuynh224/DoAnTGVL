@@ -128,6 +128,7 @@ namespace DoAnTGVL.DAO
                     while (dataReader.Read())
                     {                       
                         DateTime tenp = ((DateTime)dataReader[7]).Date;
+                    
                         NgayBan.Add(tenp);
 
                     }
@@ -238,9 +239,7 @@ namespace DoAnTGVL.DAO
 
                     while (dataReader.Read())
                     {
-
                         DSYeuThich.Add((int)dataReader[1]);
-
                     }
                     dataReader.Close();
                 }
