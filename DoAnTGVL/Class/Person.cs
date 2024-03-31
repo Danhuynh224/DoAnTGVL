@@ -25,7 +25,6 @@ namespace DoAnTGVL.Class
             this.Khuvuc = khuvuc;
         }
 
-
         public string HoTen { get => hoTen; set => hoTen = value; }
         public string CCCD { get => cCCD; set => cCCD = value; }
         public string SDT { get => sDT; set => sDT = value; }

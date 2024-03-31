@@ -28,19 +28,40 @@ namespace DoAnTGVL.UControls
     {
         Tho tho;
         BUSChiTietCongViec buschitietcv = new BUSChiTietCongViec();
+        FilterDSCongViec filterDSCongViec = new FilterDSCongViec();
         public UCDSCongViecTho(Tho tho)
         {
             this.tho = tho;
             InitializeComponent();
+            this.DataContext = filterDSCongViec;
             LoadDataIntoListView();
-            CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(lsvDSCV.ItemsSource);
-
+            
         }
-
+ 
         private void LoadDataIntoListView()
         {
             List<CongViec> dataList = buschitietcv.LoadData(tho.Id);
             lsvDSCV.ItemsSource = dataList;
+        }
+
+        private void chboxDaHoanThanh_Click(object sender, RoutedEventArgs e)
+        {
+            lsvDSCV.ItemsSource = buschitietcv.FilterCV(filterDSCongViec, tho.Id);
+        }
+
+        private void chboxDangThucHien_Click(object sender, RoutedEventArgs e)
+        {
+            lsvDSCV.ItemsSource = buschitietcv.FilterCV(filterDSCongViec, tho.Id);
+        }
+
+        private void chboxChuaThucHien_Click(object sender, RoutedEventArgs e)
+        {
+            lsvDSCV.ItemsSource = buschitietcv.FilterCV(filterDSCongViec, tho.Id);
+        }
+
+        private void txbTimKiem_KeyUp(object sender, KeyEventArgs e)
+        {
+            lsvDSCV.ItemsSource = buschitietcv.FilterCV(filterDSCongViec, tho.Id);
         }
     }
 }

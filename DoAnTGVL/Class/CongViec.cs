@@ -16,7 +16,7 @@ namespace DoAnTGVL.Class
         private string moTa;
         private string khuVuc;
         private DateTime dateThue;
-        private string trangThai="Chưa thực hiện";
+        private string trangThai="";
 
         public int ID { get => iD; set => iD = value; }
         public int IDTho { get => iDTho; set => iDTho = value; }

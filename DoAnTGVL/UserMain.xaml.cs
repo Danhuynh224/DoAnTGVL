@@ -49,15 +49,6 @@ namespace DoAnTGVL
             gridMainWin.Children.Add(CurUC);
         }
 
-        private void MnuTienDo_Click(object sender, RoutedEventArgs e)
-        {
-            gridMainWin.Background = Brushes.White;
-            CurUC = new UCTienDo();
-            gridMainWin.Children.Remove(PreUC);
-            
-            PreUC = CurUC;
-            gridMainWin.Children.Add(CurUC);
-        }
         private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
         {
             ButtonCloseMenu.Visibility = Visibility.Visible;

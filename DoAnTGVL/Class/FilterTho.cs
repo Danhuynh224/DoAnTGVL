@@ -28,9 +28,6 @@ namespace DoAnTGVL.Class
             yeuThich = false;
             danhGia = 0;
             chuyenMon = "";
-        }   
-        
-        
-            
+        }        
     }
 }

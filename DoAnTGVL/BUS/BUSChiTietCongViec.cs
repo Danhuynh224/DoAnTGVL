@@ -30,5 +30,10 @@ namespace DoAnTGVL.BUS
         {
             return dAODSCongViec.ReadAllCongViec(id);
         }
+
+        public List<CongViec> FilterCV(FilterDSCongViec filterDSCongViec, int iduser)
+        {
+            return dAODSCongViec.FilterCongViec(filterDSCongViec, iduser);
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using DoAnTGVL.Class;
 using System;
 using System.Collections.Generic;
+using System.DirectoryServices.ActiveDirectory;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,7 +40,69 @@ namespace DoAnTGVL.DAO
 
         public List<CongViec> ReadAllCongViec(int id)
         {
-            string query =string.Format("Select * From DSCongViec Where IDTho = {0}",id);
+            string query =string.Format("Select * From DSCongViec Where IDTho = {0}", id);
+            return dbConection.ReadDatabaseCongViec(query);
+        }
+
+        public List<CongViec> FilterCongViec(FilterDSCongViec filterDSCongViec, int iduser)
+        {
+            string query = string.Format("Select * From DSCongViec Where IDTho = {0} ", iduser);
+            bool conditionAppended = false;
+            if (!filterDSCongViec.checkemp())
+            {
+                if (filterDSCongViec.ChuaThucHien)
+                {
+                    if (!conditionAppended)
+                    {
+                        query += " AND (";
+                        conditionAppended = true;
+                    }
+                    else
+                    {
+                        query += " OR ";
+                    }
+                    query += string.Format("TrangThai = N'Chưa thực hiện'");
+                }
+
+                if (filterDSCongViec.DangThucHien)
+                {
+                    if (!conditionAppended)
+                    {
+                        query += " AND (";
+                        conditionAppended = true;
+                    }
+                    else
+                    {
+                        query += " OR ";
+                    }
+                    query += string.Format("TrangThai = N'Đang thực hiện'");
+                }
+
+                if (filterDSCongViec.DaHoanThanh)
+                {
+                    if (!conditionAppended)
+                    {
+                        query += " AND (";
+                        conditionAppended = true;
+                    }
+                    else
+                    {
+                        query += " OR ";
+                    }
+                    query += string.Format("TrangThai = N'Đã hoàn thành'");
+                }
+
+                if (conditionAppended)
+                {
+                    query += ")";
+                }
+
+                if (filterDSCongViec.TieuDe != "")
+                {
+                    query += string.Format(" AND TieuDe like N'%{0}%'", filterDSCongViec.TieuDe);
+                }
+            }
+            
             return dbConection.ReadDatabaseCongViec(query);
         }
     }

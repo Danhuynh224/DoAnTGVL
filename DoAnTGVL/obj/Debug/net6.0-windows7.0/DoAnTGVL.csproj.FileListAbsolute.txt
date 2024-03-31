@@ -194,12 +194,8 @@ D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDanhSach
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCHome.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCSuaCV.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCThueTho.g.cs
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTienDo.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTimViec.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTrangChu.g.cs
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCUserChuaThucHien.g.cs
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCUserDaHoanThanh.g.cs
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCUserDangThucHien.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCViewDG.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UserPopup.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UserMain.g.cs
@@ -246,12 +242,8 @@ D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDanhSach
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCHome.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCSuaCV.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCThueTho.baml
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTienDo.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTimViec.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCTrangChu.baml
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCUserChuaThucHien.baml
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCUserDaHoanThanh.baml
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCUserDangThucHien.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCViewDG.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UserPopup.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UserMain.baml

@@ -23,14 +23,17 @@
             <!--Loc bang-->
 
             <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center">
-                <CheckBox Content="Đã hoàn thành"  Foreground="#707070" FontSize="20" Margin="112 0 0 0"
-               materialDesign:CheckBoxAssist.CheckBoxSize="25" />
+                <CheckBox x:Name="chbDaHoanThanh" Content="Đã hoàn thành"  Foreground="#707070" FontSize="20" Margin="112 0 0 0" 
+               materialDesign:CheckBoxAssist.CheckBoxSize="25" 
+                          IsChecked="{Binding Path = DaHoanThanh, UpdateSourceTrigger=PropertyChanged}" Click="chboxDaHoanThanh_Click" />
 
-                <CheckBox Content="Đang thực hiện" Foreground="#707070" FontSize="20" Margin="100 0 100 0"
-                materialDesign:CheckBoxAssist.CheckBoxSize="25"/>
+                <CheckBox x:Name="chbDangThuchien" Content="Đang thực hiện" Foreground="#707070" FontSize="20" Margin="100 0 100 0"
+                materialDesign:CheckBoxAssist.CheckBoxSize="25"
+                          IsChecked="{Binding Path = DangThucHien, UpdateSourceTrigger=PropertyChanged}" Click="chboxDangThucHien_Click"/>
 
-                <CheckBox Content="Chưa thực hiện" Foreground="#707070" FontSize="20" 
-                materialDesign:CheckBoxAssist.CheckBoxSize="25"/>
+                <CheckBox x:Name="chbChuaThucHien" Content="Chưa thực hiện" Foreground="#707070" FontSize="20" 
+                materialDesign:CheckBoxAssist.CheckBoxSize="25"
+                          IsChecked="{Binding Path = ChuaThucHien, UpdateSourceTrigger=PropertyChanged}" Click="chboxChuaThucHien_Click" />
 
                 <Grid VerticalAlignment="Center" Margin="285 0 0 0" Background="#F2F1F1">
                     <Grid.RowDefinitions>
@@ -47,13 +50,13 @@
                     </Button>
                     <TextBox Grid.Column="1" x:Name="txbTimKiem"
                   FontSize="18"
-                  Text="{Binding Path = Ten,UpdateSourceTrigger=PropertyChanged}"
+                  Text="{Binding Path = TieuDe,UpdateSourceTrigger=PropertyChanged}"
                  Margin="8,4,0,0"
-                 materialDesign:HintAssist.Hint="Tìm kiếm theo tên"
+                 materialDesign:HintAssist.Hint="Tìm kiếm"
                  materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
                  BorderThickness="0"
                  Width="200" 
-                 VerticalAlignment="Top" Grid.RowSpan="2"   />
+                 VerticalAlignment="Top" Grid.RowSpan="2"  KeyUp="txbTimKiem_KeyUp" />
                 </Grid>
 
             </StackPanel>

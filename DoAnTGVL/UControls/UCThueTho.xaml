@@ -189,7 +189,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                         Content="Trên 3 năm" />
                     </ComboBox>
 
-                    
+
 
                     <ComboBox 
                     materialDesign:HintAssist.Hint="Chọn giá tiền"
@@ -199,31 +199,26 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                     x:Name="cboGiaTien"
                     IsEditable="True" SelectionChanged="fil_SelectionChanged"
                     >
-                    <ComboBoxItem
+                        <ComboBoxItem
                     Content="Dưới 200.000đ" />
-                    <ComboBoxItem
+                        <ComboBoxItem
                     Content="200.000đ - 400.000đ" />
-                    <ComboBoxItem
+                        <ComboBoxItem
                     Content="400.000đ - 600.000đ" />
-                    <ComboBoxItem
+                        <ComboBoxItem
                     Content="600.000đ - 800.000đ" />
-                    <ComboBoxItem
+                        <ComboBoxItem
                     Content="Trên 800.000đ" />
-                    <ComboBoxItem
+                        <ComboBoxItem
                     Content="Tất cả" />
                     </ComboBox>
                     <CheckBox x:Name="chboxYeuThich"
     materialDesign:CheckBoxAssist.CheckBoxSize="30" Margin="125,0,0,0"
     Content="Yêu thích" FontSize="20"
     IsChecked="{Binding Path = YeuThich,UpdateSourceTrigger=PropertyChanged}" Click="chboxYeuThich_Click" />
-                    
+
                 </StackPanel>
-                
-                
             </materialDesign:ColorZone>
-
-
-
         </Grid>
         
         
