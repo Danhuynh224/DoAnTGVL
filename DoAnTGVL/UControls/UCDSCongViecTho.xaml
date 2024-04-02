@@ -129,7 +129,7 @@
                         <GridViewColumn Header="Xem chi tiết" Width="110">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
-                                    <Button HorizontalAlignment="Center" HorizontalContentAlignment="Center" Background="#FBB579" BorderThickness="0" Margin="20 0 0 0" Style="{DynamicResource d}">
+                                    <Button HorizontalAlignment="Center" HorizontalContentAlignment="Center" Background="#FBB579" BorderThickness="0" Margin="20 0 0 0" Style="{DynamicResource d}" Click="btn_Sua">
                                         <materialDesign:PackIcon Kind="DotsVerticalCircleOutline"/>
                                     </Button>
                                 </DataTemplate>
@@ -139,7 +139,7 @@
                         <GridViewColumn Header="Xóa" Width="80">
                             <GridViewColumn.CellTemplate> 
                                 <DataTemplate>
-                                    <Button HorizontalAlignment="Center" Background="#03417F" BorderThickness="0" Margin="2 0 0 0" Style="{DynamicResource d}">
+                                    <Button HorizontalAlignment="Center" Background="#03417F" BorderThickness="0" Margin="2 0 0 0" Style="{DynamicResource d}" Click="btn_Xoa">
                                         <materialDesign:PackIcon Kind="RemoveOutline"/>
                                     </Button>
                                 </DataTemplate>

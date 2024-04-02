@@ -1,6 +1,8 @@
 ﻿using DoAnTGVL.Class;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
+using System.Data;
 using System.DirectoryServices.ActiveDirectory;
 using System.Linq;
 using System.Text;
@@ -24,6 +26,19 @@ namespace DoAnTGVL.DAO
                 congViec.TieuDe, congViec.MoTa, congViec.LinhVuc,congViec.KhuVuc ,congViec.DateThue, congViec.TrangThai);
             dbConection.Process(sqlString);
             MessageBox.Show("Thuê thành công");
+        }
+
+        public void XoaDSCongViec(int textid)
+        {
+            string sqlStr = string.Format("DELETE FROM DSCongViec WHERE ID = '{0}'", textid);
+            dbConection.Process(sqlStr);
+        }
+
+        public void SuaDSCongViec(CongViec cv, Tho tho)
+        {
+            string sqlStr = string.Format("UPDATE DSCongViec SET TrangThai = '{0}' WHERE ID = '{1}' and IDUser = '{2}'"
+                    , cv.TrangThai, cv.ID, tho.Id);
+            dbConection.Process(sqlStr);
         }
         public void ThoThem(BaiDang baiDang, Tho tho)
         {

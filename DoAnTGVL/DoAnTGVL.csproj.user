@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ChinhSuaDSCongViec.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ChiTietCongViec.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -20,6 +23,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ProfileTho.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShowDialogCustom.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ThoMain.xaml.cs">
@@ -69,6 +75,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ChinhSuaDSCongViec.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ChiTietCongViec.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -82,6 +91,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ProfileTho.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ShowDialogCustom.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Style\PagingButtonStyle.xaml">

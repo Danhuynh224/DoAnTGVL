@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\WinForm\DoAnWinForm\DoAnTGVL\App.xaml
-251950718148
+27-1291289893
 22073302310
-541718004103
+56948563792
 1981832334138
-ChiTietCongViec.xaml;ChiTietTho.xaml;DangBai.xaml;DanhGiaTho.xaml;MainWindow.xaml;ProfileTho.xaml;Style\PagingButtonStyle.xaml;Style\UCstyle.xaml;Style\WinStyle.xaml;ThoMain.xaml;UControls\UCCViecTho.xaml;UControls\UCDanhGia.xaml;UControls\UCDanhSachCongViec.xaml;UControls\UCDanhSachTho.xaml;UControls\UCDSCongViecTho.xaml;UControls\UCHome.xaml;UControls\UCSuaCV.xaml;UControls\UCThueTho.xaml;UControls\UCTimViec.xaml;UControls\UCTrangChu.xaml;UControls\UCViewDG.xaml;UControls\UserPopup.xaml;UserMain.xaml;XacNhanThueTho.xaml;XuatHoaDon.xaml;
+ChinhSuaDSCongViec.xaml;ChiTietCongViec.xaml;ChiTietTho.xaml;DangBai.xaml;DanhGiaTho.xaml;MainWindow.xaml;ProfileTho.xaml;ShowDialogCustom.xaml;Style\PagingButtonStyle.xaml;Style\UCstyle.xaml;Style\WinStyle.xaml;ThoMain.xaml;UControls\UCCViecTho.xaml;UControls\UCDanhGia.xaml;UControls\UCDanhSachCongViec.xaml;UControls\UCDanhSachTho.xaml;UControls\UCDSCongViecTho.xaml;UControls\UCHome.xaml;UControls\UCSuaCV.xaml;UControls\UCThueTho.xaml;UControls\UCTimViec.xaml;UControls\UCTrangChu.xaml;UControls\UCViewDG.xaml;UControls\UserPopup.xaml;UserMain.xaml;XacNhanThueTho.xaml;XuatHoaDon.xaml;
 
-False
+True
 
