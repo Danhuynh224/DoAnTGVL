@@ -4,16 +4,22 @@
 winexe
 C#
 .cs
-D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\
 DoAnTGVL
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\WinForm\DoAnWinForm\DoAnTGVL\App.xaml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\App.xaml
 27-1291289893
+<<<<<<< HEAD
 3-32135712
 54-843567385
 200-72801885
+=======
+4-889961346
+551287618920
+198-947110847
+>>>>>>> dcdd0e647d99d26e9c401c009a5a7ab8037656e2
 ChinhSuaDSCongViec.xaml;ChiTietCongViec.xaml;ChiTietTho.xaml;DangBai.xaml;DanhGiaTho.xaml;MainWindow.xaml;ProfileTho.xaml;ShowDialogCustom.xaml;Style\PagingButtonStyle.xaml;Style\UCstyle.xaml;Style\WinStyle.xaml;ThoMain.xaml;UControls\UCCViecTho.xaml;UControls\UCDanhGia.xaml;UControls\UCDanhSachCongViec.xaml;UControls\UCDanhSachTho.xaml;UControls\UCDSCongViecTho.xaml;UControls\UCHome.xaml;UControls\UCSuaCV.xaml;UControls\UCThueTho.xaml;UControls\UCTimViec.xaml;UControls\UCTrangChu.xaml;UControls\UCViewDG.xaml;UControls\UserPopup.xaml;UserMain.xaml;XacNhanThueTho.xaml;XuatHoaDon.xaml;
 
 False

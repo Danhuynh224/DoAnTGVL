@@ -26,13 +26,18 @@ namespace DoAnTGVL
     /// </summary>
     public partial class DanhGiaTho : System.Windows.Window
     {
+<<<<<<< HEAD
         //BUSDanhGiaTho bUSDanhGiaTho = new BUSDanhGiaTho();
+=======
+        BUSDanhGiaTho bUSDanhGiaTho = new BUSDanhGiaTho();  
+>>>>>>> dcdd0e647d99d26e9c401c009a5a7ab8037656e2
         public DanhGiaTho()
         {
             InitializeComponent();
         }
 
         private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+<<<<<<< HEAD
         {
 
             Image clickedImage = sender as Image;
@@ -74,6 +79,28 @@ namespace DoAnTGVL
             //        System.IO.File.Copy(source, destination);
             //    }
             //}
+=======
+        {       
+            Image clickedImage = sender as Image;
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Image files|*.bmp;*.jpg;*.png";
+            openFileDialog.FilterIndex = 1;
+            if (openFileDialog.ShowDialog() == true)
+            {
+                BitmapImage btmap = new BitmapImage(new Uri(openFileDialog.FileName));
+                clickedImage.Source = btmap;
+                clickedImage.Height = 88;
+                
+                string source = openFileDialog.FileName;
+                FileInfo info = new FileInfo(source);
+
+                string path = System.IO.Path.GetFullPath("ImageDanhGia/");
+                string folder_path = path.Substring(0, path.IndexOf("bin"));
+
+                string destination = folder_path+ @"ImageDanhGia\" +System.IO.Path.GetFileName(source);
+                info.CopyTo(destination);
+            }
+>>>>>>> dcdd0e647d99d26e9c401c009a5a7ab8037656e2
         }
 
         private void ComfirmClick_Click(object sender, RoutedEventArgs e)

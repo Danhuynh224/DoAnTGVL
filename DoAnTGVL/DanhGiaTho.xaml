@@ -74,12 +74,20 @@
                                 <!-- WrapPanel để bọc các phần tử con -->
                                 <WrapPanel>
                                     <!-- Các phần tử con -->
+<<<<<<< HEAD
                                     <Image Source="/image/add-2935429_1280.png" Margin="5,5,5,5" MouseDown="Image_MouseDown"  ></Image>
+=======
+                                    <Image Source="/image/add-2935429_1280.png" Margin="5,5,5,5" MouseDown="Image_MouseDown"  > </Image>
+>>>>>>> dcdd0e647d99d26e9c401c009a5a7ab8037656e2
                                     <Image Source="/image/add-2935429_1280.png" Margin="5,5,5,5" MouseDown="Image_MouseDown" ></Image>
                                     <Image Source="/image/add-2935429_1280.png" Margin="5,5,5,5" MouseDown="Image_MouseDown"></Image>
                                     <Image Source="/image/add-2935429_1280.png" Margin="5,5,5,5" MouseDown="Image_MouseDown"></Image>
                                     <Image Source="/image/add-2935429_1280.png" Margin="5,5,5,5" MouseDown="Image_MouseDown"></Image>
+<<<<<<< HEAD
 
+=======
+                                    
+>>>>>>> dcdd0e647d99d26e9c401c009a5a7ab8037656e2
 
                                     <!-- Thêm các phần tử khác nếu cần -->
                                 </WrapPanel>

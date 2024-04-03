@@ -132,7 +132,7 @@
                                 </MenuItem>
                                 <MenuItem Header="Đánh Giá"  Width="200"  FontFamily="Arial" FontWeight="Bold"  FontSize="13" ForceCursor="True" Click="MnuDanhGia_Click">
                                     <MenuItem.Icon>
-                                        <materialDesign:PackIcon Width="26" Height="26" Kind="ThumbsUp"  Margin="-6,-7,0,0"  >
+                                        <materialDesign:PackIcon Width="26" Kind="ThumbsUp"  Margin="-6,-7,0,-3" VerticalAlignment="Stretch"  >
                                             <materialDesign:PackIcon.Foreground>
                                                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                                     <GradientStop Color="Black"/>
