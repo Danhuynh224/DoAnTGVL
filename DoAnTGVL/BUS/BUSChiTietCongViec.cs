@@ -26,6 +26,16 @@ namespace DoAnTGVL.BUS
             }    
         }
 
+        public void Xoa(CongViec cv)
+        {
+            dAODSCongViec.XoaDSCongViec(cv.ID);
+        }
+
+        public void Sua(CongViec cv, Tho tho)
+        {
+            dAODSCongViec.SuaDSCongViec(cv, tho);
+        }
+
         public List<CongViec> LoadData(int id)
         {
             return dAODSCongViec.ReadAllCongViec(id);

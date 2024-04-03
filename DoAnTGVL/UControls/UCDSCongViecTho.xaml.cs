@@ -27,6 +27,7 @@ namespace DoAnTGVL.UControls
     public partial class UCDSCongViecTho : UserControl
     {
         Tho tho;
+        CongViec cv;
         BUSChiTietCongViec buschitietcv = new BUSChiTietCongViec();
         FilterDSCongViec filterDSCongViec = new FilterDSCongViec();
         public UCDSCongViecTho(Tho tho)
@@ -62,6 +63,29 @@ namespace DoAnTGVL.UControls
         private void txbTimKiem_KeyUp(object sender, KeyEventArgs e)
         {
             lsvDSCV.ItemsSource = buschitietcv.FilterCV(filterDSCongViec, tho.Id);
+        }
+
+        private void btn_Xoa(object sender, RoutedEventArgs e)
+        {
+            var congviec = (sender as Button).DataContext as CongViec;
+
+            var thongbao = new ShowDialogCustom("Bạn có thật sự muốn Công việc này? ", ShowDialogCustom.YesNo);
+
+            if (thongbao.ShowDialog() == true)
+            {
+                new ShowDialogCustom("Xoá thành công", ShowDialogCustom.OK).Show();
+                buschitietcv.Xoa(congviec);
+                LoadDataIntoListView();
+            }
+
+        }
+
+        private void btn_Sua(object sender, RoutedEventArgs e)
+        {
+            var congviec = (sender as Button).DataContext as CongViec;
+
+            ChinhSuaDSCongViec chinhSuaDSCongViec = new ChinhSuaDSCongViec(congviec, tho);
+            chinhSuaDSCongViec.ShowDialog();
         }
     }
 }

@@ -176,6 +176,9 @@ namespace DoAnTGVL.DAO
                     while (dataReader.Read())
                     {
                         CongViec data = new CongViec();
+                        data.ID = dataReader.GetInt32("ID");
+                        data.IDUser = dataReader.GetInt32("IDUser");
+                        data.IDTho = dataReader.GetInt32("IDTho");
                         data.TieuDe = dataReader.GetString(3);
                         data.MoTa = dataReader.GetString(4);
                         data.LinhVuc = dataReader.GetString(5);

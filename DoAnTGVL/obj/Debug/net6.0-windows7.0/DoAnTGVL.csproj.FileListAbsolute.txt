@@ -256,4 +256,15 @@ D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDSCongVi
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\Style\PagingButtonStyle.baml
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDSCongViecTho.g.cs
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\UControls\UCDSCongViecTho.baml
+<<<<<<< HEAD
 C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\bin\Debug\net6.0-windows7.0\image\add-2935429_1280.png
+=======
+D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\ShowDialogCustom.g.cs
+D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\ShowDialogCustom.baml
+D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\ChinhSuaDSCongViec.g.cs
+D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\ChinhSuaDSCongViec.baml
+>>>>>>> 09331f68ea6d59c298737300585ca29e43da171b
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\ChinhSuaDSCongViec.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\ShowDialogCustom.g.cs
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\ChinhSuaDSCongViec.baml
+C:\Users\DELL 3500\Desktop\Winform\DoAnTGVL\DoAnTGVL\obj\Debug\net6.0-windows7.0\ShowDialogCustom.baml
