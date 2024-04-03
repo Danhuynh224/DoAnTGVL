@@ -51,13 +51,13 @@ namespace DoAnTGVL.DAO
                         query += " and";
                     query += string.Format(" TieuDe like N'%{0}%'", filterBaiDang.Ten);
                 }
-            }           
+            }
             return dbConection.ReadDatabaseBaiDang(query);
         }
 
         public void XoaBaiDang(BaiDang baiDang)
         {
-            string query =string.Format( "Delete  From BaiDang Where ID = {0}",baiDang.ID);
+            string query = string.Format("Delete  From BaiDang Where ID = {0}", baiDang.ID);
             dbConection.Process(query);
         }
     }

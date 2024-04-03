@@ -11,14 +11,14 @@ namespace DoAnTGVL.Class
     {
         private float danhGia = 0;
         private string chuyenMon = "";
-        private bool yeuThich=false;
+        private bool yeuThich = false;
         public float DanhGia { get => danhGia; set => danhGia = value; }
         public string ChuyenMon { get => chuyenMon; set => chuyenMon = value; }
         public bool YeuThich { get => yeuThich; set => yeuThich = value; }
 
         public override bool checkemp()
         {
-            if ( base.checkemp() && danhGia == 0 && chuyenMon == "" && yeuThich==false)
+            if (base.checkemp() && danhGia == 0 && chuyenMon == "" && yeuThich == false)
                 return true;
             return false;
         }
@@ -28,6 +28,6 @@ namespace DoAnTGVL.Class
             yeuThich = false;
             danhGia = 0;
             chuyenMon = "";
-        }        
+        }
     }
 }

@@ -13,13 +13,13 @@ using System.Windows.Media.Converters;
 
 namespace DoAnTGVL.DAO
 {
-    
+
     public class DAOTho
 
     {
-        DbConection dbConection =new DbConection();
+        DbConection dbConection = new DbConection();
         public List<Tho> ReadAllTho()
-        {        
+        {
             string query = "Select * From Tho";
             return dbConection.ReadDatabase(query);
         }
@@ -27,15 +27,16 @@ namespace DoAnTGVL.DAO
         {
             string query = "Select * From Tho";
             bool exist = false;
-            if (!filterTho.checkemp()) {
-                if(filterTho.YeuThich) 
+            if (!filterTho.checkemp())
+            {
+                if (filterTho.YeuThich)
                 {
-                    query += string.Format(", YeuThich Where Id=IDTho and IDUser = {0}",userId); 
+                    query += string.Format(", YeuThich Where Id=IDTho and IDUser = {0}", userId);
                     exist = true;
                 }
                 else
                 {
-                    query += " Where"; 
+                    query += " Where";
                 }
                 if (filterTho.KhuVuc != "")
                 {
@@ -44,7 +45,7 @@ namespace DoAnTGVL.DAO
                     query += string.Format(" KhuVuc = N'{0}'", filterTho.KhuVuc);
                     exist = true;
                 }
-                if (filterTho.KinhNghiem !="")
+                if (filterTho.KinhNghiem != "")
                 {
                     if (exist)
                         query += " and";
@@ -58,14 +59,14 @@ namespace DoAnTGVL.DAO
                     query += string.Format(" DanhGia  >= {0}", filterTho.DanhGia);
                     exist = true;
                 }
-                if (filterTho.ChuyenMon !="")
+                if (filterTho.ChuyenMon != "")
                 {
                     if (exist)
                         query += " and";
                     query += string.Format(" ChuyenMon = N'{0}'", filterTho.ChuyenMon);
                     exist = true;
-                } 
-                if (filterTho.Ten !="")
+                }
+                if (filterTho.Ten != "")
                 {
                     if (exist)
                         query += " and";
@@ -73,7 +74,7 @@ namespace DoAnTGVL.DAO
                 }
                 if (filterTho.Giatien != "")
                 {
-                    
+
                     if (exist)
                         query += " and";
                     query += string.Format(" GiaTien{0}", filterTho.chuyenDoiGiaTien());

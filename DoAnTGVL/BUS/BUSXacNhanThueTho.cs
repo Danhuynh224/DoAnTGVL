@@ -13,9 +13,9 @@ namespace DoAnTGVL.BUS
     public class BUSXacNhanThueTho
     {
         DAODSCongViec dAODScongViec = new DAODSCongViec();
-        public List<DateTime> Load_Calender( int id)
+        public List<DateTime> Load_Calender(int id)
         {
-           return dAODScongViec.TimNgayBan(id);
+            return dAODScongViec.TimNgayBan(id);
         }
         public void Them(CongViec congviec)
         {
@@ -24,8 +24,8 @@ namespace DoAnTGVL.BUS
             else
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin");
-            } 
-                
+            }
+
         }
     }
 }

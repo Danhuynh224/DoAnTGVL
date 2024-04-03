@@ -24,14 +24,14 @@ namespace DoAnTGVL.UControls
     public partial class UCTimViec : UserControl
     {
         BUSTimViec bustimviec = new BUSTimViec();
-        FilterBaiDang filterBaiDang=new FilterBaiDang();
+        FilterBaiDang filterBaiDang = new FilterBaiDang();
         public Tho tho;
         public UCTimViec(Tho tho)
         {
             InitializeComponent();
             this.DataContext = filterBaiDang;
             this.tho = tho;
-            bustimviec.CreateWrapBaiDang(filterBaiDang, this);    
+            bustimviec.CreateWrapBaiDang(filterBaiDang, this);
         }
 
         private void fil_SelectionChanged(object sender, SelectionChangedEventArgs e)

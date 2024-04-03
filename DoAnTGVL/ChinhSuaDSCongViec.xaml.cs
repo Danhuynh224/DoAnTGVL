@@ -28,6 +28,11 @@ namespace DoAnTGVL
             this.DataContext = congviec;
             this.tho = tho;
             this.congviec = congviec;
+            if (congviec.TrangThai == "Chưa thực hiện")
+                cthlstItem.IsSelected = true;
+            else if (congviec.TrangThai == "Đang thực hiện")
+                dthlstItem.IsSelected = true;
+
         }
 
         private void btnHuy_Click(object sender, RoutedEventArgs e)

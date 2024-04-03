@@ -26,40 +26,40 @@ namespace DoAnTGVL
     {
         Tho tho;
         User user;
-        CongViec congViec=new CongViec();
-        BUSXacNhanThueTho bUSXacNhan=new BUSXacNhanThueTho();   
+        CongViec congViec = new CongViec();
+        BUSXacNhanThueTho bUSXacNhan = new BUSXacNhanThueTho();
         public XacNhanThueTho(Tho tho, User user)
         {
             InitializeComponent();
             this.tho = tho;
             this.user = user;
-            
+
             congViec = new CongViec(tho.Id, user.Id, tho.LinhVuc, user.Khuvuc);
-            this.DataContext= congViec;
+            this.DataContext = congViec;
         }
 
         private void click_Huy(object sender, RoutedEventArgs e)
         {
             Close();
-            
+
         }
 
-        
+
 
         private void calenNgayThue_Loaded(object sender, RoutedEventArgs e)
         {
             List<DateTime> dates = bUSXacNhan.Load_Calender(tho.Id);
             foreach (DateTime dateTime in dates)
             {
-                    calenNgayThue.BlackoutDates.Add(new CalendarDateRange(dateTime));
-                
+                calenNgayThue.BlackoutDates.Add(new CalendarDateRange(dateTime));
+
             }
         }
 
         private void btn_Xacnhan_Click(object sender, RoutedEventArgs e)
         {
             bUSXacNhan.Them(congViec);
-            
+
         }
     }
 }

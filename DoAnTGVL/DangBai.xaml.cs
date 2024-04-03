@@ -23,12 +23,12 @@ namespace DoAnTGVL
     /// </summary>
     public partial class DangBai : Window
     {
-        
+
         public BaiDang baiDang { get; set; }
         //BaiDang baidang;
         public DangBai()
         {
-            baiDang =new BaiDang();
+            baiDang = new BaiDang();
             InitializeComponent();
             this.DataContext = baiDang;
         }
@@ -55,5 +55,5 @@ namespace DoAnTGVL
             }
         }
     }
-    
+
 }

@@ -9,10 +9,22 @@
       "DoAnTGVL/1.0.0": {
         "dependencies": {
           "MaterialDesignThemes": "4.9.0",
-          "System.Data.SqlClient": "4.8.6"
+          "System.Data.SqlClient": "4.8.6",
+          "envdte": "17.9.37000"
         },
         "runtime": {
           "DoAnTGVL.dll": {}
+        }
+      },
+      "envdte/17.9.37000": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Interop": "17.9.37000"
+        },
+        "runtime": {
+          "lib/net6.0/envdte.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.9.37000.1723"
+          }
         }
       },
       "MaterialDesignColors/2.1.4": {
@@ -36,6 +48,14 @@
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.VisualStudio.Interop/17.9.37000": {
+        "runtime": {
+          "lib/net6.0/Microsoft.VisualStudio.Interop.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.9.37000.1723"
+          }
+        }
+      },
       "Microsoft.Win32.Registry/4.7.0": {
         "dependencies": {
           "System.Security.AccessControl": "4.7.0",
@@ -126,6 +146,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "envdte/17.9.37000": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rh4sIUpL+rRiXzgjEJ642rtXslE5nABYDV7CTs6thTSND8m549I8rIVEtuoaQf4sRRZ8kfjmZ64QruqYDM810w==",
+      "path": "envdte/17.9.37000",
+      "hashPath": "envdte.17.9.37000.nupkg.sha512"
+    },
     "MaterialDesignColors/2.1.4": {
       "type": "package",
       "serviceable": true,
@@ -146,6 +173,13 @@
       "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "path": "microsoft.netcore.platforms/3.1.0",
       "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Interop/17.9.37000": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lIHdpk2g0PpIy2PiYCf6TFXZmS0tHC3shGhTrh1knmQ6M/BpYnuKmdJ5Ysknfm+MVEDUg+uYTcvaLqhF6C+O7w==",
+      "path": "microsoft.visualstudio.interop/17.9.37000",
+      "hashPath": "microsoft.visualstudio.interop.17.9.37000.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.7.0": {
       "type": "package",

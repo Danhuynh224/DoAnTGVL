@@ -15,16 +15,16 @@ namespace DoAnTGVL.Class
         private string linhVuc;
         private string khuVuc;
         private string moTa;
-        private DateTime date =DateTime.Today;
+        private DateTime date = DateTime.Today;
         private string kinhNghiem;
         private string ghiChu;
         private string yeuCau;
         public BaiDang() { }
-        public BaiDang(int iD, string iDUser, string tieuDe, string linhVuc, string khuVuc, string moTa, DateTime date, string kinhNghiem, string yeuCau ,string ghiChu)
+        public BaiDang(int iD, string iDUser, string tieuDe, string linhVuc, string khuVuc, string moTa, DateTime date, string kinhNghiem, string yeuCau, string ghiChu)
         {
             this.ID = iD;
             this.IDUser = iDUser;
-            this.TieuDe = tieuDe; 
+            this.TieuDe = tieuDe;
             this.LinhVuc = linhVuc;
             this.KhuVuc = khuVuc;
             this.MoTa = moTa;
@@ -48,11 +48,11 @@ namespace DoAnTGVL.Class
         public event PropertyChangedEventHandler? PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)
         {
-            if((PropertyChanged != null))
+            if ((PropertyChanged != null))
             {
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-            } 
-                
-        }    
+            }
+
+        }
     }
 }

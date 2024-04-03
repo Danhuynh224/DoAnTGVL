@@ -11,12 +11,13 @@ namespace DoAnTGVL.Class
         private int iD;
         private int iDTho;
         private int iDUser;
-        private string tieuDe="";
-        private string linhVuc="";
+        private string tieuDe = "";
+        private string linhVuc = "";
         private string moTa;
         private string khuVuc;
         private DateTime dateThue;
-        private string trangThai="";
+        private string ghiChu = "";
+        private string trangThai = "";
 
         public int ID { get => iD; set => iD = value; }
         public int IDTho { get => iDTho; set => iDTho = value; }
@@ -27,13 +28,13 @@ namespace DoAnTGVL.Class
         public DateTime DateThue { get => dateThue; set => dateThue = value; }
         public string TrangThai { get => trangThai; set => trangThai = value; }
         public string MoTa { get => moTa; set => moTa = value; }
+        public string GhiChu { get => ghiChu; set => ghiChu = value; }
 
-   
         public CongViec()
         {
 
         }
-        public CongViec(int iDTho,int iDUser, string linhVuc,string khuVuc)
+        public CongViec(int iDTho, int iDUser, string linhVuc, string khuVuc)
         {
             this.IDTho = iDTho;
             this.IDUser = iDUser;

@@ -25,7 +25,7 @@ namespace DoAnTGVL
         User user;
         public ChiTietTho(Tho tho, User user)
         {
-            
+
             InitializeComponent();
             this.DataContext = tho;
             this.user = user;
@@ -33,7 +33,7 @@ namespace DoAnTGVL
             AddUserControl();
             AddUserControl();
             AddUserControl();
-            AddUserControl(); 
+            AddUserControl();
             AddUserControl();
         }
         private void AddUserControl()
@@ -44,9 +44,9 @@ namespace DoAnTGVL
             userControl.Height = 200;
 
             // Thêm UserControl vào WrapPanel
-           WpanelDanhGia.Children.Add(userControl);
+            WpanelDanhGia.Children.Add(userControl);
         }
-           
+
         private void Thue_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();

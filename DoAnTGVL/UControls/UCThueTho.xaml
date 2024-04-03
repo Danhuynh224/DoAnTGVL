@@ -23,7 +23,7 @@
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
-            
+
             <materialDesign:ColorZone Grid.Row="0" Height="60"
 Mode="PrimaryLight" Background="#FFF4F4F4">
 
@@ -107,7 +107,7 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                     <Button Padding="0" Margin="0 0 0 3"
     Width="55" Height="30"
     Background="Transparent"
-    BorderThickness="0"> 
+    BorderThickness="0">
                         <Button.Clip>
                             <RectangleGeometry Rect="0,0,60,50" RadiusX="50" RadiusY="60">
                             </RectangleGeometry>
@@ -220,10 +220,10 @@ Mode="PrimaryLight" Background="#FFF4F4F4">
                 </StackPanel>
             </materialDesign:ColorZone>
         </Grid>
-        
-        
+
+
         <Grid Grid.Row="1">
-            
+
             <!--nửa phải để hiện thị phòng-->
             <Grid   x:Name="gridPage" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
                 <ScrollViewer VerticalScrollBarVisibility="Auto" >

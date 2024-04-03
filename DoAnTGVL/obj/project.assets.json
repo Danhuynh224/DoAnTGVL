@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "envdte/17.9.37000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Interop": "17.9.37000"
+        },
+        "compile": {
+          "lib/net6.0/envdte.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/envdte.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MaterialDesignColors/2.1.4": {
         "type": "package",
         "compile": {
@@ -42,6 +58,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.VisualStudio.Interop/17.9.37000": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.VisualStudio.Interop.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.VisualStudio.Interop.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Win32.Registry/4.7.0": {
@@ -199,6 +228,29 @@
     }
   },
   "libraries": {
+    "envdte/17.9.37000": {
+      "sha512": "rh4sIUpL+rRiXzgjEJ642rtXslE5nABYDV7CTs6thTSND8m549I8rIVEtuoaQf4sRRZ8kfjmZ64QruqYDM810w==",
+      "type": "package",
+      "path": "envdte/17.9.37000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "envdte.17.9.37000.nupkg.sha512",
+        "envdte.nuspec",
+        "lib/net20/envdte.dll",
+        "lib/net20/envdte.xml",
+        "lib/net45/envdte.dll",
+        "lib/net45/envdte.xml",
+        "lib/net472/envdte.dll",
+        "lib/net472/envdte.xml",
+        "lib/net6.0/envdte.dll",
+        "lib/net6.0/envdte.xml",
+        "lib/netstandard2.0/envdte.dll",
+        "lib/netstandard2.0/envdte.xml"
+      ]
+    },
     "MaterialDesignColors/2.1.4": {
       "sha512": "C4Oy+qkjMoMPoZKyqYdCnIYtK8c0OSIHmNP73Vgc69NjiUG093xTkE7W/Ks54cTDS7fmWOtUHfwISTVTtb/YKg==",
       "type": "package",
@@ -279,6 +331,27 @@
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.VisualStudio.Interop/17.9.37000": {
+      "sha512": "lIHdpk2g0PpIy2PiYCf6TFXZmS0tHC3shGhTrh1knmQ6M/BpYnuKmdJ5Ysknfm+MVEDUg+uYTcvaLqhF6C+O7w==",
+      "type": "package",
+      "path": "microsoft.visualstudio.interop/17.9.37000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net20/Microsoft.VisualStudio.Interop.dll",
+        "lib/net20/Microsoft.VisualStudio.Interop.xml",
+        "lib/net472/Microsoft.VisualStudio.Interop.dll",
+        "lib/net472/Microsoft.VisualStudio.Interop.xml",
+        "lib/net6.0/Microsoft.VisualStudio.Interop.dll",
+        "lib/net6.0/Microsoft.VisualStudio.Interop.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Interop.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Interop.xml",
+        "microsoft.visualstudio.interop.17.9.37000.nupkg.sha512",
+        "microsoft.visualstudio.interop.nuspec"
       ]
     },
     "Microsoft.Win32.Registry/4.7.0": {
@@ -606,7 +679,8 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "MaterialDesignThemes >= 4.9.0",
-      "System.Data.SqlClient >= 4.8.6"
+      "System.Data.SqlClient >= 4.8.6",
+      "envdte >= 17.9.37000"
     ]
   },
   "packageFolders": {
@@ -665,6 +739,10 @@
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.6, )"
+          },
+          "envdte": {
+            "target": "Package",
+            "version": "[17.9.37000, )"
           }
         },
         "imports": [

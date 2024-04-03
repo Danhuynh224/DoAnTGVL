@@ -1,11 +1,13 @@
 ﻿
 FD:\WinForm\DoAnWinForm\DoAnTGVL\App.xaml;;
+FD:\WinForm\DoAnWinForm\DoAnTGVL\ChinhSuaDSCongViec.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\ChiTietCongViec.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\ChiTietTho.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\DangBai.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\DanhGiaTho.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\MainWindow.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\ProfileTho.xaml;;
+FD:\WinForm\DoAnWinForm\DoAnTGVL\ShowDialogCustom.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\ThoMain.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\UControls\UCCViecTho.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\UControls\UCDanhGia.xaml;;
@@ -22,6 +24,4 @@ FD:\WinForm\DoAnWinForm\DoAnTGVL\UControls\UserPopup.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\UserMain.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\XacNhanThueTho.xaml;;
 FD:\WinForm\DoAnWinForm\DoAnTGVL\XuatHoaDon.xaml;;
-FD:\WinForm\DoAnWinForm\DoAnTGVL\ShowDialogCustom.xaml;;
-FD:\WinForm\DoAnWinForm\DoAnTGVL\ChinhSuaDSCongViec.xaml;;
 

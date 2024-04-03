@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "KUPm1BEovJNQy4zXmwbGAPbJeIYEE0Sn9Yv0WeiVaQelGZvPqfvNZDwpl1X+eTLggOvERkY5II1tn31yC7N1+g==",
+  "dgSpecHash": "FyLGQZSeXYKUkYKIkamC+zkwqBuM+a7U1+wwb74u1z67kGESGueYE67Lk5zjWGl8HsWmL6gFJs/i9xzr61Aftg==",
   "success": true,
   "projectFilePath": "D:\\WinForm\\DoAnWinForm\\DoAnTGVL\\DoAnTGVL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\envdte\\17.9.37000\\envdte.17.9.37000.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.visualstudio.interop\\17.9.37000\\microsoft.visualstudio.interop.17.9.37000.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

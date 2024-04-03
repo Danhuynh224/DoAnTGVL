@@ -268,3 +268,6 @@ D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\ShowDialogCustom.g.c
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\ShowDialogCustom.baml
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\ChinhSuaDSCongViec.g.cs
 D:\WinForm\DoAnWinForm\DoAnTGVL\obj\Debug\net6.0-windows7.0\ChinhSuaDSCongViec.baml
+D:\WinForm\DoAnWinForm\DoAnTGVL\bin\Debug\net6.0-windows7.0\image\add-2935429_1280.png
+D:\WinForm\DoAnWinForm\DoAnTGVL\bin\Debug\net6.0-windows7.0\envdte.dll
+D:\WinForm\DoAnWinForm\DoAnTGVL\bin\Debug\net6.0-windows7.0\Microsoft.VisualStudio.Interop.dll

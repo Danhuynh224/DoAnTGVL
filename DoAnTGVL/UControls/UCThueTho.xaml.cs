@@ -19,7 +19,7 @@ using System.Windows.Shapes;
 
 namespace DoAnTGVL.UControls
 {
-    
+
     /// <summary>
     /// Interaction logic for UCThueTho.xaml
     /// </summary>
@@ -34,7 +34,7 @@ namespace DoAnTGVL.UControls
             InitializeComponent();
             this.user = user;
             this.DataContext = filterTho;
-            bUSThueTho.CreateWrapThueTho(filterTho,user, this);
+            bUSThueTho.CreateWrapThueTho(filterTho, user, this);
         }
         private void fil_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -48,10 +48,10 @@ namespace DoAnTGVL.UControls
             MenuItem subMenuItem = sender as MenuItem;
             if (subMenuItem != null)
             {
-                filterTho.ChuyenMon = subMenuItem.Header.ToString();              
+                filterTho.ChuyenMon = subMenuItem.Header.ToString();
             }
             bUSThueTho.CreateWrapThueTho(filterTho, user, this);
-        } 
+        }
         private void reload_button_Click(object sender, RoutedEventArgs e)
         {
             filterTho.reset();

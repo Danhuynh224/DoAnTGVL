@@ -24,12 +24,12 @@ namespace DoAnTGVL.Class
 
         virtual public bool checkemp()
         {
-            if(khuVuc == "" && kinhNghiem == "" && Ten=="" && Giatien=="")
+            if (khuVuc == "" && kinhNghiem == "" && Ten == "" && Giatien == "")
                 return true;
             return false;
         }
 
-        
+
         protected virtual void OnPropertyChanged(string propertyName)
         {
             if ((PropertyChanged != null))
@@ -45,7 +45,7 @@ namespace DoAnTGVL.Class
             Ten = "";
 
         }
-        public  string chuyenDoiGiaTien()
+        public string chuyenDoiGiaTien()
         {
             string converted = Giatien;
 

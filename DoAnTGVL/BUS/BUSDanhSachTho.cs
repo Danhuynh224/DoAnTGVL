@@ -13,7 +13,7 @@ namespace DoAnTGVL.BUS
         public void ThemXoaDSYeuThich(Tho tho, User user)
         {
             DAOYeuThich dAOYeuThich = new DAOYeuThich();
-            if(tho.DcYeuThich)
+            if (tho.DcYeuThich)
             {
                 dAOYeuThich.Add(tho.Id, user.Id);
                 user.DSYeuThich.Add(tho.Id);

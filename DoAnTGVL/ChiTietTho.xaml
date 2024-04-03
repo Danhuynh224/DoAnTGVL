@@ -57,7 +57,7 @@
                     </TextBlock>
                     <TextBlock x:Name="txtDanhGia"   Text="{Binding Path= DanhGia }" FontSize="20" Foreground="#5E6D55" ></TextBlock>
                     <TextBlock   Text="/5" FontSize="20" Foreground="#5E6D55" ></TextBlock>
-                  
+
                     <materialDesign:PackIcon Kind="Star"  Height="25" Width="25" Foreground="#14A800" HorizontalAlignment="Center" Margin="0 0 0 0"/>
                 </WrapPanel>
                 <WrapPanel Margin="0,20,0,0" HorizontalAlignment="Left">
@@ -104,7 +104,7 @@
                     </TextBlock>
 
                 </WrapPanel>
-                
+
                 <Button Height="50" Width="150" Background="#FF8C00FC" Margin="0,20,0,0" Click="Thue_Click">
                     <Button.Clip>
                         <RectangleGeometry Rect="0,0,150,50" RadiusX="10" RadiusY="10" >

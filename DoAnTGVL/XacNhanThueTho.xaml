@@ -28,7 +28,7 @@
             </BeginStoryboard>
         </EventTrigger>
     </Window.Triggers>
-   
+
     <Border BorderBrush="Black" BorderThickness="1">
 
         <Grid>
@@ -76,7 +76,7 @@
                             </GroupBox>
                         </Grid>
 
-                        
+
 
                     </StackPanel>
 
@@ -94,6 +94,6 @@
                     </Button.Clip>
                 </Button>
             </Grid>
-        </Grid> 
+        </Grid>
     </Border>
 </Window>

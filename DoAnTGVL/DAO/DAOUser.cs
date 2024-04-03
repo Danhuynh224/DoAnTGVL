@@ -9,7 +9,7 @@ namespace DoAnTGVL.DAO
 {
     class DAOUser
     {
-        DbConection dbConection=new DbConection();
+        DbConection dbConection = new DbConection();
         public User ReadDBToSLUser(int id)
         {
             string query = string.Format("Select * From [User] Where Id = {0}", id);

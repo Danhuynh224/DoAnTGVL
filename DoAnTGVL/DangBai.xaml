@@ -83,7 +83,7 @@
                             </Grid>
                             <Grid Grid.Column="1" Height="30" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="Map" Height="24" Width="25" VerticalAlignment="Center"/>
-                               
+
                                 <ComboBox x:Name="cboKhuVuc" HorizontalAlignment="Right" VerticalAlignment="Bottom"
                                          FontSize="15" Text="{Binding KhuVuc, UpdateSourceTrigger=PropertyChanged}"
                                         materialDesign:HintAssist.Hint="Khu vực"
@@ -138,7 +138,7 @@ Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
                                          Text="{Binding MoTa , UpdateSourceTrigger=PropertyChanged}"/>
                             </Grid>
                         </Grid>
-                        
+
                         <Grid Height="50" Margin="0,15,0,0">
                             <Grid Grid.Column="0" Height="30" Width="552" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25 15 0 0">
                                 <materialDesign:PackIcon Kind="RequiredCircle" Height="25" Width="25"/>

@@ -24,7 +24,7 @@ namespace DoAnTGVL
     public partial class UserMain : Window
     {
         private UserControl PreUC = new UCHome();
-        private UserControl CurUC= new UCHome(); 
+        private UserControl CurUC = new UCHome();
         DAOTho dAOTho = new DAOTho();
         User user;
         public UserMain(User user)
@@ -43,7 +43,7 @@ namespace DoAnTGVL
         private void MnuTheoDoiBaiDang_Click(object sender, RoutedEventArgs e)
         {
             gridMainWin.Background = Brushes.White;
-            
+
             gridMainWin.Children.Remove(PreUC);
             PreUC = CurUC;
             gridMainWin.Children.Add(CurUC);
@@ -81,6 +81,13 @@ namespace DoAnTGVL
             gridMainWin.Children.Clear();
             CurUC = new UCThueTho(user);
             gridMainWin.Children.Add(CurUC);
-        }    
+        }
+        private void MnuDanhGia_Click(object sender, RoutedEventArgs e)
+        {
+            DanhGiaTho danhGiaTho = new DanhGiaTho();
+            this.Hide();
+            danhGiaTho.ShowDialog();
+            this.Show();
+        }
     }
 }

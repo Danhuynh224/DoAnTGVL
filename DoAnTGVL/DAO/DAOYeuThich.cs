@@ -8,7 +8,7 @@ namespace DoAnTGVL.DAO
 {
     class DAOYeuThich
     {
-        DbConection dbConection =new DbConection();
+        DbConection dbConection = new DbConection();
         public List<int> ReadDBYeuThich(int id)
         {
             string query = string.Format("Select * From YeuThich Where IdUser = {0}", id);

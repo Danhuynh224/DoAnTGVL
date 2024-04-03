@@ -23,7 +23,7 @@ namespace DoAnTGVL.DAO
                 string sqlStr = string.Format(sql);
                 SqlCommand cmd = new SqlCommand(sqlStr, conn);
                 cmd.ExecuteNonQuery();
-                    
+
             }
             catch (Exception ex)
             {
@@ -126,9 +126,9 @@ namespace DoAnTGVL.DAO
                     SqlDataReader dataReader = command.ExecuteReader();
 
                     while (dataReader.Read())
-                    {                       
-                        DateTime tenp = ((DateTime)dataReader[7]).Date;
-                    
+                    {
+                        DateTime tenp = ((DateTime)dataReader[8]).Date;
+
                         NgayBan.Add(tenp);
 
                     }
@@ -143,7 +143,7 @@ namespace DoAnTGVL.DAO
         }
         public bool CheckExist(string query)
         {
-            SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring);            
+            SqlConnection conn = new SqlConnection(Properties.Settings.Default.connstring);
             using (conn)
             {
                 SqlCommand command = new SqlCommand(query, conn);
@@ -181,10 +181,11 @@ namespace DoAnTGVL.DAO
                         data.IDTho = dataReader.GetInt32("IDTho");
                         data.TieuDe = dataReader.GetString(3);
                         data.MoTa = dataReader.GetString(4);
-                        data.LinhVuc = dataReader.GetString(5);
-                        data.KhuVuc = dataReader.GetString(6);
-                        data.DateThue = dataReader.GetDateTime(7);
-                        data.TrangThai = dataReader.GetString(8);
+                        data.GhiChu = dataReader.GetString(5);
+                        data.LinhVuc = dataReader.GetString(6);
+                        data.KhuVuc = dataReader.GetString(7);
+                        data.DateThue = dataReader.GetDateTime(8);
+                        data.TrangThai = dataReader.GetString(9);
 
                         // Set other properties if needed
                         DSCongViec.Add(data);

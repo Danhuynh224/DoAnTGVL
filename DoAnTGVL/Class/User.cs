@@ -9,7 +9,7 @@ namespace DoAnTGVL.Class
 {
     public class User : Person
     {
-        private List <int> dSYeuThich=new List<int>();
+        private List<int> dSYeuThich = new List<int>();
         public User(int id, string hoTen, string cCCD, string sDT, DateTime dob, string khuvuc) : base(id, hoTen, cCCD, sDT, dob, khuvuc)
         {
         }

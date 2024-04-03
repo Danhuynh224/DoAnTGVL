@@ -30,18 +30,20 @@ namespace DoAnTGVL.UControls
         CongViec cv;
         BUSChiTietCongViec buschitietcv = new BUSChiTietCongViec();
         FilterDSCongViec filterDSCongViec = new FilterDSCongViec();
+        List<CongViec> dataList;
         public UCDSCongViecTho(Tho tho)
         {
             this.tho = tho;
             InitializeComponent();
             this.DataContext = filterDSCongViec;
             LoadDataIntoListView();
-            
+
         }
- 
+
         private void LoadDataIntoListView()
         {
-            List<CongViec> dataList = buschitietcv.LoadData(tho.Id);
+            dataList = buschitietcv.LoadData(tho.Id);
+
             lsvDSCV.ItemsSource = dataList;
         }
 
@@ -68,7 +70,10 @@ namespace DoAnTGVL.UControls
         private void btn_Xoa(object sender, RoutedEventArgs e)
         {
             var congviec = (sender as Button).DataContext as CongViec;
+            int index = lsvDSCV.Items.IndexOf((sender as Button).DataContext);
 
+            // Sử dụng chỉ mục index ở đây cho mục đích của bạn
+            MessageBox.Show($"Chỉ mục của hàng: {index}");
             var thongbao = new ShowDialogCustom("Bạn có thật sự muốn Công việc này? ", ShowDialogCustom.YesNo);
 
             if (thongbao.ShowDialog() == true)
