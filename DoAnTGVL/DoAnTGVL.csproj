@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <None Remove="image\5519785.jpg" />
+    <None Remove="image\add-2935429_1280.png" />
+    <None Remove="image\add-image-1-64.png" />
     <None Remove="image\man.jpg" />
     <None Remove="image\undraw_Job_hunt_re_q203.png" />
     <None Remove="image\user.png" />
@@ -18,6 +20,10 @@
     <Content Include="image\5519785.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="image\add-2935429_1280.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\add-image-1-64.png" />
     <Content Include="image\undraw_Job_hunt_re_q203.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -50,6 +56,10 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ImageDanhGia\" />
   </ItemGroup>
 
 </Project>

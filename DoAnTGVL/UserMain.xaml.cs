@@ -81,6 +81,13 @@ namespace DoAnTGVL
             gridMainWin.Children.Clear();
             CurUC = new UCThueTho(user);
             gridMainWin.Children.Add(CurUC);
-        }    
+        }  
+        private void MnuDanhGia_Click(object sender, RoutedEventArgs e)
+        {
+            DanhGiaTho danhGiaTho = new DanhGiaTho();
+            this.Hide();
+            danhGiaTho.ShowDialog();
+            this.Show();
+        }
     }
 }
